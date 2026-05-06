@@ -1,0 +1,1330 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global/global}
+    \entry{A7}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=32fc8d09231916e6eda071b0db176b92}{%
+           family={AIM},
+           familyi={A\bibinitperiod},
+           given={Roger},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Paris}%
+      }
+      \list{publisher}{1}{%
+        {AFNOR}%
+      }
+      \strng{namehash}{32fc8d09231916e6eda071b0db176b92}
+      \strng{fullhash}{32fc8d09231916e6eda071b0db176b92}
+      \strng{fullhashraw}{32fc8d09231916e6eda071b0db176b92}
+      \strng{bibnamehash}{32fc8d09231916e6eda071b0db176b92}
+      \strng{authorbibnamehash}{32fc8d09231916e6eda071b0db176b92}
+      \strng{authornamehash}{32fc8d09231916e6eda071b0db176b92}
+      \strng{authorfullhash}{32fc8d09231916e6eda071b0db176b92}
+      \strng{authorfullhashraw}{32fc8d09231916e6eda071b0db176b92}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{pagetotal}{133}
+      \field{title}{100 questions pour comprendre et agir : indicateurs et tableau de bord}
+      \field{year}{2009}
+      \true{nocite}
+    \endentry
+    \entry{jira}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a8fd8cd0b6d2cfda939a8ef257e60192}{%
+           family={{Atlassian}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{a8fd8cd0b6d2cfda939a8ef257e60192}
+      \strng{fullhash}{a8fd8cd0b6d2cfda939a8ef257e60192}
+      \strng{fullhashraw}{a8fd8cd0b6d2cfda939a8ef257e60192}
+      \strng{bibnamehash}{a8fd8cd0b6d2cfda939a8ef257e60192}
+      \strng{authorbibnamehash}{a8fd8cd0b6d2cfda939a8ef257e60192}
+      \strng{authornamehash}{a8fd8cd0b6d2cfda939a8ef257e60192}
+      \strng{authorfullhash}{a8fd8cd0b6d2cfda939a8ef257e60192}
+      \strng{authorfullhashraw}{a8fd8cd0b6d2cfda939a8ef257e60192}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{(consulté le 02/05/2026)}
+      \field{title}{Jira Software --- Project and issue tracking}
+      \field{year}{2026}
+      \verb{urlraw}
+      \verb https://www.atlassian.com/software/jira
+      \endverb
+      \verb{url}
+      \verb https://www.atlassian.com/software/jira
+      \endverb
+    \endentry
+    \entry{axios}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d3e28535c74ccee29182aeb3cf837e98}{%
+           family={{Axios}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{d3e28535c74ccee29182aeb3cf837e98}
+      \strng{fullhash}{d3e28535c74ccee29182aeb3cf837e98}
+      \strng{fullhashraw}{d3e28535c74ccee29182aeb3cf837e98}
+      \strng{bibnamehash}{d3e28535c74ccee29182aeb3cf837e98}
+      \strng{authorbibnamehash}{d3e28535c74ccee29182aeb3cf837e98}
+      \strng{authornamehash}{d3e28535c74ccee29182aeb3cf837e98}
+      \strng{authorfullhash}{d3e28535c74ccee29182aeb3cf837e98}
+      \strng{authorfullhashraw}{d3e28535c74ccee29182aeb3cf837e98}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{(consulté le 02/05/2026)}
+      \field{title}{Axios --- Promise based HTTP client for the browser and node.js}
+      \field{year}{2026}
+      \verb{urlraw}
+      \verb https://axios-http.com/
+      \endverb
+      \verb{url}
+      \verb https://axios-http.com/
+      \endverb
+    \endentry
+    \entry{A5}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=2012cf44a74f9adf6d73bd665df17f74}{%
+           family={Blazquez-García},
+           familyi={B\bibinithyphendelim G\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=71d7194c837840030e39fe6eb1deada4}{%
+           family={Conde},
+           familyi={C\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e1ef287d015d91a79025e5f6d08cdd07}{%
+           family={Mori},
+           familyi={M\bibinitperiod},
+           given={U.},
+           giveni={U\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=329871e755c009209d6cb3833e4bf39a}{%
+           family={Lozano},
+           familyi={L\bibinitperiod},
+           given={J.\bibnamedelimi A.},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{be6ddeabf883986b6071966e2555f137}
+      \strng{fullhash}{7377ffb439c192398376028656941376}
+      \strng{fullhashraw}{7377ffb439c192398376028656941376}
+      \strng{bibnamehash}{7377ffb439c192398376028656941376}
+      \strng{authorbibnamehash}{7377ffb439c192398376028656941376}
+      \strng{authornamehash}{be6ddeabf883986b6071966e2555f137}
+      \strng{authorfullhash}{7377ffb439c192398376028656941376}
+      \strng{authorfullhashraw}{7377ffb439c192398376028656941376}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{ACM Computing Surveys}
+      \field{number}{3}
+      \field{title}{A Review on Outlier/Anomaly Detection in Time Series Data}
+      \field{volume}{54}
+      \field{year}{2022}
+      \field{pages}{1\bibrangedash 33}
+      \range{pages}{33}
+      \verb{doi}
+      \verb 10.1145/3444690
+      \endverb
+    \endentry
+    \entry{djangorestframework}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=7a548f51476c88a6e250f600929a346d}{%
+           family={{Django REST framework}},
+           familyi={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{7a548f51476c88a6e250f600929a346d}
+      \strng{fullhash}{7a548f51476c88a6e250f600929a346d}
+      \strng{fullhashraw}{7a548f51476c88a6e250f600929a346d}
+      \strng{bibnamehash}{7a548f51476c88a6e250f600929a346d}
+      \strng{authorbibnamehash}{7a548f51476c88a6e250f600929a346d}
+      \strng{authornamehash}{7a548f51476c88a6e250f600929a346d}
+      \strng{authorfullhash}{7a548f51476c88a6e250f600929a346d}
+      \strng{authorfullhashraw}{7a548f51476c88a6e250f600929a346d}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{(consulté le 02/05/2026)}
+      \field{title}{Django REST framework --- Web browsable APIs for Django}
+      \field{year}{2026}
+      \verb{urlraw}
+      \verb https://www.django-rest-framework.org/
+      \endverb
+      \verb{url}
+      \verb https://www.django-rest-framework.org/
+      \endverb
+    \endentry
+    \entry{django}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=f831bff1f5132f6edd2ec0e00e5b9af9}{%
+           family={{Django Software Foundation}},
+           familyi={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{f831bff1f5132f6edd2ec0e00e5b9af9}
+      \strng{fullhash}{f831bff1f5132f6edd2ec0e00e5b9af9}
+      \strng{fullhashraw}{f831bff1f5132f6edd2ec0e00e5b9af9}
+      \strng{bibnamehash}{f831bff1f5132f6edd2ec0e00e5b9af9}
+      \strng{authorbibnamehash}{f831bff1f5132f6edd2ec0e00e5b9af9}
+      \strng{authornamehash}{f831bff1f5132f6edd2ec0e00e5b9af9}
+      \strng{authorfullhash}{f831bff1f5132f6edd2ec0e00e5b9af9}
+      \strng{authorfullhashraw}{f831bff1f5132f6edd2ec0e00e5b9af9}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{(consulté le 02/05/2026)}
+      \field{title}{The Django Web Framework}
+      \field{year}{2026}
+      \verb{urlraw}
+      \verb https://www.djangoproject.com/
+      \endverb
+      \verb{url}
+      \verb https://www.djangoproject.com/
+      \endverb
+    \endentry
+    \entry{ref7}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c29f23f279126757ba18ec74d0d27cfa}{%
+           family={{Expo}},
+           familyi={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{c29f23f279126757ba18ec74d0d27cfa}
+      \strng{fullhash}{c29f23f279126757ba18ec74d0d27cfa}
+      \strng{fullhashraw}{c29f23f279126757ba18ec74d0d27cfa}
+      \strng{bibnamehash}{c29f23f279126757ba18ec74d0d27cfa}
+      \strng{authorbibnamehash}{c29f23f279126757ba18ec74d0d27cfa}
+      \strng{authornamehash}{c29f23f279126757ba18ec74d0d27cfa}
+      \strng{authorfullhash}{c29f23f279126757ba18ec74d0d27cfa}
+      \strng{authorfullhashraw}{c29f23f279126757ba18ec74d0d27cfa}
+      \field{extraname}{1}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{(consulté le 20/04/2026)}
+      \field{title}{EAS Build --- Cloud build service for React Native apps}
+      \field{year}{2026}
+      \verb{urlraw}
+      \verb https://docs.expo.dev/build/introduction/
+      \endverb
+      \verb{url}
+      \verb https://docs.expo.dev/build/introduction/
+      \endverb
+    \endentry
+    \entry{ref6}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c29f23f279126757ba18ec74d0d27cfa}{%
+           family={{Expo}},
+           familyi={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{c29f23f279126757ba18ec74d0d27cfa}
+      \strng{fullhash}{c29f23f279126757ba18ec74d0d27cfa}
+      \strng{fullhashraw}{c29f23f279126757ba18ec74d0d27cfa}
+      \strng{bibnamehash}{c29f23f279126757ba18ec74d0d27cfa}
+      \strng{authorbibnamehash}{c29f23f279126757ba18ec74d0d27cfa}
+      \strng{authornamehash}{c29f23f279126757ba18ec74d0d27cfa}
+      \strng{authorfullhash}{c29f23f279126757ba18ec74d0d27cfa}
+      \strng{authorfullhashraw}{c29f23f279126757ba18ec74d0d27cfa}
+      \field{extraname}{2}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{(consulté le 20/04/2026)}
+      \field{title}{Expo --- An open-source platform for making universal native apps}
+      \field{year}{2026}
+      \verb{urlraw}
+      \verb https://expo.dev/
+      \endverb
+      \verb{url}
+      \verb https://expo.dev/
+      \endverb
+    \endentry
+    \entry{A8}{book}{}{}
+      \name{editor}{2}{}{%
+        {{un=0,uniquepart=base,hash=817e469cbabfab3ca901f5c3660532bb}{%
+           family={Fabbe-Cortes},
+           familyi={F\bibinithyphendelim C\bibinitperiod},
+           given={Nathalie},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6d39f6610f9924c668a58a6a512dd5ce}{%
+           family={Pache},
+           familyi={P\bibinitperiod},
+           given={Gilles},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Marseille}%
+      }
+      \list{publisher}{1}{%
+        {Presses universitaires de Provence}%
+      }
+      \strng{namehash}{10c08534dcebbb4d1c5999090424ef8d}
+      \strng{fullhash}{10c08534dcebbb4d1c5999090424ef8d}
+      \strng{fullhashraw}{10c08534dcebbb4d1c5999090424ef8d}
+      \strng{bibnamehash}{10c08534dcebbb4d1c5999090424ef8d}
+      \strng{editorbibnamehash}{10c08534dcebbb4d1c5999090424ef8d}
+      \strng{editornamehash}{10c08534dcebbb4d1c5999090424ef8d}
+      \strng{editorfullhash}{10c08534dcebbb4d1c5999090424ef8d}
+      \strng{editorfullhashraw}{10c08534dcebbb4d1c5999090424ef8d}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{pagetotal}{271}
+      \field{title}{La logistique : une approche innovante des organisations}
+      \field{year}{2013}
+      \true{nocite}
+    \endentry
+    \entry{A9}{book}{}{}
+      \name{editor}{2}{}{%
+        {{un=0,uniquepart=base,hash=bea6a7eb640ceb60ba78a83d9eeae9ae}{%
+           family={Fournier},
+           familyi={F\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f5c0ef8467978d376edb6ebab3754675}{%
+           family={Menard},
+           familyi={M\bibinitperiod},
+           given={Jean-Pierre},
+           giveni={J\bibinithyphendelim P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Québec}%
+      }
+      \list{publisher}{1}{%
+        {Chenelière éducation}%
+      }
+      \strng{namehash}{fdcac0e93a123072d4bf06d9cb629804}
+      \strng{fullhash}{fdcac0e93a123072d4bf06d9cb629804}
+      \strng{fullhashraw}{fdcac0e93a123072d4bf06d9cb629804}
+      \strng{bibnamehash}{fdcac0e93a123072d4bf06d9cb629804}
+      \strng{editorbibnamehash}{fdcac0e93a123072d4bf06d9cb629804}
+      \strng{editornamehash}{fdcac0e93a123072d4bf06d9cb629804}
+      \strng{editorfullhash}{fdcac0e93a123072d4bf06d9cb629804}
+      \strng{editorfullhashraw}{fdcac0e93a123072d4bf06d9cb629804}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{pagetotal}{382}
+      \field{title}{Gestion de l'approvisionnement et des stocks}
+      \field{year}{2014}
+      \true{nocite}
+    \endentry
+    \entry{git}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=af84e1e7e424705d5ff3fe88d5f02fad}{%
+           family={{Git SCM}},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{af84e1e7e424705d5ff3fe88d5f02fad}
+      \strng{fullhash}{af84e1e7e424705d5ff3fe88d5f02fad}
+      \strng{fullhashraw}{af84e1e7e424705d5ff3fe88d5f02fad}
+      \strng{bibnamehash}{af84e1e7e424705d5ff3fe88d5f02fad}
+      \strng{authorbibnamehash}{af84e1e7e424705d5ff3fe88d5f02fad}
+      \strng{authornamehash}{af84e1e7e424705d5ff3fe88d5f02fad}
+      \strng{authorfullhash}{af84e1e7e424705d5ff3fe88d5f02fad}
+      \strng{authorfullhashraw}{af84e1e7e424705d5ff3fe88d5f02fad}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{(consulté le 02/05/2026)}
+      \field{title}{Git --- Distributed version control system}
+      \field{year}{2026}
+      \verb{urlraw}
+      \verb https://git-scm.com/
+      \endverb
+      \verb{url}
+      \verb https://git-scm.com/
+      \endverb
+    \endentry
+    \entry{github}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d3b7c913cd04ebfec0e9ec32cb6fd58c}{%
+           family={{GitHub}},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{d3b7c913cd04ebfec0e9ec32cb6fd58c}
+      \strng{fullhash}{d3b7c913cd04ebfec0e9ec32cb6fd58c}
+      \strng{fullhashraw}{d3b7c913cd04ebfec0e9ec32cb6fd58c}
+      \strng{bibnamehash}{d3b7c913cd04ebfec0e9ec32cb6fd58c}
+      \strng{authorbibnamehash}{d3b7c913cd04ebfec0e9ec32cb6fd58c}
+      \strng{authornamehash}{d3b7c913cd04ebfec0e9ec32cb6fd58c}
+      \strng{authorfullhash}{d3b7c913cd04ebfec0e9ec32cb6fd58c}
+      \strng{authorfullhashraw}{d3b7c913cd04ebfec0e9ec32cb6fd58c}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{(consulté le 02/05/2026)}
+      \field{title}{GitHub --- Build software better, together}
+      \field{year}{2026}
+      \verb{urlraw}
+      \verb https://github.com/
+      \endverb
+      \verb{url}
+      \verb https://github.com/
+      \endverb
+    \endentry
+    \entry{latex_project}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=aa874acb7db4f499a02a95d2266308a2}{%
+           family={{LaTeX Project}},
+           familyi={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{aa874acb7db4f499a02a95d2266308a2}
+      \strng{fullhash}{aa874acb7db4f499a02a95d2266308a2}
+      \strng{fullhashraw}{aa874acb7db4f499a02a95d2266308a2}
+      \strng{bibnamehash}{aa874acb7db4f499a02a95d2266308a2}
+      \strng{authorbibnamehash}{aa874acb7db4f499a02a95d2266308a2}
+      \strng{authornamehash}{aa874acb7db4f499a02a95d2266308a2}
+      \strng{authorfullhash}{aa874acb7db4f499a02a95d2266308a2}
+      \strng{authorfullhashraw}{aa874acb7db4f499a02a95d2266308a2}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{(consulté le 02/05/2026)}
+      \field{title}{LaTeX --- A document preparation system}
+      \field{year}{2026}
+      \verb{urlraw}
+      \verb https://www.latex-project.org/
+      \endverb
+      \verb{url}
+      \verb https://www.latex-project.org/
+      \endverb
+    \endentry
+    \entry{A10}{book}{}{}
+      \name{editor}{2}{}{%
+        {{un=0,uniquepart=base,hash=588184354102bd15d625cabb3f013a3d}{%
+           family={Martinet},
+           familyi={M\bibinitperiod},
+           given={Alain-Charles},
+           giveni={A\bibinithyphendelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c95693e2dc885f53157967cc801e91c0}{%
+           family={Silem},
+           familyi={S\bibinitperiod},
+           given={Ahmed},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Paris}%
+      }
+      \list{publisher}{1}{%
+        {Dunod}%
+      }
+      \strng{namehash}{2a9ceb5aa2599a9ccd6e64fc8aa0aaec}
+      \strng{fullhash}{2a9ceb5aa2599a9ccd6e64fc8aa0aaec}
+      \strng{fullhashraw}{2a9ceb5aa2599a9ccd6e64fc8aa0aaec}
+      \strng{bibnamehash}{2a9ceb5aa2599a9ccd6e64fc8aa0aaec}
+      \strng{editorbibnamehash}{2a9ceb5aa2599a9ccd6e64fc8aa0aaec}
+      \strng{editornamehash}{2a9ceb5aa2599a9ccd6e64fc8aa0aaec}
+      \strng{editorfullhash}{2a9ceb5aa2599a9ccd6e64fc8aa0aaec}
+      \strng{editorfullhashraw}{2a9ceb5aa2599a9ccd6e64fc8aa0aaec}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{pagetotal}{625}
+      \field{title}{Lexique de gestion et de management}
+      \field{year}{2008}
+      \true{nocite}
+    \endentry
+    \entry{A3}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=6c56f762d9ebe73063cd2d157e97351f}{%
+           family={{Meta Open Source}},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{6c56f762d9ebe73063cd2d157e97351f}
+      \strng{fullhash}{6c56f762d9ebe73063cd2d157e97351f}
+      \strng{fullhashraw}{6c56f762d9ebe73063cd2d157e97351f}
+      \strng{bibnamehash}{6c56f762d9ebe73063cd2d157e97351f}
+      \strng{authorbibnamehash}{6c56f762d9ebe73063cd2d157e97351f}
+      \strng{authornamehash}{6c56f762d9ebe73063cd2d157e97351f}
+      \strng{authorfullhash}{6c56f762d9ebe73063cd2d157e97351f}
+      \strng{authorfullhashraw}{6c56f762d9ebe73063cd2d157e97351f}
+      \field{extraname}{1}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Meta AI / GitHub}
+      \field{title}{Prophet: Automatic Forecasting Procedure (v1.1)}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://github.com/facebook/prophet
+      \endverb
+      \verb{url}
+      \verb https://github.com/facebook/prophet
+      \endverb
+    \endentry
+    \entry{ref5}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=6c56f762d9ebe73063cd2d157e97351f}{%
+           family={{Meta Open Source}},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{6c56f762d9ebe73063cd2d157e97351f}
+      \strng{fullhash}{6c56f762d9ebe73063cd2d157e97351f}
+      \strng{fullhashraw}{6c56f762d9ebe73063cd2d157e97351f}
+      \strng{bibnamehash}{6c56f762d9ebe73063cd2d157e97351f}
+      \strng{authorbibnamehash}{6c56f762d9ebe73063cd2d157e97351f}
+      \strng{authornamehash}{6c56f762d9ebe73063cd2d157e97351f}
+      \strng{authorfullhash}{6c56f762d9ebe73063cd2d157e97351f}
+      \strng{authorfullhashraw}{6c56f762d9ebe73063cd2d157e97351f}
+      \field{extraname}{2}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{(consulté le 20/04/2026)}
+      \field{title}{React Native --- Learn once, write anywhere}
+      \field{year}{2026}
+      \verb{urlraw}
+      \verb https://reactnative.dev/
+      \endverb
+      \verb{url}
+      \verb https://reactnative.dev/
+      \endverb
+    \endentry
+    \entry{vscode}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=140864078aeca1c7c35b4beb33c53c34}{%
+           family={{Microsoft}},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{fullhash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{fullhashraw}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{bibnamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorbibnamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authornamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorfullhash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorfullhashraw}{140864078aeca1c7c35b4beb33c53c34}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{(consulté le 02/05/2026)}
+      \field{title}{Visual Studio Code --- Code editing. Redefined.}
+      \field{year}{2026}
+      \verb{urlraw}
+      \verb https://code.visualstudio.com/
+      \endverb
+      \verb{url}
+      \verb https://code.visualstudio.com/
+      \endverb
+    \endentry
+    \entry{ref2}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=614e7789840996b5d882c0cad1ad0971}{%
+           family={{Microsoft Learn}},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{614e7789840996b5d882c0cad1ad0971}
+      \strng{fullhash}{614e7789840996b5d882c0cad1ad0971}
+      \strng{fullhashraw}{614e7789840996b5d882c0cad1ad0971}
+      \strng{bibnamehash}{614e7789840996b5d882c0cad1ad0971}
+      \strng{authorbibnamehash}{614e7789840996b5d882c0cad1ad0971}
+      \strng{authornamehash}{614e7789840996b5d882c0cad1ad0971}
+      \strng{authorfullhash}{614e7789840996b5d882c0cad1ad0971}
+      \strng{authorfullhashraw}{614e7789840996b5d882c0cad1ad0971}
+      \field{extraname}{1}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{(consulté le 16/03/2026)}
+      \field{title}{Présentation de Power BI}
+      \field{year}{2026}
+      \verb{urlraw}
+      \verb https://learn.microsoft.com/fr-fr/power-bi/fundamentals/power-bi-overview
+      \endverb
+      \verb{url}
+      \verb https://learn.microsoft.com/fr-fr/power-bi/fundamentals/power-bi-overview
+      \endverb
+    \endentry
+    \entry{ref1}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=614e7789840996b5d882c0cad1ad0971}{%
+           family={{Microsoft Learn}},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{614e7789840996b5d882c0cad1ad0971}
+      \strng{fullhash}{614e7789840996b5d882c0cad1ad0971}
+      \strng{fullhashraw}{614e7789840996b5d882c0cad1ad0971}
+      \strng{bibnamehash}{614e7789840996b5d882c0cad1ad0971}
+      \strng{authorbibnamehash}{614e7789840996b5d882c0cad1ad0971}
+      \strng{authornamehash}{614e7789840996b5d882c0cad1ad0971}
+      \strng{authorfullhash}{614e7789840996b5d882c0cad1ad0971}
+      \strng{authorfullhashraw}{614e7789840996b5d882c0cad1ad0971}
+      \field{extraname}{2}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{(consulté le 16/03/2026)}
+      \field{title}{Qu'est-ce que Power Query ?}
+      \field{year}{2026}
+      \verb{urlraw}
+      \verb https://learn.microsoft.com/fr-fr/power-query/power-query-what-is-power-query
+      \endverb
+      \verb{url}
+      \verb https://learn.microsoft.com/fr-fr/power-query/power-query-what-is-power-query
+      \endverb
+    \endentry
+    \entry{A11}{book}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=4e3332f0a6cb80c6a9a5b83adff70623}{%
+           family={Millie},
+           familyi={M\bibinitperiod},
+           given={Marie-Hélène},
+           giveni={M\bibinithyphendelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f52be1c9e2482a4b2394fdb1af7a248a}{%
+           family={Timbal},
+           familyi={T\bibinitperiod},
+           given={Millie},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Le Mans cedex}%
+      }
+      \list{publisher}{1}{%
+        {Gereso édition}%
+      }
+      \strng{namehash}{5142dc272da9082f92ba66d5a8b4608b}
+      \strng{fullhash}{5142dc272da9082f92ba66d5a8b4608b}
+      \strng{fullhashraw}{5142dc272da9082f92ba66d5a8b4608b}
+      \strng{bibnamehash}{5142dc272da9082f92ba66d5a8b4608b}
+      \strng{authorbibnamehash}{5142dc272da9082f92ba66d5a8b4608b}
+      \strng{authornamehash}{5142dc272da9082f92ba66d5a8b4608b}
+      \strng{authorfullhash}{5142dc272da9082f92ba66d5a8b4608b}
+      \strng{authorfullhashraw}{5142dc272da9082f92ba66d5a8b4608b}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{pagetotal}{129}
+      \field{title}{Elaborer des tableaux de bord utiles}
+      \field{year}{2010}
+      \true{nocite}
+    \endentry
+    \entry{uml_omg}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=4d6b6fbad838f7618c462458711482fa}{%
+           family={{Object Management Group}},
+           familyi={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{4d6b6fbad838f7618c462458711482fa}
+      \strng{fullhash}{4d6b6fbad838f7618c462458711482fa}
+      \strng{fullhashraw}{4d6b6fbad838f7618c462458711482fa}
+      \strng{bibnamehash}{4d6b6fbad838f7618c462458711482fa}
+      \strng{authorbibnamehash}{4d6b6fbad838f7618c462458711482fa}
+      \strng{authornamehash}{4d6b6fbad838f7618c462458711482fa}
+      \strng{authorfullhash}{4d6b6fbad838f7618c462458711482fa}
+      \strng{authorfullhashraw}{4d6b6fbad838f7618c462458711482fa}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{(consulté le 02/05/2026)}
+      \field{title}{Unified Modeling Language (UML) Specification}
+      \field{year}{2017}
+      \verb{urlraw}
+      \verb https://www.omg.org/spec/UML/
+      \endverb
+      \verb{url}
+      \verb https://www.omg.org/spec/UML/
+      \endverb
+    \endentry
+    \entry{A4}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=0523b13262b12c215d8009938f5c14f1}{%
+           family={{OpenAI}},
+           familyi={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{0523b13262b12c215d8009938f5c14f1}
+      \strng{fullhash}{0523b13262b12c215d8009938f5c14f1}
+      \strng{fullhashraw}{0523b13262b12c215d8009938f5c14f1}
+      \strng{bibnamehash}{0523b13262b12c215d8009938f5c14f1}
+      \strng{authorbibnamehash}{0523b13262b12c215d8009938f5c14f1}
+      \strng{authornamehash}{0523b13262b12c215d8009938f5c14f1}
+      \strng{authorfullhash}{0523b13262b12c215d8009938f5c14f1}
+      \strng{authorfullhashraw}{0523b13262b12c215d8009938f5c14f1}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{(consulté le 02/05/2026)}
+      \field{title}{GPT-4o mini: affordable intelligence for applications at scale}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://openai.com/index/gpt-4o-mini-advancing-cost-efficient-intelligence/
+      \endverb
+      \verb{url}
+      \verb https://openai.com/index/gpt-4o-mini-advancing-cost-efficient-intelligence/
+      \endverb
+    \endentry
+    \entry{A1}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e000ef0524d0e2345ebab4b2a529013d}{%
+           family={{Pandas Development Team}},
+           familyi={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{e000ef0524d0e2345ebab4b2a529013d}
+      \strng{fullhash}{e000ef0524d0e2345ebab4b2a529013d}
+      \strng{fullhashraw}{e000ef0524d0e2345ebab4b2a529013d}
+      \strng{bibnamehash}{e000ef0524d0e2345ebab4b2a529013d}
+      \strng{authorbibnamehash}{e000ef0524d0e2345ebab4b2a529013d}
+      \strng{authornamehash}{e000ef0524d0e2345ebab4b2a529013d}
+      \strng{authorfullhash}{e000ef0524d0e2345ebab4b2a529013d}
+      \strng{authorfullhashraw}{e000ef0524d0e2345ebab4b2a529013d}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{(consulté le 02/05/2026)}
+      \field{title}{Pandas 2.0 Release Notes}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://pandas.pydata.org/docs/whatsnew/v2.0.0.html
+      \endverb
+      \verb{url}
+      \verb https://pandas.pydata.org/docs/whatsnew/v2.0.0.html
+      \endverb
+    \endentry
+    \entry{pgadmin}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=ebfbb7d8966ef3044ee4a6c53b623698}{%
+           family={{pgAdmin Development Team}},
+           familyi={p\bibinitperiod}}}%
+      }
+      \strng{namehash}{ebfbb7d8966ef3044ee4a6c53b623698}
+      \strng{fullhash}{ebfbb7d8966ef3044ee4a6c53b623698}
+      \strng{fullhashraw}{ebfbb7d8966ef3044ee4a6c53b623698}
+      \strng{bibnamehash}{ebfbb7d8966ef3044ee4a6c53b623698}
+      \strng{authorbibnamehash}{ebfbb7d8966ef3044ee4a6c53b623698}
+      \strng{authornamehash}{ebfbb7d8966ef3044ee4a6c53b623698}
+      \strng{authorfullhash}{ebfbb7d8966ef3044ee4a6c53b623698}
+      \strng{authorfullhashraw}{ebfbb7d8966ef3044ee4a6c53b623698}
+      \field{sortinit}{p}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{(consulté le 02/05/2026)}
+      \field{title}{pgAdmin 4 --- The leading Open Source management tool for Postgres}
+      \field{year}{2026}
+      \verb{urlraw}
+      \verb https://www.pgadmin.org/
+      \endverb
+      \verb{url}
+      \verb https://www.pgadmin.org/
+      \endverb
+    \endentry
+    \entry{plantuml}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=9e991784a7de86b867cc684c4745f4dd}{%
+           family={{PlantUML}},
+           familyi={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{9e991784a7de86b867cc684c4745f4dd}
+      \strng{fullhash}{9e991784a7de86b867cc684c4745f4dd}
+      \strng{fullhashraw}{9e991784a7de86b867cc684c4745f4dd}
+      \strng{bibnamehash}{9e991784a7de86b867cc684c4745f4dd}
+      \strng{authorbibnamehash}{9e991784a7de86b867cc684c4745f4dd}
+      \strng{authornamehash}{9e991784a7de86b867cc684c4745f4dd}
+      \strng{authorfullhash}{9e991784a7de86b867cc684c4745f4dd}
+      \strng{authorfullhashraw}{9e991784a7de86b867cc684c4745f4dd}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{(consulté le 02/05/2026)}
+      \field{title}{PlantUML --- Quick UML diagrams from plain text}
+      \field{year}{2026}
+      \verb{urlraw}
+      \verb https://plantuml.com/
+      \endverb
+      \verb{url}
+      \verb https://plantuml.com/
+      \endverb
+    \endentry
+    \entry{polyglossia}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=435e3d5859c5fe162c5526ef3a6c598b}{%
+           family={{Polyglossia package}},
+           familyi={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{435e3d5859c5fe162c5526ef3a6c598b}
+      \strng{fullhash}{435e3d5859c5fe162c5526ef3a6c598b}
+      \strng{fullhashraw}{435e3d5859c5fe162c5526ef3a6c598b}
+      \strng{bibnamehash}{435e3d5859c5fe162c5526ef3a6c598b}
+      \strng{authorbibnamehash}{435e3d5859c5fe162c5526ef3a6c598b}
+      \strng{authornamehash}{435e3d5859c5fe162c5526ef3a6c598b}
+      \strng{authorfullhash}{435e3d5859c5fe162c5526ef3a6c598b}
+      \strng{authorfullhashraw}{435e3d5859c5fe162c5526ef3a6c598b}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{(consulté le 02/05/2026)}
+      \field{title}{polyglossia --- Multilingual support for XeLaTeX/LuaLaTeX}
+      \field{year}{2026}
+      \verb{urlraw}
+      \verb https://ctan.org/pkg/polyglossia
+      \endverb
+      \verb{url}
+      \verb https://ctan.org/pkg/polyglossia
+      \endverb
+    \endentry
+    \entry{postman}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d60cb26f16704654ec3f3e3f4d1ba71b}{%
+           family={{Postman, Inc.}},
+           familyi={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{d60cb26f16704654ec3f3e3f4d1ba71b}
+      \strng{fullhash}{d60cb26f16704654ec3f3e3f4d1ba71b}
+      \strng{fullhashraw}{d60cb26f16704654ec3f3e3f4d1ba71b}
+      \strng{bibnamehash}{d60cb26f16704654ec3f3e3f4d1ba71b}
+      \strng{authorbibnamehash}{d60cb26f16704654ec3f3e3f4d1ba71b}
+      \strng{authornamehash}{d60cb26f16704654ec3f3e3f4d1ba71b}
+      \strng{authorfullhash}{d60cb26f16704654ec3f3e3f4d1ba71b}
+      \strng{authorfullhashraw}{d60cb26f16704654ec3f3e3f4d1ba71b}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{(consulté le 02/05/2026)}
+      \field{title}{Postman --- API Development Environment}
+      \field{year}{2026}
+      \verb{urlraw}
+      \verb https://www.postman.com/
+      \endverb
+      \verb{url}
+      \verb https://www.postman.com/
+      \endverb
+    \endentry
+    \entry{ref4}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=abb7ed37e1253cd4f90c5ea565a76836}{%
+           family={{QRP International}},
+           familyi={Q\bibinitperiod}}}%
+      }
+      \strng{namehash}{abb7ed37e1253cd4f90c5ea565a76836}
+      \strng{fullhash}{abb7ed37e1253cd4f90c5ea565a76836}
+      \strng{fullhashraw}{abb7ed37e1253cd4f90c5ea565a76836}
+      \strng{bibnamehash}{abb7ed37e1253cd4f90c5ea565a76836}
+      \strng{authorbibnamehash}{abb7ed37e1253cd4f90c5ea565a76836}
+      \strng{authornamehash}{abb7ed37e1253cd4f90c5ea565a76836}
+      \strng{authorfullhash}{abb7ed37e1253cd4f90c5ea565a76836}
+      \strng{authorfullhashraw}{abb7ed37e1253cd4f90c5ea565a76836}
+      \field{sortinit}{Q}
+      \field{sortinithash}{ce69a400a872ddd02ee7fdb3b38c6abd}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{(consulté le 07/03/2026)}
+      \field{title}{Qu'est-ce qu'un backlog : définition, étapes, caractéristiques et outils}
+      \field{year}{2026}
+      \verb{urlraw}
+      \verb https://www.qrpinternational.fr/blog/glossaire/quest-ce-quun-backlog-definition-etapes-caracteristiques-et-outils/
+      \endverb
+      \verb{url}
+      \verb https://www.qrpinternational.fr/blog/glossaire/quest-ce-quun-backlog-definition-etapes-caracteristiques-et-outils/
+      \endverb
+    \endentry
+    \entry{react}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=50ce2da63bea6a618e7578fa50690040}{%
+           family={{React}},
+           familyi={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{50ce2da63bea6a618e7578fa50690040}
+      \strng{fullhash}{50ce2da63bea6a618e7578fa50690040}
+      \strng{fullhashraw}{50ce2da63bea6a618e7578fa50690040}
+      \strng{bibnamehash}{50ce2da63bea6a618e7578fa50690040}
+      \strng{authorbibnamehash}{50ce2da63bea6a618e7578fa50690040}
+      \strng{authornamehash}{50ce2da63bea6a618e7578fa50690040}
+      \strng{authorfullhash}{50ce2da63bea6a618e7578fa50690040}
+      \strng{authorfullhashraw}{50ce2da63bea6a618e7578fa50690040}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{(consulté le 02/05/2026)}
+      \field{title}{React --- A JavaScript library for building user interfaces}
+      \field{year}{2026}
+      \verb{urlraw}
+      \verb https://reactjs.org/
+      \endverb
+      \verb{url}
+      \verb https://reactjs.org/
+      \endverb
+    \endentry
+    \entry{ref8}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=5e520da5341f2fec6d3bbfe7ef357922}{%
+           family={{Render}},
+           familyi={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{5e520da5341f2fec6d3bbfe7ef357922}
+      \strng{fullhash}{5e520da5341f2fec6d3bbfe7ef357922}
+      \strng{fullhashraw}{5e520da5341f2fec6d3bbfe7ef357922}
+      \strng{bibnamehash}{5e520da5341f2fec6d3bbfe7ef357922}
+      \strng{authorbibnamehash}{5e520da5341f2fec6d3bbfe7ef357922}
+      \strng{authornamehash}{5e520da5341f2fec6d3bbfe7ef357922}
+      \strng{authorfullhash}{5e520da5341f2fec6d3bbfe7ef357922}
+      \strng{authorfullhashraw}{5e520da5341f2fec6d3bbfe7ef357922}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{(consulté le 25/04/2026)}
+      \field{title}{Render --- Cloud Application Hosting for Developers}
+      \field{year}{2026}
+      \verb{urlraw}
+      \verb https://render.com/
+      \endverb
+      \verb{url}
+      \verb https://render.com/
+      \endverb
+    \endentry
+    \entry{A2}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=2ad72e574157d613a63fe8732cf468a8}{%
+           family={{scikit-learn developers}},
+           familyi={s\bibinitperiod}}}%
+      }
+      \strng{namehash}{2ad72e574157d613a63fe8732cf468a8}
+      \strng{fullhash}{2ad72e574157d613a63fe8732cf468a8}
+      \strng{fullhashraw}{2ad72e574157d613a63fe8732cf468a8}
+      \strng{bibnamehash}{2ad72e574157d613a63fe8732cf468a8}
+      \strng{authorbibnamehash}{2ad72e574157d613a63fe8732cf468a8}
+      \strng{authornamehash}{2ad72e574157d613a63fe8732cf468a8}
+      \strng{authorfullhash}{2ad72e574157d613a63fe8732cf468a8}
+      \strng{authorfullhashraw}{2ad72e574157d613a63fe8732cf468a8}
+      \field{sortinit}{s}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{(consulté le 02/05/2026)}
+      \field{title}{scikit-learn User Guide}
+      \field{year}{2026}
+      \verb{urlraw}
+      \verb https://scikit-learn.org/stable/user_guide.html
+      \endverb
+      \verb{url}
+      \verb https://scikit-learn.org/stable/user_guide.html
+      \endverb
+    \endentry
+    \entry{scrumguide}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=43682cba3adb7f8cd0b7cc9101d94ea5}{%
+           family={{Scrum Guides}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{43682cba3adb7f8cd0b7cc9101d94ea5}
+      \strng{fullhash}{43682cba3adb7f8cd0b7cc9101d94ea5}
+      \strng{fullhashraw}{43682cba3adb7f8cd0b7cc9101d94ea5}
+      \strng{bibnamehash}{43682cba3adb7f8cd0b7cc9101d94ea5}
+      \strng{authorbibnamehash}{43682cba3adb7f8cd0b7cc9101d94ea5}
+      \strng{authornamehash}{43682cba3adb7f8cd0b7cc9101d94ea5}
+      \strng{authorfullhash}{43682cba3adb7f8cd0b7cc9101d94ea5}
+      \strng{authorfullhashraw}{43682cba3adb7f8cd0b7cc9101d94ea5}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{(consulté le 02/05/2026)}
+      \field{title}{The Scrum Guide --- Definitive Guide to Scrum}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://scrumguides.org/
+      \endverb
+      \verb{url}
+      \verb https://scrumguides.org/
+      \endverb
+    \endentry
+    \entry{ref10}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=af07a053f31f1c94fcf389327c68f6dd}{%
+           family={{Supabase}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{af07a053f31f1c94fcf389327c68f6dd}
+      \strng{fullhash}{af07a053f31f1c94fcf389327c68f6dd}
+      \strng{fullhashraw}{af07a053f31f1c94fcf389327c68f6dd}
+      \strng{bibnamehash}{af07a053f31f1c94fcf389327c68f6dd}
+      \strng{authorbibnamehash}{af07a053f31f1c94fcf389327c68f6dd}
+      \strng{authornamehash}{af07a053f31f1c94fcf389327c68f6dd}
+      \strng{authorfullhash}{af07a053f31f1c94fcf389327c68f6dd}
+      \strng{authorfullhashraw}{af07a053f31f1c94fcf389327c68f6dd}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{(consulté le 25/04/2026)}
+      \field{title}{Supabase --- The Open Source Firebase Alternative}
+      \field{year}{2026}
+      \verb{urlraw}
+      \verb https://supabase.com/
+      \endverb
+      \verb{url}
+      \verb https://supabase.com/
+      \endverb
+    \endentry
+    \entry{postgresql}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=917cf2b2062aec0c604dbecc106084cd}{%
+           family={{The PostgreSQL Global Development Group}},
+           familyi={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{917cf2b2062aec0c604dbecc106084cd}
+      \strng{fullhash}{917cf2b2062aec0c604dbecc106084cd}
+      \strng{fullhashraw}{917cf2b2062aec0c604dbecc106084cd}
+      \strng{bibnamehash}{917cf2b2062aec0c604dbecc106084cd}
+      \strng{authorbibnamehash}{917cf2b2062aec0c604dbecc106084cd}
+      \strng{authornamehash}{917cf2b2062aec0c604dbecc106084cd}
+      \strng{authorfullhash}{917cf2b2062aec0c604dbecc106084cd}
+      \strng{authorfullhashraw}{917cf2b2062aec0c604dbecc106084cd}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{(consulté le 02/05/2026)}
+      \field{title}{PostgreSQL --- The World's Most Advanced Open Source Relational Database}
+      \field{year}{2026}
+      \verb{urlraw}
+      \verb https://www.postgresql.org/
+      \endverb
+      \verb{url}
+      \verb https://www.postgresql.org/
+      \endverb
+    \endentry
+    \entry{tcolorbox}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=3d7dc90826a0c20999335aa5bd474b72}{%
+           family={{Tikos}},
+           familyi={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{3d7dc90826a0c20999335aa5bd474b72}
+      \strng{fullhash}{3d7dc90826a0c20999335aa5bd474b72}
+      \strng{fullhashraw}{3d7dc90826a0c20999335aa5bd474b72}
+      \strng{bibnamehash}{3d7dc90826a0c20999335aa5bd474b72}
+      \strng{authorbibnamehash}{3d7dc90826a0c20999335aa5bd474b72}
+      \strng{authornamehash}{3d7dc90826a0c20999335aa5bd474b72}
+      \strng{authorfullhash}{3d7dc90826a0c20999335aa5bd474b72}
+      \strng{authorfullhashraw}{3d7dc90826a0c20999335aa5bd474b72}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{(consulté le 02/05/2026)}
+      \field{title}{tcolorbox --- Documentation on CTAN}
+      \field{year}{2026}
+      \verb{urlraw}
+      \verb https://ctan.org/pkg/tcolorbox
+      \endverb
+      \verb{url}
+      \verb https://ctan.org/pkg/tcolorbox
+      \endverb
+    \endentry
+    \entry{titlesec}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d71b69203f942c1c6280dfc4695b4263}{%
+           family={{Titlesec package}},
+           familyi={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{d71b69203f942c1c6280dfc4695b4263}
+      \strng{fullhash}{d71b69203f942c1c6280dfc4695b4263}
+      \strng{fullhashraw}{d71b69203f942c1c6280dfc4695b4263}
+      \strng{bibnamehash}{d71b69203f942c1c6280dfc4695b4263}
+      \strng{authorbibnamehash}{d71b69203f942c1c6280dfc4695b4263}
+      \strng{authornamehash}{d71b69203f942c1c6280dfc4695b4263}
+      \strng{authorfullhash}{d71b69203f942c1c6280dfc4695b4263}
+      \strng{authorfullhashraw}{d71b69203f942c1c6280dfc4695b4263}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{(consulté le 02/05/2026)}
+      \field{title}{titlesec --- Sectioning commands on CTAN}
+      \field{year}{2026}
+      \verb{urlraw}
+      \verb https://ctan.org/pkg/titlesec
+      \endverb
+      \verb{url}
+      \verb https://ctan.org/pkg/titlesec
+      \endverb
+    \endentry
+    \entry{ref9}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=dc173d57136dbe619cbccee88ee6421c}{%
+           family={{Vercel}},
+           familyi={V\bibinitperiod}}}%
+      }
+      \strng{namehash}{dc173d57136dbe619cbccee88ee6421c}
+      \strng{fullhash}{dc173d57136dbe619cbccee88ee6421c}
+      \strng{fullhashraw}{dc173d57136dbe619cbccee88ee6421c}
+      \strng{bibnamehash}{dc173d57136dbe619cbccee88ee6421c}
+      \strng{authorbibnamehash}{dc173d57136dbe619cbccee88ee6421c}
+      \strng{authornamehash}{dc173d57136dbe619cbccee88ee6421c}
+      \strng{authorfullhash}{dc173d57136dbe619cbccee88ee6421c}
+      \strng{authorfullhashraw}{dc173d57136dbe619cbccee88ee6421c}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{(consulté le 25/04/2026)}
+      \field{title}{Vercel --- Develop. Preview. Ship.}
+      \field{year}{2026}
+      \verb{urlraw}
+      \verb https://vercel.com/
+      \endverb
+      \verb{url}
+      \verb https://vercel.com/
+      \endverb
+    \endentry
+    \entry{ref3}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=9c677286866aad38f8e9b660f5411814}{%
+           family={{Wikipedia}},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{fullhash}{9c677286866aad38f8e9b660f5411814}
+      \strng{fullhashraw}{9c677286866aad38f8e9b660f5411814}
+      \strng{bibnamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{authorbibnamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{authornamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{authorfullhash}{9c677286866aad38f8e9b660f5411814}
+      \strng{authorfullhashraw}{9c677286866aad38f8e9b660f5411814}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{(consulté le 16/03/2026)}
+      \field{title}{NotebookLM}
+      \field{year}{2026}
+      \verb{urlraw}
+      \verb https://fr.wikipedia.org/wiki/NotebookLM
+      \endverb
+      \verb{url}
+      \verb https://fr.wikipedia.org/wiki/NotebookLM
+      \endverb
+    \endentry
+    \entry{A6}{misc}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{10}{}{%
+        {{un=0,uniquepart=base,hash=64942cca497eff6cd6c5b264afdc5dd6}{%
+           family={Zhao},
+           familyi={Z\bibinitperiod},
+           given={Wayne\bibnamedelima Xin},
+           giveni={W\bibinitperiod\bibinitdelim X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=09d5d500b34786c94a128e6f131300c6}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={Kun},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bc20e54573d2db853852f86802ab83de}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Jun},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6a52f13881dbedf86c59c0bd46e4bd40}{%
+           family={Tang},
+           familyi={T\bibinitperiod},
+           given={Tiejun},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=66a2746de95223ec2e9e78a901ee1cf8}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Xiaolei},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1f5ddf2801f29d766ff934188dc01cbd}{%
+           family={Hou},
+           familyi={H\bibinitperiod},
+           given={Yutao},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0b46c180b11569574d2c08f0c10f1a79}{%
+           family={Min},
+           familyi={M\bibinitperiod},
+           given={Yi},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=66e96b863923db3bc1db16a09cac3390}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Beichen},
+           giveni={B\bibinitperiod},
+           givenun=1}}%
+        {{un=1,uniquepart=given,hash=f83176d7990e7bd6ad17dee08c194d1c}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Ji},
+           giveni={J\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=e4760b53d64102ee5632b60a008491c0}{%
+           family={Dong},
+           familyi={D\bibinitperiod},
+           given={Zhong},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{95cd3bb658a9c68cd3372dc5bc22e0cf}
+      \strng{fullhash}{485226927a9962fdfeaa1501b7d35980}
+      \strng{fullhashraw}{485226927a9962fdfeaa1501b7d35980}
+      \strng{bibnamehash}{485226927a9962fdfeaa1501b7d35980}
+      \strng{authorbibnamehash}{485226927a9962fdfeaa1501b7d35980}
+      \strng{authornamehash}{95cd3bb658a9c68cd3372dc5bc22e0cf}
+      \strng{authorfullhash}{485226927a9962fdfeaa1501b7d35980}
+      \strng{authorfullhashraw}{485226927a9962fdfeaa1501b7d35980}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{(consulté le 02/05/2026)}
+      \field{title}{A Survey of Large Language Models}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2303.18223
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2303.18223
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
