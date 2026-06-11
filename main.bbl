@@ -123,7 +123,7 @@
       \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{note}{(consulté le 02/05/2026)}
+      \field{note}{(consulté le 02/04/2026)}
       \field{title}{Unified Modeling Language (UML) Specification}
       \field{year}{2017}
       \verb{urlraw}
@@ -151,7 +151,7 @@
       \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{note}{(consulté le 02/05/2026)}
+      \field{note}{(consulté le 04/03/2026)}
       \field{title}{The Scrum Guide --- Definitive Guide to Scrum}
       \field{year}{2020}
       \verb{urlraw}
@@ -175,11 +175,12 @@
       \strng{authornamehash}{140864078aeca1c7c35b4beb33c53c34}
       \strng{authorfullhash}{140864078aeca1c7c35b4beb33c53c34}
       \strng{authorfullhashraw}{140864078aeca1c7c35b4beb33c53c34}
+      \field{extraname}{1}
       \field{sortinit}{7}
       \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{note}{(consulté le 02/05/2026)}
+      \field{note}{(consulté le 02/03/2026)}
       \field{title}{Visual Studio Code --- Code editing. Redefined.}
       \field{year}{2026}
       \verb{urlraw}
@@ -207,7 +208,7 @@
       \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{note}{(consulté le 02/05/2026)}
+      \field{note}{(consulté le 02/03/2026)}
       \field{title}{The Django Web Framework}
       \field{year}{2026}
       \verb{urlraw}
@@ -263,7 +264,7 @@
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{note}{(consulté le 02/05/2026)}
+      \field{note}{(consulté le 02/03/2026)}
       \field{title}{Git --- Distributed version control system}
       \field{year}{2026}
       \verb{urlraw}
@@ -291,7 +292,7 @@
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{note}{(consulté le 02/05/2026)}
+      \field{note}{(consulté le 02/03/2026)}
       \field{title}{Postman --- API Development Environment}
       \field{year}{2026}
       \verb{urlraw}
@@ -319,7 +320,7 @@
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{note}{(consulté le 02/05/2026)}
+      \field{note}{(consulté le 02/03/2026)}
       \field{title}{Django REST framework --- Web browsable APIs for Django}
       \field{year}{2026}
       \verb{urlraw}
@@ -347,7 +348,7 @@
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{note}{(consulté le 02/05/2026)}
+      \field{note}{(consulté le 02/03/2026)}
       \field{title}{GitHub --- Build software better, together}
       \field{year}{2026}
       \verb{urlraw}
@@ -375,7 +376,7 @@
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{note}{(consulté le 02/05/2026)}
+      \field{note}{(consulté le 02/03/2026)}
       \field{title}{Jira Software --- Project and issue tracking}
       \field{year}{2026}
       \verb{urlraw}
@@ -403,7 +404,7 @@
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{note}{(consulté le 02/05/2026)}
+      \field{note}{(consulté le 02/03/2026)}
       \field{title}{LaTeX --- A document preparation system}
       \field{year}{2026}
       \verb{urlraw}
@@ -431,7 +432,7 @@
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{note}{(consulté le 02/05/2026)}
+      \field{note}{(consulté le 02/03/2026)}
       \field{title}{polyglossia --- Multilingual support for XeLaTeX/LuaLaTeX}
       \field{year}{2026}
       \verb{urlraw}
@@ -459,7 +460,7 @@
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{note}{(consulté le 02/05/2026)}
+      \field{note}{(consulté le 02/03/2026)}
       \field{title}{tcolorbox --- Documentation on CTAN}
       \field{year}{2026}
       \verb{urlraw}
@@ -487,7 +488,7 @@
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{note}{(consulté le 02/05/2026)}
+      \field{note}{(consulté le 02/03/2026)}
       \field{title}{titlesec --- Sectioning commands on CTAN}
       \field{year}{2026}
       \verb{urlraw}
@@ -544,7 +545,7 @@
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{note}{(consulté le 02/05/2026)}
+      \field{note}{(consulté le 02/03/2026)}
       \field{title}{pgAdmin 4 --- The leading Open Source management tool for Postgres}
       \field{year}{2026}
       \verb{urlraw}
@@ -572,7 +573,7 @@
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{note}{(consulté le 02/05/2026)}
+      \field{note}{(consulté le 04/03/2026)}
       \field{title}{PlantUML --- Quick UML diagrams from plain text}
       \field{year}{2026}
       \verb{urlraw}
@@ -600,7 +601,7 @@
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{note}{(consulté le 02/05/2026)}
+      \field{note}{(consulté le 11/03/2026)}
       \field{title}{React --- A JavaScript library for building user interfaces}
       \field{year}{2026}
       \verb{urlraw}
@@ -628,7 +629,7 @@
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{note}{(consulté le 02/05/2026)}
+      \field{note}{(consulté le 02/03/2026)}
       \field{title}{PostgreSQL --- The World's Most Advanced Open Source Relational Database}
       \field{year}{2026}
       \verb{urlraw}
@@ -656,7 +657,7 @@
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{note}{(consulté le 02/05/2026)}
+      \field{note}{(consulté le 11/03/2026)}
       \field{title}{Axios --- Promise based HTTP client for the browser and node.js}
       \field{year}{2026}
       \verb{urlraw}
@@ -666,81 +667,89 @@
       \verb https://axios-http.com/
       \endverb
     \endentry
-    \entry{A1}{misc}{}{}
+    \entry{vite}{misc}{}{}
       \name{author}{1}{}{%
-        {{hash=e000ef0524d0e2345ebab4b2a529013d}{%
-           family={{Pandas Development Team}},
-           familyi={P\bibinitperiod}}}%
+        {{hash=b20053fa058fd70426f4b04f6213eee7}{%
+           family={{Evan You}},
+           familyi={E\bibinitperiod}}}%
       }
-      \strng{namehash}{e000ef0524d0e2345ebab4b2a529013d}
-      \strng{fullhash}{e000ef0524d0e2345ebab4b2a529013d}
-      \strng{fullhashraw}{e000ef0524d0e2345ebab4b2a529013d}
-      \strng{bibnamehash}{e000ef0524d0e2345ebab4b2a529013d}
-      \strng{authorbibnamehash}{e000ef0524d0e2345ebab4b2a529013d}
-      \strng{authornamehash}{e000ef0524d0e2345ebab4b2a529013d}
-      \strng{authorfullhash}{e000ef0524d0e2345ebab4b2a529013d}
-      \strng{authorfullhashraw}{e000ef0524d0e2345ebab4b2a529013d}
+      \strng{namehash}{b20053fa058fd70426f4b04f6213eee7}
+      \strng{fullhash}{b20053fa058fd70426f4b04f6213eee7}
+      \strng{fullhashraw}{b20053fa058fd70426f4b04f6213eee7}
+      \strng{bibnamehash}{b20053fa058fd70426f4b04f6213eee7}
+      \strng{authorbibnamehash}{b20053fa058fd70426f4b04f6213eee7}
+      \strng{authornamehash}{b20053fa058fd70426f4b04f6213eee7}
+      \strng{authorfullhash}{b20053fa058fd70426f4b04f6213eee7}
+      \strng{authorfullhashraw}{b20053fa058fd70426f4b04f6213eee7}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{(consulté le 02/05/2026)}
-      \field{title}{Pandas 2.0 Release Notes}
-      \field{year}{2023}
+      \field{title}{Vite --- Next Generation Frontend Tooling}
+      \field{year}{2026}
       \verb{urlraw}
-      \verb https://pandas.pydata.org/docs/whatsnew/v2.0.0.html
+      \verb https://vitejs.dev/
       \endverb
       \verb{url}
-      \verb https://pandas.pydata.org/docs/whatsnew/v2.0.0.html
+      \verb https://vitejs.dev/
       \endverb
     \endentry
-    \entry{ref37}{article}{}{}
-      \true{moreauthor}
-      \true{morelabelname}
-      \name{author}{3}{}{%
-        {{hash=55ff6c7a7ed277ae0178125aa51ac851}{%
-           family={Harris},
-           familyi={H\bibinitperiod},
-           given={C.\bibnamedelimi R.},
-           giveni={C\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
-        {{hash=e22ce0d7477da06dc9fc563bb5d3801a}{%
-           family={Millman},
-           familyi={M\bibinitperiod},
-           given={K.\bibnamedelimi J.},
-           giveni={K\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
-        {{hash=1a8d8a22049ceb4a1eeb9919d11ac671}{%
-           family={Walt},
-           familyi={W\bibinitperiod},
-           given={S.\bibnamedelimi J.},
-           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod},
-           prefix={van\bibnamedelima der},
-           prefixi={v\bibinitperiod\bibinitdelim d\bibinitperiod}}}%
+    \entry{typescript}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=140864078aeca1c7c35b4beb33c53c34}{%
+           family={{Microsoft}},
+           familyi={M\bibinitperiod}}}%
       }
-      \strng{namehash}{51b0ceb8c1a4032ba2b483f04c7af4e6}
-      \strng{fullhash}{c8903f20c11ac3e54b600cc1e5cfaf67}
-      \strng{fullhashraw}{c8903f20c11ac3e54b600cc1e5cfaf67}
-      \strng{bibnamehash}{c8903f20c11ac3e54b600cc1e5cfaf67}
-      \strng{authorbibnamehash}{c8903f20c11ac3e54b600cc1e5cfaf67}
-      \strng{authornamehash}{51b0ceb8c1a4032ba2b483f04c7af4e6}
-      \strng{authorfullhash}{c8903f20c11ac3e54b600cc1e5cfaf67}
-      \strng{authorfullhashraw}{c8903f20c11ac3e54b600cc1e5cfaf67}
+      \strng{namehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{fullhash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{fullhashraw}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{bibnamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorbibnamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authornamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorfullhash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorfullhashraw}{140864078aeca1c7c35b4beb33c53c34}
+      \field{extraname}{2}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Nature}
-      \field{note}{Article scientifique de référence pour citer NumPy dans un contexte académique.}
-      \field{title}{Array programming with NumPy}
-      \field{volume}{585}
-      \field{year}{2020}
-      \field{pages}{357\bibrangedash 362}
-      \range{pages}{6}
+      \field{note}{(consulté le 02/05/2026)}
+      \field{title}{TypeScript --- JavaScript With Syntax For Types}
+      \field{year}{2026}
       \verb{urlraw}
-      \verb https://www.nature.com/articles/s41586-020-2649-2
+      \verb https://www.typescriptlang.org/
       \endverb
       \verb{url}
-      \verb https://www.nature.com/articles/s41586-020-2649-2
+      \verb https://www.typescriptlang.org/
       \endverb
+    \endentry
+    \entry{ref38}{misc}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=06dd94ee0a11a268b5e7df03d4fc4f76}{%
+           family={Clark},
+           familyi={C\bibinitperiod},
+           given={Eric},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{0ffc77324d023dfe5e7eba8ed5135f42}
+      \strng{fullhash}{0ffc77324d023dfe5e7eba8ed5135f42}
+      \strng{fullhashraw}{0ffc77324d023dfe5e7eba8ed5135f42}
+      \strng{bibnamehash}{0ffc77324d023dfe5e7eba8ed5135f42}
+      \strng{authorbibnamehash}{0ffc77324d023dfe5e7eba8ed5135f42}
+      \strng{authornamehash}{0ffc77324d023dfe5e7eba8ed5135f42}
+      \strng{authorfullhash}{0ffc77324d023dfe5e7eba8ed5135f42}
+      \strng{authorfullhashraw}{0ffc77324d023dfe5e7eba8ed5135f42}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://openpyxl.readthedocs.io/en/stable/}}
+      \field{note}{(consulté le 10/04/2026)}
+      \field{title}{openpyxl --- A Python library to read/write Excel 2010 xlsx/xlsm files}
+      \field{year}{2024}
     \endentry
     \entry{A4}{misc}{}{}
       \name{author}{1}{}{%
@@ -761,7 +770,7 @@
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{note}{(consulté le 02/05/2026)}
+      \field{note}{(consulté le 10/04/2026)}
       \field{title}{GPT-4o mini: affordable intelligence for applications at scale}
       \field{year}{2024}
       \verb{urlraw}
@@ -790,7 +799,7 @@
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{note}{Annonce officielle de GPT-4o par OpenAI (mai 2024).}
+      \field{note}{Annonce officielle de GPT-4o par OpenAI (mai 2024). (consulté le 11/04/2026)}
       \field{title}{Hello GPT-4o}
       \field{year}{2024}
       \verb{urlraw}
@@ -815,11 +824,11 @@
       \strng{authorfullhash}{0523b13262b12c215d8009938f5c14f1}
       \strng{authorfullhashraw}{0523b13262b12c215d8009938f5c14f1}
       \field{extraname}{3}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{note}{Annonce officielle OpenAI des modèles text-embedding-3-small et text-embedding-3-large.}
+      \field{note}{Annonce officielle OpenAI des modèles text-embedding-3-small et text-embedding-3-large. (consulté le 10/04/2026)}
       \field{title}{New embedding models and API updates}
       \field{year}{2024}
       \verb{urlraw}
@@ -848,7 +857,7 @@
       \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{note}{Annonce officielle OpenAI du modèle Whisper (reconnaissance vocale).}
+      \field{note}{Annonce officielle OpenAI du modèle Whisper (reconnaissance vocale). (consulté le 10/04/2026)}
       \field{title}{Introducing Whisper}
       \field{year}{2022}
       \verb{urlraw}
@@ -877,7 +886,7 @@
       \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{note}{Documentation officielle de l'API TTS OpenAI.}
+      \field{note}{Documentation officielle de l'API TTS OpenAI. (consulté le 10/04/2026)}
       \field{title}{Text to speech --- OpenAI API Documentation}
       \field{year}{2024}
       \verb{urlraw}
@@ -905,7 +914,7 @@
       \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{note}{Site officiel de Qdrant, base de données vectorielle.}
+      \field{note}{Site officiel de Qdrant, base de données vectorielle. (consulté le 10/04/2026)}
       \field{title}{Qdrant --- Vector Database for the next generation of AI applications}
       \field{year}{2025}
       \verb{urlraw}
@@ -933,7 +942,7 @@
       \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{note}{Documentation officielle de LangGraph.}
+      \field{note}{Documentation officielle de LangGraph. (consulté le 10/04/2026)}
       \field{title}{LangGraph --- Build resilient language agents as graphs}
       \field{year}{2024}
       \verb{urlraw}
@@ -968,7 +977,7 @@
       \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{note}{Documentation officielle de python-dateutil.}
+      \field{note}{Documentation officielle de python-dateutil. (consulté le 10/04/2026)}
       \field{title}{python-dateutil --- Powerful extensions to the standard datetime module}
       \field{year}{2023}
       \verb{urlraw}
@@ -1045,7 +1054,7 @@
       \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{note}{(consulté le 02/05/2026)}
+      \field{note}{(consulté le 10/04/2026)}
       \field{title}{A Survey of Large Language Models}
       \field{year}{2023}
       \verb{urlraw}
@@ -1069,8 +1078,8 @@
       \strng{authornamehash}{abb7ed37e1253cd4f90c5ea565a76836}
       \strng{authorfullhash}{abb7ed37e1253cd4f90c5ea565a76836}
       \strng{authorfullhashraw}{abb7ed37e1253cd4f90c5ea565a76836}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{(consulté le 07/03/2026)}
@@ -1098,8 +1107,8 @@
       \strng{authorfullhash}{c29f23f279126757ba18ec74d0d27cfa}
       \strng{authorfullhashraw}{c29f23f279126757ba18ec74d0d27cfa}
       \field{extraname}{2}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{(consulté le 20/04/2026)}
@@ -1126,8 +1135,8 @@
       \strng{authornamehash}{5e520da5341f2fec6d3bbfe7ef357922}
       \strng{authorfullhash}{5e520da5341f2fec6d3bbfe7ef357922}
       \strng{authorfullhashraw}{5e520da5341f2fec6d3bbfe7ef357922}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{(consulté le 25/04/2026)}
@@ -1154,8 +1163,8 @@
       \strng{authornamehash}{dc173d57136dbe619cbccee88ee6421c}
       \strng{authorfullhash}{dc173d57136dbe619cbccee88ee6421c}
       \strng{authorfullhashraw}{dc173d57136dbe619cbccee88ee6421c}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{(consulté le 25/04/2026)}
@@ -1182,8 +1191,8 @@
       \strng{authornamehash}{af07a053f31f1c94fcf389327c68f6dd}
       \strng{authorfullhash}{af07a053f31f1c94fcf389327c68f6dd}
       \strng{authorfullhashraw}{af07a053f31f1c94fcf389327c68f6dd}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{(consulté le 25/04/2026)}
@@ -1218,12 +1227,12 @@
       \strng{authornamehash}{32fc8d09231916e6eda071b0db176b92}
       \strng{authorfullhash}{32fc8d09231916e6eda071b0db176b92}
       \strng{authorfullhashraw}{32fc8d09231916e6eda071b0db176b92}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{pagetotal}{133}
-      \field{title}{100 questions pour comprendre et agir : indicateurs et tableau de bord}
+      \field{title}{100 questions pour comprendre et agir : indicateurs et tableau de bord, Paris, AFNOR}
       \field{year}{2009}
       \true{nocite}
     \endentry
@@ -1259,7 +1268,7 @@
       \field{labelnamesource}{editor}
       \field{labeltitlesource}{title}
       \field{pagetotal}{271}
-      \field{title}{La logistique : une approche innovante des organisations}
+      \field{title}{La logistique : une approche innovante des organisations, Marseille, Presses universitaires de Provence}
       \field{year}{2013}
       \true{nocite}
     \endentry
@@ -1295,7 +1304,7 @@
       \field{labelnamesource}{editor}
       \field{labeltitlesource}{title}
       \field{pagetotal}{382}
-      \field{title}{Gestion de l'approvisionnement et des stocks}
+      \field{title}{Gestion de l'approvisionnement et des stocks, Québec, Chenelière éducation}
       \field{year}{2014}
       \true{nocite}
     \endentry
@@ -1326,12 +1335,12 @@
       \strng{editornamehash}{2a9ceb5aa2599a9ccd6e64fc8aa0aaec}
       \strng{editorfullhash}{2a9ceb5aa2599a9ccd6e64fc8aa0aaec}
       \strng{editorfullhashraw}{2a9ceb5aa2599a9ccd6e64fc8aa0aaec}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{editor}
       \field{labeltitlesource}{title}
       \field{pagetotal}{625}
-      \field{title}{Lexique de gestion et de management}
+      \field{title}{Lexique de gestion et de management, Paris, Dunod}
       \field{year}{2008}
       \true{nocite}
     \endentry
@@ -1362,12 +1371,12 @@
       \strng{authornamehash}{5142dc272da9082f92ba66d5a8b4608b}
       \strng{authorfullhash}{5142dc272da9082f92ba66d5a8b4608b}
       \strng{authorfullhashraw}{5142dc272da9082f92ba66d5a8b4608b}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{pagetotal}{129}
-      \field{title}{Elaborer des tableaux de bord utiles}
+      \field{title}{Elaborer des tableaux de bord utiles, Le Mans cedex, Gereso édition}
       \field{year}{2010}
       \true{nocite}
     \endentry

@@ -15,7 +15,7 @@
 \usepackage{lastpage} 
 \usepackage{ragged2e}
 \usepackage{colortbl}
-\usepackage{hyperref}
+\usepackage[hidelinks]{hyperref}
 \usepackage{titlesec}
 \usepackage{lscape}
 \usepackage{etoolbox}
@@ -151,6 +151,35 @@
 \setcounter{secnumdepth}{4}
 \setcounter{tocdepth}{4}
 
+\newenvironment{Resumé}{%
+    \par\smallskip
+    \noindent{\normalsize\bfseries Résumé}\par\smallskip
+    \small
+}{%
+    \par\smallskip
+    \normalsize
+}
+
+\newenvironment{Abstract}{%
+    \par\smallskip
+    \noindent{\normalsize\bfseries Abstract}\par\smallskip
+    \small
+}{%
+    \par\smallskip
+    \normalsize
+}
+
+\newenvironment{الملخّص}{%
+    \par\smallskip
+    \noindent{\normalsize\bfseries\textarabic{الملخّص}}\par\smallskip
+    \small
+    \begin{otherlanguage*}{arabic}
+}{%
+    \end{otherlanguage*}
+    \par\smallskip
+    \normalsize
+}
+
 \renewcommand{\theparagraph}{\Alph{paragraph}}
 \titleformat{\paragraph}[block]{\normalfont\normalsize\bfseries}{\theparagraph}{1em}{}
 \titlespacing*{\paragraph}{0pt}{1ex plus .2ex minus .2ex}{0.5ex}
@@ -211,8 +240,8 @@
   \centering
   {\fontsize{10}{12}\selectfont
   \textbf{Ministère de l'Enseignement Supérieur et de la Recherche Scientifique}\\[2pt]
-  Direction Générale des Etudes Technologiques\\[2pt]
-  Institut Supérieur des Etudes Technologiques de Bizerte\\[2pt]
+  Direction Générale des Études Technologiques\\[2pt]
+  Institut Supérieur des Études Technologiques de Bizerte\\[2pt]
   Département Technologies de l'Informatique}
 \end{minipage}
 \hfill
@@ -235,18 +264,19 @@
   \hline
 \end{tabular}
 }
-
 \vspace{0.4cm}
 \begin{center}
 {\fontsize{14}{16.8}\selectfont \textbf{Rapport de}}\\[0.2cm]
-{\fontsize{20}{24}\selectfont \textbf{PROJET DE FIN D'ETUDES}}\\[0.2cm]
-{\fontsize{14}{16.8}\selectfont En vue d'obtention de la :}\\[0.1cm]
-{\fontsize{16}{19.2}\selectfont \textbf{Licence en Développement des Systèmes d'Information}}\\[0.3cm]
+{\fontsize{20}{24}\selectfont \textbf{PROJET DE FIN D'ÉTUDES}}\\[0.2cm]
+{\fontsize{14}{16.8}\selectfont En vue d'obtention de :}\\[0.1cm]
+{\fontsize{16}{19.2}\selectfont \textbf{Licence en informatique}}\\[0.3cm]
+{\fontsize{16}{19.2}\selectfont \textbf{Développement des Systèmes d'Information}}\\[0.3cm]
+
 \fbox{
   \parbox{0.99\textwidth}{
     \centering
     \vspace{0.2cm}
-    {\fontsize{18}{21.6}\selectfont \textbf{Conception et réalisation d’un système intelligent d’aide à la décision pour la gestion des ventes, des stocks et des crédits clients}} 
+    {\fontsize{18}{21.6}\selectfont \textbf{Conception et réalisation d'un système intelligent d'aide à la décision pour la gestion des ventes, des stocks et des crédits clients}}
     \vspace{0.2cm}
   }
 }
@@ -254,7 +284,7 @@
 
 \vspace{0.4cm}
 \begin{center}
-  {\fontsize{14}{16.8}\selectfont Elaboré par :}\\[0.2cm]
+  {\fontsize{14}{16.8}\selectfont Élaboré par :}\\[0.2cm]
   {\fontsize{14}{16.8}\selectfont \textbf{BENZID Rayen}}\\[0.1cm]
   {\fontsize{14}{16.8}\selectfont \textbf{\&}}\\[0.1cm]
   {\fontsize{14}{16.8}\selectfont \textbf{KAROUI Souha}}
@@ -262,7 +292,7 @@
 
 \vspace{0.4cm}
 \noindent {\fontsize{14}{16.8}\selectfont Encadré par :}\\[0.15cm]
-\hspace{1cm}{\fontsize{14}{16.8}\selectfont \textbf{Mrs JRIDI Khawla (ISET)}}\\[0.1cm]
+\hspace{1cm}{\fontsize{14}{16.8}\selectfont \textbf{Mrs JRIDI Khaoula (ISET)}}\\[0.1cm]
 \hspace{1cm}{\fontsize{14}{16.8}\selectfont \textbf{Mr BENMABROUK Emir (ENTREPRISE)}}
 
 \vspace{0.4cm}
@@ -270,13 +300,84 @@
 {\fontsize{14}{16.8}\selectfont \textbf{Entreprise : FASI Tunisia}}\\[0.1cm]
 \hspace{1.5cm}{\fontsize{14}{16.8}\selectfont $\bullet$ Adresse : Bizerte, Tunisie}\\[0.1cm]
 \hspace{1.5cm}{\fontsize{14}{16.8}\selectfont $\bullet$ Tel : +216 21 547 087}\\[0.1cm]
-\hspace{1.5cm}{\fontsize{14}{16.8}\selectfont $\bullet$ Mail : ceo@protecta-libya.com}
+\hspace{1.5cm}{\fontsize{14}{16.8}\selectfont $\bullet$ Mail : info@fasi-group.com}
 
 \vfill
 \begin{center}
   {\fontsize{14}{16.8}\selectfont \textbf{Année universitaire : 2025/2026}}
 \end{center}
 \end{titlepage}
+
+%====================================================
+% DEDICACES
+%====================================================
+
+\chapter*{Dédicaces}
+\addcontentsline{toc}{chapter}{Dédicaces}
+
+\section*{Dédicace — KAROUI Souha}
+
+Je dédie ce travail, symbole d'un rêve accompli et d'années de labeur, de larmes et de persévérance…
+
+À mes adorables parents, les deux êtres les plus précieux que la vie m'ait offerts. Papa, tu m'as appris la force et la dignité. Mama, tu m'as appris l'amour et la douceur. Vous avez veillé sur moi nuit et jour, vous avez renoncé à vos propres rêves pour que les miens deviennent réalité, vous avez essuyé mes larmes dans les moments de faiblesse et célébré chacun de mes succès avec une fierté qui me touchait jusqu'au fond de l'âme. Aujourd'hui, en tenant ce diplôme entre mes mains, c'est votre image qui se dessine dans mon cœur. Ce travail n'est pas le mien — il est le vôtre. Que Allah vous accorde une longue vie pleine de santé, de bonheur et de sérénité, et qu'Il vous récompense au centuple pour tout ce que vous avez sacrifié pour moi.
+
+À mon cher frère, mon confident, mon protecteur, mon premier ami. Tu as grandi à mes côtés et tu as été, sans toujours le savoir, une source de courage et de tendresse pour moi. Chaque fois que je doutais de moi-même, ta confiance en moi suffisait à me relever. Je suis fière de toi autant que tu peux l'être de moi. Que la vie te sourie et t'offre tout ce que tu mérites.
+
+À toute ma famille, mes oncles, mes tantes et mes cousins, qui ont suivi mon parcours avec bienveillance et amour. Vos mots d'encouragement, même les plus simples, ont résonné en moi comme une lumière dans les moments sombres. Votre fierté est ma plus belle récompense.
+
+À mon binôme Rayen, pour son sérieux, son implication totale, sa bonne humeur communicative et l'esprit d'équipe remarquable qu'il a manifesté du début à la fin de ce projet. Cette réussite est autant la tienne que la mienne.
+
+À tous mes amis, pour leur fidélité, leur générosité et les souvenirs inoubliables que nous avons construits ensemble au fil de ces années universitaires. Vous avez rendu ce parcours infiniment plus doux.
+
+À tous ceux qui ont illuminé mon chemin par un mot d'encouragement, un sourire ou un geste de soutien, même fugace.
+
+Ce travail vous est dédié avec tout l'amour, la fierté et la gratitude dont mon cœur est capable.
+
+\vspace{1cm}
+\newpage
+
+\section*{Dédicace — BENZID Rayen}
+
+Je dédie ce modeste travail, fruit de longues années d'efforts et de sacrifices…
+
+À mes très chers parents, les deux êtres les plus précieux de ma vie, qui ont tout donné pour me voir réussir. Votre amour inconditionnel, vos prières sincères et vos encouragements incessants ont été ma boussole dans les moments de doute et mon énergie dans les moments de fatigue. Aucune dédicace, aussi éloquente soit-elle, ne saurait exprimer l'amour profond et la reconnaissance infinie que je vous porte. Que Allah vous accorde longue vie, santé et bonheur.
+
+À mes frères et sœurs, pour leur présence rassurante, leur soutien constant et les moments de joie partagés. Votre affection a été pour moi un refuge et une force tout au long de ce parcours.
+
+À ma famille au grand complet, oncles, tantes, cousins et cousines, pour leurs encouragements et leur intérêt sincère pour ma réussite.
+
+À mon binôme Souha, pour sa rigueur, sa patience, son dévouement et son engagement sans relâche dans la réalisation de ce projet. Travailler à tes côtés a été une expérience enrichissante et une chance que je chéris.
+
+À tous mes amis et camarades de promotion, pour les années passées ensemble, les fous rires, les révisions tardives et les souvenirs gravés à jamais dans ma mémoire. Votre amitié a rendu ce chemin bien plus beau.
+
+À tous ceux qui ont cru en moi, de près ou de loin, et qui ont contribué, d'une manière ou d'une autre, à ma réussite.
+
+Je vous dédie ce travail avec tout mon amour, ma fierté et ma gratitude.
+
+\newpage
+
+%====================================================
+% REMERCIEMENTS
+%====================================================
+
+\chapter*{Remerciements}
+\addcontentsline{toc}{chapter}{Remerciements}
+
+Avant tout, nous rendons grâce à Allah le Tout-Puissant de nous avoir accordé la santé, la patience, la volonté et le courage nécessaires pour accomplir ce travail et le mener à son terme dans les meilleures conditions.
+
+Ce projet de fin d'études est l'aboutissement d'un long parcours académique et professionnel, et sa réalisation n'aurait pas été possible sans le concours de nombreuses personnes à qui nous tenons à exprimer notre plus vive reconnaissance.
+
+Nous exprimons tout d'abord notre profonde gratitude à notre encadrante académique Madame JRIDI Khaoula, enseignante à l'ISET de Bizerte, pour avoir accepté de diriger ce travail, pour sa disponibilité constante, ses orientations pertinentes, ses remarques constructives et la confiance qu'elle nous a accordée tout au long de la réalisation de ce projet.
+
+Nos sincères remerciements vont également à notre encadrant en entreprise Monsieur BENMABROUK Emir, pour son accueil chaleureux au sein de FASI Tunisia, pour le temps précieux qu'il nous a consacré, pour le partage de son expertise technique et professionnelle, et pour ses conseils avisés qui ont grandement contribué à l'enrichissement de ce travail.
+
+Nous tenons aussi à remercier l'ensemble du corps enseignant et administratif du Département Technologies de l'Informatique de l'Institut Supérieur des Études Technologiques de Bizerte pour la qualité de l'enseignement dispensé, pour l'encadrement rigoureux et pour tous les efforts déployés afin de nous offrir une formation solide et complète tout au long de notre cursus universitaire.
+
+Nous adressons notre gratitude à l'équipe de FASI Tunisia pour leur accueil, leur coopération et leur disponibilité lors de notre stage, et pour nous avoir fourni toutes les informations et ressources nécessaires à la réalisation de ce projet.
+
+Enfin, nos remerciements les plus sincères et les plus affectueux vont à nos familles respectives, pour leur soutien moral sans faille, leur patience, leurs encouragements quotidiens et leurs sacrifices qui ont été pour nous une source inépuisable de motivation et de persévérance.
+
+À toutes ces personnes, nous disons : Merci.
 
 %====================================================
 % TABLE DES MATIERES
@@ -298,22 +399,20 @@
 \chapter*{Introduction Générale}
 \addcontentsline{toc}{chapter}{Introduction Générale}
 
-Le phénomène de l'intelligence Artificielle en Tunisie ne date que de quelques
+Le phénomène de l'intelligence artificielle en Tunisie ne date que de quelques
 années, mais le boom que connaît ce secteur est extrêmement remarquable.
 Cependant, cette évolution ne va pas sans poser des difficultés. Mal du siècle,
 instrument d'instruction, d'éducation ou de tricherie, menace pour
 l'employabilité ou clé de l'avenir ; le phénomène de l'IA n'évolue pas sans
 poser de problèmes pour les usagers, la société et les entreprises.
 
-À l'instar de tout ce qui est nouveau, il est primordial qu'une fois le choc
-passé, il faut bien savoir comment le maîtriser et surtout en profiter.
+À l'instar de tout ce qui est nouveau, il est primordial que, une fois le choc passé, l'on sache comment le maîtriser et surtout en profiter.
 Une chose est certaine, ce phénomène fait boule de neige dans tous les domaines,
 y compris celui du commerce national et international. En effet, malgré une
 compréhension très approximative des possibilités réelles et des limites de
 l'IA, l'évolution de la demande dans ce secteur dépasse toutes les prévisions.
 
-C'est dans cette perspective que nous entamons ce projet d'intégration de cette
-nouvelle technologie avec une entreprise consciente de ce challenge pour défier
+C'est dans cette perspective que nous entamons notre projet de fin d'études avec une entreprise consciente de ce challenge pour défier
 une conjoncture agitée et une concurrence de plus en plus rude.
 
 La réalisation de ce projet, conformément au plan d'étude des ISETs, est motivée
@@ -321,39 +420,34 @@ par la dimension internationale de l'entreprise d'accueil et l'importance
 pratique du sujet qui combine le développement informatique et l'intelligence
 artificielle.
 
-Nous présentons ce projet de fin d'études avec modestie mais aussi avec une
-certaine confiance. Avec modestie, parce que nous avons apprécié l'énorme
-complexité de la tâche qui nous était confiée et qui nécessite de préalables
-connaissances en gestion, logistique et comptabilité des entreprises. Avec
-confiance, parce que nous avons bénéficié d'un très large éventail d'encadrants,
-d'experts et de compétences qui nous ont puissamment aidés.
+Ce projet de fin d'études a été conduit avec rigueur, en tenant compte de la complexité inhérente à la tâche, qui requiert des connaissances préalables en gestion, logistique et comptabilité des entreprises. Sa réalisation a bénéficié de l'accompagnement d'un encadrement académique et professionnel de qualité, dont les orientations et l'expertise ont contribué à enrichir ce travail.
 
-La plateforme WEEG a été développée selon la méthodologie agile Scrum, organisée
-en trois releases successives, depuis les fondations du système jusqu'au
+La plateforme WEEG a été développée selon le framework agile Scrum, organisée
+en deux releases successives, depuis les fondations du système jusqu'au
 déploiement en production et à l'extension mobile. Ce rapport est structuré en
-six chapitres :
+cinq chapitres :
 
-Le \textbf{premier chapitre} présente l'organisme d'accueil, l'ERP Al-Mizan,
-l'étude de l'existant et la solution proposée.
+Le \textbf{premier chapitre} présente le cadre du projet, l'organisme d'accueil,
+l'ERP Al Mizan, l'étude de l'existant, ainsi que les méthodologies et
+l'environnement matériel et logiciel utilisés.
 
-Le \textbf{deuxième chapitre} identifie les acteurs, spécifie les besoins
-fonctionnels et non fonctionnels, et présente l'architecture logicielle de la
-plateforme.
+Le \textbf{deuxième chapitre} offre un état de l'art en présentant les concepts
+clés : les ERP, les outils d'Intelligence Artificielle, leur intégration dans
+les ERP et les KPI pour le pilotage stratégique.
 
-Le \textbf{troisième chapitre} décrit la planification du Product Backlog,
-les user stories et la répartition des sprints sur les trois releases.
+Le \textbf{troisième chapitre} analyse et spécifie les besoins du projet en
+identifiant les acteurs, en détaillant les besoins fonctionnels et non
+fonctionnels, l'architecture logicielle, l'approche Scrum adoptée et la
+planification du Product Backlog et des sprints.
 
 Le \textbf{quatrième chapitre} couvre la Release~1, avec le Sprint~1 dédié aux
-fondations et à la sécurité, et le Sprint~2 consacré aux fonctionnalités des
-agents et managers.
+fondations et à la sécurité du système et le Sprint~2 consacré aux
+fonctionnalités des agents et managers.
 
 Le \textbf{cinquième chapitre} présente la Release~2, avec le Sprint~3 centré
-sur l'analyse intelligente par IA et le Sprint~4 dédié aux alertes et
-notifications.
-
-Le \textbf{sixième chapitre} traite la Release~3, couvrant le développement de
-l'application mobile React Native et le déploiement complet de la plateforme sur
-une infrastructure cloud (Render, Vercel, Supabase, Expo.dev).
+sur l'analyse intelligente par IA et le Sprint~4 dédié aux alertes, à la
+migration mobile et au déploiement complet de la plateforme sur une
+infrastructure cloud.
 
 Nous clôturons ce rapport par une conclusion générale et les perspectives
 d'évolution envisageables pour la plateforme WEEG.
@@ -382,7 +476,7 @@ Dans le but de mieux comprendre l'écosystème et le contexte général de notre
 
 \subsubsection{Présentation d'AMC Company : (ANWAR AL MADINA)}
 
-ANWAR AL MADINA COMPAGNY (AMC) est un consortium privé libyen de sociétés opérant dans divers domaines d'activités commerciales et industrielles.
+ANWAR AL MADINA COMPANY (AMC) est un consortium privé libyen de sociétés opérant dans divers domaines d'activités commerciales et industrielles.
 
 Fondé en 1987, il s'est développé pour devenir un acteur majeur dans l'importation et la distribution des produits électriques et des matériaux de construction en Libye.
 
@@ -392,8 +486,7 @@ Cependant, ses activités s'étalent à d'autres domaines tels que l'importation
 
 \begin{tcolorbox}[colback=fieldcolor, colframe=headercolor, boxrule=2pt, arc=4pt, left=10pt, right=10pt, top=10pt, bottom=10pt]
 \begin{Arabic}
-شركة أنــــــــــــــوار المدينــــــــة لاستراد الأجهزة و المواد الكهربائية وغير الكهربائية 
-(ANWAR AL MADINA). وقطع غيارها
+    شركة أنوار المدينة لاستيراد الأجهزة والمواد الكهربائية وغير الكهرببائية
 \end{Arabic}
 
 \textbf{Activité principale :} Import d'équipements et de matériaux électriques et non électriques et leurs pièces de rechange
@@ -409,7 +502,7 @@ Cependant, ses activités s'étalent à d'autres domaines tels que l'importation
 Import et distribution de matériaux électriques, appareils électroménagers, matériaux de construction, outils et équipements, produits sanitaires, produits alimentaires…
 \end{tcolorbox}
 
-Le consortium AMC dispose d'une capacité de stockage importante qui dépasse 24 000 mètres carrés, répartie stratégiquement dans les trois principales villes de la Libye : Tripoli, Misrata et Bengazi.
+Le consortium AMC dispose d'une capacité de stockage importante qui dépasse 24000 mètres carrés, répartie stratégiquement dans les trois principales villes de la Libye : Tripoli, Misrata et Benghazi.
 
 \subsubsection{PROTECTA GROUP}
 
@@ -508,13 +601,13 @@ Ce logiciel de gestion commerciale est une solution développée par la sociét�
 
 La force de cette solution est la centralisation des fonctions essentielles au sein d'une seule plateforme, ce qui facilite son exploitation et sa manipulation quotidienne.
 
-Les lignes qui suivent ont pour objectif de détailler les principaux avantages et certaines limites du l'ERP Al Mizan.
+Les lignes qui suivent ont pour objectif de détailler les principaux avantages et certaines limites de l'ERP Al Mizan.
 
-\subsubsection{Les avantages de Al-Mizan}
+\subsubsection{Les avantages de Al Mizan}
 
 \paragraph{Gestion intégrée complète}
 
-Al-Mizan regroupe plusieurs modules dans une solution unique, notamment :
+Al Mizan regroupe plusieurs modules dans une solution unique, notamment :
 
 \begin{itemize}
 \item La comptabilité (journaux, comptes, bilans, états financiers)
@@ -532,13 +625,13 @@ Cette caractéristique est particulièrement avantageuse pour les grandes entrep
 
 \paragraph{Outils d'analyse et de reporting}
 
-Al-Mizan dispose de fonctionnalités d'analyse et de génération de rapports permettant de visualiser globalement les performances financières : chiffres d'affaires, dépenses, état des stocks…
+Al Mizan dispose de fonctionnalités d'analyse et de génération de rapports permettant de visualiser globalement les performances financières : chiffres d'affaires, dépenses, état des stocks…
 
 Ces outils facilitent le suivi financier et soutiennent la prise de décision stratégique.
 
-\subsubsection{Les inconvénients de Al-Mizan}
+\subsubsection{Les inconvénients de Al Mizan}
 
-Malgré sa performance et ses nombreux atouts, Al-Mizan présente certaines limites dont les plus importantes sont :
+Malgré sa performance et ses nombreux atouts, Al Mizan présente certaines limites dont les plus importantes sont :
 
 \paragraph{Problèmes de performance}
 
@@ -552,7 +645,7 @@ Lors de l'exportation des rapports vers Excel, les données sont parfois désord
 
 Des différences apparaissent fréquemment entre les valeurs affichées dans le logiciel et celles exportées vers Excel. Ces incohérences obligent les utilisateurs à effectuer des vérifications manuelles et des corrections régulières.
 
-En conclusion, malgré ses petites limites, Al-Mizan reste un ERP complet de gestion intégré, puissant et parfaitement adapté aux entreprises qui souhaitent centraliser leurs opérations comptables et commerciales.
+En conclusion, malgré ses petites limites, Al Mizan reste un ERP complet de gestion intégré, puissant et parfaitement adapté aux entreprises qui souhaitent centraliser leurs opérations comptables et commerciales.
 
 \section{Étude de l'existant}
 
@@ -561,7 +654,7 @@ En conclusion, malgré ses petites limites, Al-Mizan reste un ERP complet de ges
 La prise de décision consciente, réaliste et fiable est la finalité de toute la
 chaîne du processus de gestion opérationnel présentée. Ce dernier s'appuie
 principalement sur les données consignées dans la base de données de l'ERP
-Al-Mizan. Ces données brutes, enregistrées sous forme de tables dans la base de
+Al Mizan. Ces données brutes, enregistrées sous forme de tables dans la base de
 données, sont dans un premier temps exportées sous forme de fichiers Excel vers
 Power Query par le biais de requêtes.
 
@@ -677,13 +770,13 @@ La solution proposée consiste à développer une application intégrant un syst
     \item Des alertes intelligentes basées sur des indicateurs fiables.
 \end{itemize}
 
-Cette solution permettra à l'entreprise FASI de jouer pleinement son rôle stratégique et d'améliorer sa performance et la prouesse globale du consortium AMC.
+Cette solution permettra à l'entreprise FASI de jouer pleinement son rôle stratégique et d'améliorer sa performance et l'efficacité globale du consortium AMC.
 
 \section{Méthodologies du travail}
 
 Au cours de ce chapitre, nous présentons la méthodologie adoptée pour la réalisation de notre projet.
 
-\subsection{Language de modélisation}
+\subsection{Langage de modélisation}
 
 L'objectif d'une méthodologie de modélisation et de conception est la formalisation des étapes préliminaires nécessaires à la réalisation d'un système.
 
@@ -974,6 +1067,28 @@ et performantes :
         React Native.
     \end{minipage}
 
+    % --- vite ---
+    \item \textbf{Vite}\cite{vite} \\
+    \begin{minipage}{0.18\textwidth}
+        \centering
+        \logo{images/logos/vite.jpg}
+    \end{minipage}
+    \hfill
+    \begin{minipage}{0.78\textwidth}
+        Retenu comme outil de build pour le projet React en raison de sa rapidité de compilation exceptionnelle permettant un rechargement instantané des modules, un démarrage quasi immédiat du serveur de développement et une mise en production optimisée.
+    \end{minipage}
+
+    % --- TypeScript ---
+    \item \textbf{TypeScript}\cite{typescript} \\
+    \begin{minipage}{0.18\textwidth}
+        \centering
+        \logo{images/logos/typescript.png}
+    \end{minipage}
+    \hfill
+    \begin{minipage}{0.78\textwidth}
+        Adopté pour le développement de l'application web en raison de son système de typage statique permettant la détection précoce des erreurs, l'amélioration de la lisibilité du code et la facilitation de sa maintenance à long terme.
+    \end{minipage}
+
 \end{itemize}
 
 \section{Conclusion}
@@ -1110,7 +1225,7 @@ commun. Les principaux domaines pris en charge sont les suivants.
 
 Le marché des ERP est dominé par quelques acteurs majeurs, chacun ciblant des
 segments différents et proposant des architectures distinctes. Le
-tableau~\ref{tab:erp-comparaison} synthétise les principales solutions disponibles
+tableau suivant synthétise les principales solutions disponibles
 sur le marché et leurs caractéristiques respectives.
 
 \begin{longtable}{|L{2.5cm}|L{2.5cm}|L{4.5cm}|L{4cm}|}
@@ -1264,92 +1379,103 @@ le code source du projet WEEG, vérifiables dans les repositories GitHub du proj
 \subsubsection{Bibliothèques Python utilisées}
 
 \begin{itemize}
-    \item \textbf{Pandas \& NumPy :} bibliothèques fondamentales pour la
-    manipulation de données tabulaires. Pandas traite les fichiers Excel importés
-    depuis Al Mizan ; NumPy fournit les calculs numériques sous-jacents. Utilisées
-    pour le nettoyage, la normalisation et l'agrégation des données de ventes,
-    stocks et crédits. La version 2.0 de Pandas, publiée en 2023, apporte des
-    améliorations significatives en termes de performance sur les grandes tables
-    et d'interopérabilité avec les bibliothèques d'analyse \cite{A1}.
+    \item \textbf{openpyxl :} bibliothèque Python dédiée à la lecture et à
+    l'écriture de fichiers Excel au format \texttt{.xlsx}. Dans WEEG, elle constitue
+    le point d'entrée des données : elle assure l'importation et le parsing des
+    fichiers Excel exportés depuis l'ERP Al Mizan, permettant d'extraire les données
+    de ventes, de stocks et de crédits clients avant leur traitement par les modules
+    d'analyse \cite{ref38}.
 
-    \item \textbf{Scikit-learn :} bibliothèque Python de référence pour le
-    machine learning classique (classification, régression, clustering, détection
-    d'anomalies). Dans WEEG, elle est utilisée pour l'Isolation Forest appliqué
-    à la détection d'anomalies dans les séries temporelles et pour les modèles
-    de scoring du risque crédit client. Les versions récentes (1.2 à 1.4,
-    publiées entre 2022 et 2024) ont renforcé les modules de détection
-    d'anomalies et la robustesse de l'API de validation croisée \cite{A2}.
+    \item \textbf{OpenAI SDK :} bibliothèque officielle Python pour l'accès aux
+    services OpenAI. Dans WEEG, elle est utilisée pour les appels de complétion
+    (chat/completions), la génération d'embeddings, la transcription vocale via
+    Whisper et la synthèse vocale via l'API TTS \cite{A4}\cite{ref45}\cite{ref43}\cite{ref42}\cite{ref44}.
 
-    \item \textbf{Prophet (Meta/Facebook) :} bibliothèque de prévision de séries
-    temporelles conçue pour les données présentant des tendances et des
-    saisonnalités multiples. Dans WEEG, Prophet constitue le moteur principal du
-    module de prévision des ventes à 30 jours avec intervalles de confiance. La
-    version 1.1, maintenue par Meta Open Source depuis 2022, intègre une
-    meilleure gestion des points de changement et une compatibilité étendue avec
-    l'écosystème Python scientifique \cite{A3}.
+    \item \textbf{Qdrant client :} bibliothèque Python pour l'interaction avec la
+    base de données vectorielle Qdrant. Dans WEEG, elle assure le stockage et la
+    recherche des embeddings dans le pipeline RAG \cite{ref39}.
 
-    \item \textbf{API OpenAI (modèle GPT-4o-mini) :} le projet intègre l'API
-    OpenAI (modèle \texttt{gpt-4o-mini}) pour la génération de texte intelligent :
-    briefing analytique quotidien, chatbot conseiller et explications
-    contextualisées des alertes. Ce modèle, annoncé par OpenAI en juillet 2024,
-    a été retenu pour son rapport coût/performance optimal sur les tâches
-    d'analyse de données structurées et de génération de texte en français, tout
-    en restant financièrement accessible pour un déploiement en production
-    \cite{A4}.
+    \item \textbf{LangGraph :} bibliothèque d'orchestration de workflows IA sous
+    forme de graphes d'états. Dans WEEG, elle pilote le pipeline RAG
+    multi-stratégie avec routage conditionnel vers les modes SQL, vectoriel,
+    text-to-SQL ou hybride selon l'intention et la complexité de la requête \cite{ref40}.
+
+    \item \textbf{python-dateutil :} bibliothèque de traitement avancé des dates.
+    Dans WEEG, elle gère les fenêtres glissantes sur 12 mois et la préparation
+    des analyses saisonnières \cite{ref41}.
+\end{itemize}
+
+\subsubsection{Services IA externes exploités}
+
+\begin{itemize}
+    \item \textbf{OpenAI GPT-4o / GPT-4o-mini :} utilisés pour le raisonnement,
+    la génération JSON structurée, les explications métier, les prévisions
+    narratives et les recommandations actionnables. GPT-4o-mini a été retenu pour
+    son rapport coût/performance optimal sur les tâches d'analyse quotidienne et de génération d'explications, tandis que GPT-4o est réservé aux requêtes complexes nécessitant une compréhension approfondie \cite{A4}\cite{ref45}.
+
+    \item \textbf{OpenAI text-embedding-3-small :} utilisé pour la vectorisation
+    des requêtes et des documents dans le pipeline RAG \cite{ref43}.
+
+    \item \textbf{OpenAI Whisper-1 :} utilisé pour la transcription audio en
+    texte (speech-to-text) \cite{ref42}.
+
+    \item \textbf{OpenAI TTS-1 :} utilisé pour la synthèse vocale (text-to-speech) \cite{ref44}.
 \end{itemize}
 
 \subsubsection{Algorithmes IA implémentés}
 
 \begin{itemize}
-    \item \textbf{Isolation Forest (Scikit-learn) :} algorithme non supervisé
-    pour la détection d'anomalies. Appliqué aux séries temporelles de ventes et
-    de transactions pour détecter des variations statistiquement inhabituelles.
-    Des travaux récents (2022) ont confirmé sa robustesse et sa scalabilité sur
-    des données de volume intermédiaire, en particulier lorsqu'il est combiné
-    avec une fenêtre glissante temporelle \cite{A5}.
+    \item \textbf{RAG multi-stratégie avec routage conditionnel :} pipeline
+    orchestré via LangGraph qui oriente chaque requête vers le mode de
+    récupération le plus adapté (SQL, vectoriel, text-to-SQL ou hybride) en
+    fonction de l'intention détectée, de la complexité et du score de confiance.
+    Le pipeline intègre également un cache sémantique et une mémoire
+    conversationnelle \cite{ref39}\cite{ref40}.
 
-    \item \textbf{Holt-Winters / lissage exponentiel triple :} méthode de
-    prévision classique pour les séries avec tendance et saisonnalité. Utilisée
-    dans WEEG comme modèle de référence (baseline) pour valider et calibrer les
-    prévisions Prophet.
+    \item \textbf{LLM intégré via API OpenAI :} les réponses finales et les
+    explications générées s'appuient sur GPT-4o, GPT-4o-mini et les modèles
+    d'embeddings OpenAI pour renforcer l'assistance décisionnelle \cite{A4}\cite{ref43}\cite{ref45}.
 
-    \item \textbf{Scoring client, Random Forest (Scikit-learn) :} algorithme
-    supervisé utilisé pour évaluer le risque de churn et le risque crédit à
-    partir de l'historique de paiement et de l'encours. Les implémentations
-    récentes de Random Forest dans scikit-learn (versions 1.2+) bénéficient
-    d'optimisations de performance notables \cite{A2}.
+    \item \textbf{Classification d'intention pondérée :} le composant
+    \texttt{IntentClassifier} combine des motifs regex, des poids et des
+    priorités pour produire un score de confiance orientant le routage des
+    requêtes.
 
-    \item \textbf{Classification ABC (règles métier + Pandas) :} segmentation des
-    produits selon leur contribution au chiffre d'affaires (catégories A, B, C),
-    alimentant le module d'optimisation des stocks et les recommandations de
-    réapprovisionnement.
+    \item \textbf{Text-to-SQL sécurisé :} pipeline complet allant de l'extraction
+    du schéma à la génération SQL par LLM, suivi d'une validation multi-niveaux
+    (whitelist de tables, contraintes, prévention des injections, limites de complexité) et d'une exécution paramétrée.
 
-    \item \textbf{LLM intégré via API OpenAI :} les grands modèles de langage
-    (LLMs) connaissent depuis 2022 une adoption croissante dans les applications
+    \item \textbf{Détection d'anomalies statistiques :} détection par z-score sur
+    séries temporelles journalières avec baseline glissante, seuils de sévérité
+    et corrélation multi-flux, complétée par une analyse produit Top-N.
+
+    \item \textbf{Scoring du risque client et prédiction du churn :} score
+    heuristique pondéré combinant la récence, la tendance de revenu, le risque
+    d'aging et le ratio overdue. Le résultat est labellisé en
+    \textit{low/medium/high/critical}, avec un raffinage optionnel par LLM pour
+    les profils à risque élevé.
+
+    \item \textbf{Prévision des revenus (Holt-Winters) :} méthode de lissage
+    exponentiel triple pour les séries présentant tendance et saisonnalité,
+    complétée par des intervalles de confiance Monte Carlo P10/P50/P90.
+
+    \item \textbf{Analyse de saisonnalité :} décomposition de type STL simplifiée
+    par moyenne mobile centrée, calcul d'indices saisonniers, tendance par
+    régression linéaire et prise en compte de l'effet Ramadan. Le module intègre
+    le taux de change LYD/USD en temps réel pour contextualiser les
+    recommandations.
+
+    \item \textbf{Optimisation des stocks :} classification ABC, calcul du stock
+    de sécurité dynamique par saison et niveau de service, point de commande,
+    EOQ (formule de Wilson) et gestion des situations d'urgence.
+
+    \item \textbf{LLM intégré via API OpenAI :} depuis 2022, les grands modèles
+    de langage connaissent une adoption croissante dans les applications
     d'entreprise pour la génération de rapports, l'analyse de données et
-    l'assistance décisionnelle. GPT-4o-mini s'inscrit dans cette dynamique en
-    permettant à WEEG de produire des briefings analytiques en langage naturel
-    directement consommables par les managers \cite{A4}\cite{A6}.
-\end{itemize}
-
-\subsubsection{Outils étudiés mais non retenus}
-
-Les outils suivants ont été analysés en phase comparative avant d'être écartés
-pour les raisons mentionnées :
-
-\begin{itemize}
-    \item \textbf{TensorFlow / Keras :} non retenu, complexité de déploiement
-    excessive et volume de données insuffisant pour justifier des architectures
-    deep learning.
-
-    \item \textbf{PyTorch :} non retenu pour les mêmes raisons que TensorFlow.
-
-    \item \textbf{ARIMA :} non retenu, les données présentent une forte
-    saisonnalité que Prophet gère nativement avec une meilleure précision et sans
-    nécessiter de stationnarisation préalable.
-
-    \item \textbf{LSTM :} non retenu, nécessite un volume de données
-    historiques important, non disponible dans le contexte actuel du projet.
+    l'assistance décisionnelle \cite{A4}\cite{A6}. Dans WEEG, GPT-4o-mini produit
+    des briefings analytiques quotidiens et des explications d'alertes
+    directement consommables par les managers, avec un fallback déterministe
+    assurant la continuité du service en cas d'indisponibilité de l'API.
 \end{itemize}
 
 % ───────────────────────────────────────────────────────────────────
@@ -1362,28 +1488,15 @@ le contexte professionnel et décisionnel sont nombreux et directement pertinent
 pour la plateforme WEEG.
 
 \begin{itemize}
-    \item \textbf{Prévision de la demande :} les modèles de machine learning
-    surpassent désormais les méthodes statistiques classiques sur les séries
-    temporelles commerciales, en exploitant conjointement la saisonnalité, les
-    promotions, les événements calendaires et le contexte marché.
+    \item \textbf{Prévision de la demande :} Le module de prévision s'appuie sur la méthode de Holt-Winters (lissage exponentiel triple) pour anticiper le chiffre d'affaires à court terme sur des séries présentant tendance et saisonnalité, complétée par des intervalles de confiance Monte Carlo P10/P50/P90. Les résultats sont restitués sous forme d'explications narratives générées par GPT-4o-mini, directement exploitables par les managers.
 
-    \item \textbf{Détection d'anomalies :} les algorithmes non supervisés comme
-    Isolation Forest permettent d'identifier automatiquement des comportements
-    atypiques dans les données de vente ou de transactions, signalant des
-    situations nécessitant une attention particulière.
+    \item \textbf{Détection d'anomalies :} Des méthodes d'analyse statistique identifient automatiquement les comportements atypiques dans les données de vente et de transactions, signalant en temps réel les situations qui requièrent une attention particulière.
 
-    \item \textbf{Prédiction du churn client :} les modèles de scoring supervisés
-    permettent d'anticiper les risques de fin de relation commerciale ou
-    d'insolvabilité, orientant les actions commerciales et de recouvrement.
+    \item \textbf{Prédiction du churn client :} Des modèles de scoring, combinant règles métier et assistance IA, permettent d'anticiper les risques de désengagement client et d'orienter proactivement les actions commerciales.
 
-    \item \textbf{Optimisation des stocks :} la combinaison de la classification
-    ABC et des modèles de prévision permet de minimiser simultanément les coûts
-    de rupture et de surstockage.
+    \item \textbf{Optimisation des stocks :} L'analyse croisée des niveaux de stock, de la rotation des articles et des risques de rupture aide à réduire simultanément le surstockage et les ruptures d'approvisionnement.
 
-    \item \textbf{Génération de rapports en langage naturel :} depuis 2022, les
-    LLMs ouvrent une nouvelle génération d'interfaces décisionnelles où le
-    manager interagit en langage naturel avec les données de son organisation,
-    sans nécessiter de compétences en analyse de données.
+    \item \textbf{Génération de réponses en langage naturel :} Un assistant conversationnel offre la possibilité d'interroger données et indicateurs métier en langage naturel, sans nécessiter de compétences avancées en analyse de données.
 \end{itemize}
 
 % ═══════════════════════════════════════════════════════════════════
@@ -1423,14 +1536,7 @@ l'analyse de données pour les profils non techniques \cite{A6}.
 \subsection{Automatisation des processus métier}
 % ───────────────────────────────────────────────────────────────────
 
-WEEG implémente deux axes principaux d'automatisation. Le premier concerne la
-génération automatique d'alertes : le système surveille en permanence les KPIs
-calculés et déclenche des notifications dès qu'un seuil critique est franchi ---
-rupture de stock imminente, client à risque élevé, anomalie de vente détectée par
-Isolation Forest. Le second axe repose sur la génération automatique de rapports
-analytiques en langage naturel via GPT-4o-mini, produisant chaque matin un
-briefing synthétique consommable par le management sans consultation directe des
-tableaux de bord.
+WEEG articule son automatisation autour de deux axes complémentaires. Le premier concerne la génération automatique d'alertes : le système surveille en continu les KPIs calculés et déclenche des notifications ciblées dès qu'un seuil critique est franchi — rupture de stock imminente, client à risque élevé ou anomalie de vente détectée par analyse statistique z-score. Le second axe repose sur la génération automatique de rapports analytiques en langage naturel via GPT-4o-mini : à chaque importation de fichiers Excel et mise à jour des données, un nouveau rapport est produit automatiquement, reflétant en temps réel l'état des indicateurs et des performances de l'entreprise.
 
 % ───────────────────────────────────────────────────────────────────
 \subsection{Optimisation des performances}
@@ -1440,16 +1546,18 @@ tableaux de bord.
     calcul du point de réapprovisionnement, permettant une gestion automatisée
     des commandes fournisseurs.
 
-    \item \textbf{Ventes :} Prophet et Holt-Winters pour des prévisions à 30
-    jours avec intervalles de confiance, permettant de planifier les
-    approvisionnements et les capacités commerciales.
+    \item \textbf{Ventes :} méthode Holt-Winters (lissage exponentiel triple)
+    avec intervalles de confiance Monte Carlo P10/P50/P90, permettant de
+    planifier les approvisionnements et les capacités commerciales.
 
-    \item \textbf{Crédit client :} scoring Random Forest pour évaluer le risque
-    d'insolvabilité de chaque client et prioriser les actions de recouvrement.
+    \item \textbf{Crédit client :} scoring heuristique pondéré intégrant la
+    récence, la tendance de revenu, le risque d'aging et le ratio overdue, avec
+    labellisation \textit{low/medium/high/critical} et raffinage optionnel par LLM
+    pour les profils à risque élevé.
 
-    \item \textbf{Anomalies :} Isolation Forest appliqué aux séries temporelles
-    de ventes et transactions pour détecter automatiquement les comportements
-    inhabituels.
+    \item \textbf{Anomalies :} détection par z-score sur séries temporelles
+    journalières avec baseline glissante, seuils de sévérité et corrélation
+    multi-flux, complétée par une analyse produit Top-N.
 \end{itemize}
 
 % ───────────────────────────────────────────────────────────────────
@@ -1461,7 +1569,7 @@ FASI Tunisia. Elle combine une architecture backend Django REST Framework
 (architecture MTV avec Service Layer), une base de données PostgreSQL pour le
 stockage des données importées et des résultats IA, un moteur IA modulaire
 comprenant un KPI analyzer, un anomaly detector, un seasonal trend analyzer, un
-churn predictor, un stock optimizer, un forecast engine basé sur Prophet et un
+churn predictor, un stock optimizer, un forecast engine et un
 critical briefing generator basé sur GPT-4o-mini, ainsi qu'une logique de
 fallback assurant la continuité du service en cas d'indisponibilité de l'API
 OpenAI. L'interface utilisateur est déclinée en une application web React et une
@@ -1543,139 +1651,176 @@ constat.
 % ───────────────────────────────────────────────────────────────────
 
 La plateforme WEEG calcule et expose trois familles de KPI, correspondant aux
-trois domaines métier prioritaires identifiés lors de l'analyse des besoins de
-FASI Tunisia.
+trois domaines métier prioritaires du système : les ventes, les stocks et les
+crédits clients. Chaque famille regroupe des indicateurs directement exploitables
+pour le pilotage opérationnel et la prise de décision.
 
 \subsubsection{KPI des ventes}
 
 \begin{itemize}
-    \item \textbf{Chiffre d'affaires (CA) :} mesure agrégée du volume de ventes
-    réalisé sur une période donnée. Dans WEEG, le CA est calculé et décomposable
-    dynamiquement par produit, par branche commerciale ou par région, permettant
-    une analyse multidimensionnelle de la performance commerciale.
+    \item \textbf{Chiffre d'affaires total :} il représente le montant global des
+    ventes réalisées sur la période analysée.
 
-    \item \textbf{Évolution du CA (\%) :} taux de croissance du chiffre
-    d'affaires par rapport à une période de référence choisie (mois précédent,
-    même mois de l'année N-1). Cet indicateur permet de contextualiser la
-    performance brute et d'identifier des tendances de fond ou des ruptures de
-    dynamique.
+    \[
+        CA_{total} = \sum total\_out
+    \]
 
-    \item \textbf{Panier moyen :} rapport entre le chiffre d'affaires total et le
-    nombre de transactions réalisées sur la période. Cet indicateur reflète la
-    valeur moyenne d'une transaction et constitue un levier d'action direct pour
-    les politiques de vente incitative ou croisée.
+    \item \textbf{Évolution des ventes :} cet indicateur mesure la variation du
+    chiffre d'affaires entre l'exercice courant et l'exercice précédent.
 
-    \item \textbf{Performance par produit :} classement des produits selon leur
-    contribution relative au chiffre d'affaires, alimentant directement la
-    classification ABC et les décisions de référencement ou de déréférencement.
+    \[
+        \text{Évolution} = \frac{CA_{courant} - CA_{précédent}}{CA_{précédent}} \times 100
+    \]
+
+    \item \textbf{Marge brute par produit :} elle évalue la rentabilité brute
+    générée par chaque produit vendu.
+
+    \[
+        Marge\ brute = (prix\_out - balance\_price) \times qty\_out
+    \]
+
+    \item \textbf{Taux de marge brute :} il exprime la part du revenu conservée
+    après déduction du coût d'achat.
+
+    \[
+        Taux\ de\ marge = \frac{Marge\ brute}{CA_{total}} \times 100
+    \]
+
+    \item \textbf{Vitesse moyenne des ventes :} elle permet d'apprécier le rythme
+    moyen de génération du chiffre d'affaires et des quantités vendues.
+
+    \[
+        CA_{journalier} = \frac{CA_{total}}{nombre\ de\ jours}
+    \]
+
+    \[
+        Quantité_{journalière} = \frac{Quantité\ totale\ vendue}{nombre\ de\ jours}
+    \]
 \end{itemize}
 
 \subsubsection{KPI des stocks}
 
 \begin{itemize}
-    \item \textbf{Taux de rotation des stocks :} calculé selon la formule
-    $\text{Rotation} = \text{Coût des ventes} / \text{Stock moyen}$. Cet
-    indicateur mesure le nombre de fois que le stock est renouvelé sur la période
-    analysée. Un taux élevé indique une bonne fluidité commerciale, tandis qu'un
-    taux faible signale un risque de surstockage ou d'obsolescence.
+    \item \textbf{Taux de rotation du stock :} il mesure la vitesse à laquelle
+    les produits sortent du stock.
 
-    \item \textbf{Taux de couverture (jours) :} calculé selon la formule
-    $\text{Couverture} = \text{Stock actuel} / \text{Consommation journalière}$.
-    Il exprime le nombre de jours pendant lesquels le stock actuel peut couvrir
-    la demande sans réapprovisionnement, permettant d'anticiper les commandes
-    fournisseurs.
+    \[
+        Rotation = \frac{Quantité\ vendue}{Stock\ initial + Achats}
+    \]
 
-    \item \textbf{Taux de rupture :} proportion du temps ou des références pour
-    lesquels un produit est indisponible. Ce KPI mesure directement l'impact du
-    pilotage des stocks sur la satisfaction client et les pertes de ventes.
+    \item \textbf{Jours de couverture :} il indique combien de jours le stock
+    actuel peut satisfaire la demande au rythme observé.
 
-    \item \textbf{EOQ (Economic Order Quantity --- formule de Wilson) :} quantité
-    économique de commande calculée selon
-    $\text{EOQ} = \sqrt{2DS/H}$,
-    où $D$ désigne la demande annuelle, $S$ le coût fixe par commande et $H$ le
-    coût de possession annuel d'une unité. L'EOQ minimise le coût total de
-    gestion des stocks en équilibrant coûts de commande et coûts de possession.
+    \[
+        Couverture\ (jours) = \frac{Stock\ courant}{Ventes\ journalières\ moyennes}
+    \]
+
+    \item \textbf{Stock de sécurité :} il sert de réserve pour limiter les
+    ruptures.
+
+    \[
+        Stock\ de\ sécurité = Ventes\ mensuelles\ moyennes \times 0.5
+    \]
+
+    \item \textbf{Stock minimum :} ce seuil représente le niveau minimal à
+    maintenir pour éviter une rupture prochaine.
+
+    \[
+        Stock_{min} = Ventes\ mensuelles\ moyennes \times \frac{14}{30} + Stock\ de\ sécurité
+    \]
+
+    \item \textbf{Quantité de réapprovisionnement :} elle indique la quantité à
+    commander pour atteindre le niveau cible.
+
+    \[
+        Réapprovisionnement = \max(0, Stock_{max} - Stock_{courant})
+    \]
 \end{itemize}
 
 \subsubsection{KPI des crédits clients}
 
 \begin{itemize}
-    \item \textbf{Encours client total :} montant global des créances en cours,
-    c'est-à-dire les ventes réalisées mais non encore encaissées. Cet indicateur
-    constitue un signal d'alerte sur la liquidité de l'entreprise.
+    \item \textbf{Taux de clients à crédit :} il mesure la part des clients
+    actifs travaillant à crédit.
 
-    \item \textbf{Aging (répartition par ancienneté) :} décomposition de
-    l'encours en tranches temporelles (0--30 jours, 30--60 jours, 60--90 jours,
-    plus de 90 jours), permettant d'identifier les créances à risque élevé
-    nécessitant une action de recouvrement prioritaire.
+    \[
+        Taux = \frac{Nombre\ de\ clients\ ayant\ un\ solde\ crédit}{Nombre\ total\ de\ clients} \times 100
+    \]
 
-    \item \textbf{Score de risque client :} indicateur composite calculé par le
-    modèle Random Forest de WEEG, intégrant l'historique de paiement,
-    l'ancienneté de l'encours et le volume des transactions. Il permet de
-    prioriser les efforts de recouvrement et d'adapter les conditions de crédit
-    accordées.
+    \item \textbf{Taux de crédit total :} il estime la part du chiffre
+    d'affaires réalisée sous forme de crédit.
 
-    \item \textbf{DSO (Days Sales Outstanding) :} calculé selon la formule
-    $\text{DSO} = (\text{Encours} / \text{CA}) \times \text{Nombre de jours de
-    la période}$. Cet indicateur exprime le délai moyen de paiement des clients
-    en nombre de jours et constitue un baromètre de la santé du poste clients.
+    \[
+        Taux = \frac{CA_{total} - Grand\ total\ des\ créances}{CA_{total}} \times 100
+    \]
+
+    \item \textbf{Taux d'impayés :} il mesure la proportion des montants en
+    retard par rapport à l'encours total.
+
+    \[
+        Taux\ d'impayés = \frac{Montant\ en\ retard}{Encours\ total} \times 100
+    \]
+
+    \item \textbf{Délai moyen de paiement / DSO :} il mesure le nombre moyen de
+    jours nécessaires pour recouvrer les créances.
+
+    \[
+        DSO = \frac{\sum(Montant\ par\ tranche \times Point\ milieu\ de\ la\ tranche)}{Encours\ total}
+    \]
+
+    \item \textbf{Taux de recouvrement :} il mesure la proportion des ventes à
+    crédit déjà recouvrée.
+
+    \[
+        Taux = \frac{max(0, CA_{crédit} - Grand\ total)}{CA_{total} - Grand\ total} \times 100
+    \]
 \end{itemize}
 
 % ───────────────────────────────────────────────────────────────────
 \subsection{Méthodes de calcul dans WEEG}
 % ───────────────────────────────────────────────────────────────────
 
-Le moteur de calcul des KPI de WEEG repose sur la bibliothèque Pandas pour le
-traitement des données tabulaires importées depuis Al Mizan et sur NumPy pour les
-opérations numériques de bas niveau. Les formules de calcul sont implémentées sous
-forme de services Python indépendants, exposés via des API REST construites avec
-Django REST Framework. Ces API sont consommées par le frontend React pour la
-génération de visualisations interactives (graphiques d'évolution, jauges,
-tableaux de synthèse) et par l'application mobile React Native.
+Les KPI de WEEG sont calculés à partir des données importées depuis l'ERP Al
+Mizan et structurés en services métiers dédiés. Les indicateurs de ventes
+s'appuient sur les montants de sortie, les quantités vendues et les marges par
+produit. Les KPI de stocks exploitent les quantités en stock, les achats et les
+ventes journalières afin d'estimer la rotation, la couverture et les seuils de
+réapprovisionnement. Les KPI de crédits clients se basent sur l'encours, les
+créances échues et les tranches d'ancienneté pour produire des mesures de
+liquidité et de recouvrement.
 
-Une attention particulière a été portée à la robustesse du calcul face aux données
-manquantes ou incohérentes : des mécanismes de validation et de normalisation sont
-appliqués en amont de chaque calcul. Le module IA adapte automatiquement ses seuils
-d'alerte en fonction de la volumétrie de données disponibles, garantissant la
-pertinence des indicateurs même pour des entreprises ayant un historique de données
-limité.
+Ces calculs sont exposés via des API REST et utilisés dans les tableaux de bord
+de l'application web et mobile. Une attention particulière est portée à la
+cohérence des données d'entrée afin de garantir des résultats fiables même en
+présence de valeurs manquantes ou de données hétérogènes.
 
 % ───────────────────────────────────────────────────────────────────
 \subsection{Importance de chaque KPI dans la prise de décision}
 % ───────────────────────────────────────────────────────────────────
 
-Chaque famille de KPI couvre un domaine décisionnel distinct mais interconnecté,
-contribuant à une vision globale et cohérente de la performance de l'entreprise.
+Chaque famille de KPI alimente un levier de décision précis.
 
-Les KPI des ventes (évolution du CA et performance par produit) guident
-directement les décisions de politique commerciale : ajustement des tarifs,
-réorientation du portefeuille produits, détection des marchés en déclin ou en
-croissance. Le panier moyen oriente les stratégies d'upselling et de
-cross-selling.
+Les KPI de ventes permettent de suivre la dynamique commerciale, d'évaluer la
+rentabilité par produit et de détecter rapidement les variations d'activité.
+Ils servent à orienter les actions commerciales, le pilotage des marges et les
+choix de répartition des efforts de vente.
 
-Les KPI des stocks (taux de rotation, taux de couverture et taux de rupture)
-alimentent les décisions d'approvisionnement et de négociation avec les
-fournisseurs. L'EOQ, calculé automatiquement par WEEG pour chaque référence,
-transforme ces indicateurs en recommandations de commande directement actionnables,
-sans intervention manuelle.
+Les KPI de stocks aident à prévenir les ruptures, à dimensionner les stocks de
+sécurité et à fixer des seuils de réapprovisionnement pertinents. Ils soutiennent
+les décisions d'achat et d'optimisation des niveaux d'inventaire.
 
-Les KPI des crédits clients (DSO, aging et score de risque) orientent la
-gestion du poste clients et les décisions de recouvrement. En identifiant
-automatiquement les clients à risque élevé, WEEG permet aux équipes financières
-de concentrer leurs efforts là où l'impact est le plus significatif sur la
-trésorerie de l'entreprise.
+Les KPI de crédits clients fournissent une lecture claire du risque d'impayé,
+du poids du crédit dans le chiffre d'affaires et du délai de recouvrement. Ils
+facilitent le suivi de la trésorerie et la priorisation des relances.
 
-La valeur ajoutée de la plateforme WEEG réside précisément dans l'articulation de
-ces trois familles de KPI en un tableau de bord unifié, enrichi par des alertes
-proactives et des briefings en langage naturel. Les indicateurs ne se contentent
-pas de constater : ils déclenchent des actions. C'est cette philosophie de
-l'indicateur actionnable qui distingue WEEG d'un simple outil de reporting.
+L'ensemble de ces indicateurs est intégré dans un tableau de bord unifié afin de
+transformer l'analyse en action concrète.
 
 % ───────────────────────────────────────────────────────────────────
 \section{Conclusion}
 % ───────────────────────────────────────────────────────────────────
 
-Ce chapitre a passé en revue les quatre axes fondamentaux sur lesquels repose la plateforme WEEG : les systèmes ERP, les outils d'intelligence artificielle, leur intégration et les indicateurs de performance. L'analyse des ERP existants a mis en évidence leurs limites structurelles et a justifié le besoin d'une couche analytique intelligente et personnalisée, complémentaire à Al Mizan. L'étude des outils IA retenus (Pandas, Scikit-learn, Prophet et l'API OpenAI) a confirmé la pertinence des choix technologiques opérés, tandis que la revue sur l'intégration de l'IA dans les ERP a validé l'approche architecturale adoptée. Enfin, le cadre des KPI a établi le lien entre chaque indicateur et les décisions métier concrètes que le système doit supporter. Ces éléments constituent le socle théorique et technique sur lequel s'appuie le chapitre suivant, consacré à l'analyse et à la spécification des besoins du projet.
+Ce chapitre a passé en revue les quatre axes fondamentaux sur lesquels repose la plateforme WEEG : les systèmes ERP, les outils d'intelligence artificielle, leur intégration et les indicateurs de performance. L'analyse des ERP existants a mis en évidence leurs limites structurelles et a justifié le besoin d'une couche analytique intelligente et personnalisée, complémentaire à Al Mizan. L'étude des outils IA retenus (OpenAI SDK, Qdrant, LangGraph et les algorithmes maison de scoring et de prévision) a confirmé la pertinence des choix technologiques opérés, tandis que la revue sur l'intégration de l'IA dans les ERP a validé l'approche architecturale adoptée. Ces éléments constituent le socle théorique et technique sur lequel s'appuie le chapitre suivant, consacré à l'analyse et à la spécification des besoins du projet.
 
 %====================================================
 % CHAPITRE 3
@@ -1699,9 +1844,9 @@ Dans le cadre de notre application d'aide à la décision pour la gestion des ve
 
 \begin{itemize}
 
-\item \textbf{L'Agent :} un employé opérationnel de FASI. Il peut accéder à l'application pour importer des fichiers Excel comportant les données de vente. Il peut également consulter les tableaux de bord et les KPIs, générer des rapports, vérifier la disponibilité des produits, consulter l'historique des paiements clients et gérer les alertes qui lui sont destinées.
+\item \textbf{L'Agent :} un employé opérationnel de FASI. Il peut accéder à l'application pour importer des fichiers Excel comportant les données de vente. Il peut également consulter les tableaux de bord et les KPIs, générer des rapports, vérifier la disponibilité des produits, consulter l'historique des paiements clients, comparer les performances sur plusieurs périodes, exporter des rapports au format PDF  et gérer les alertes qui lui sont destinées.
 
-\item \textbf{Le Manager :} est le responsable opérationnel. Il peut, en plus des prérogatives de l'agent, créer et gérer les comptes agents, configurer les seuils d'alerte, comparer les performances sur plusieurs périodes, exporter des rapports au format PDF ou Excel, planifier des rapports automatisés et s'inscrire via un formulaire de demande d'accès.
+\item \textbf{Le Manager :} est le responsable opérationnel. Il peut, en plus des prérogatives de l'agent, créer et gérer les comptes agents , s'inscrire via un formulaire de demande d'accès et interagir avec le chatbot intelligent d'aide à la décision.
 
 \item \textbf{L'Administrateur :} est le responsable de la gouvernance du système. Il gère les comptes managers (vérification, approbation, rejet, suspension, réactivation). Ainsi, il dispose d'une vue globale sur l'ensemble des utilisateurs.
 
@@ -1728,6 +1873,8 @@ Les besoins fonctionnels décrivent les fonctionnalités concrètes que le syst�
 \item Générer des rapports analytiques
 \item Consulter l'historique des paiements clients
 \item Vérifier la disponibilité des produits en stock
+\item Comparer les performances sur différentes périodes
+\item Exporter des rapports au format PDF 
 \item Recevoir des notifications système
 \item Consulter l'historique des alertes
 \item Marquer des alertes comme résolues
@@ -1748,11 +1895,7 @@ En plus des prérogatives de l'agent, le Manager peut :
 \item Mettre à jour les profils des agents
 \item Supprimer des comptes agents
 \item Réinitialiser le mot de passe d'un agent
-\item Configurer les paramètres système
-\item Configurer les seuils d'alerte
-\item Comparer les performances sur différentes périodes
-\item Exporter des rapports au format PDF ou Excel
-\item Planifier des rapports automatisés
+\item Interagir avec le chatbot intelligent d'aide à la décision
 
 \end{itemize}
 
@@ -1794,9 +1937,9 @@ En plus des prérogatives de l'agent, le Manager peut :
 
 \begin{itemize}
 
-\item \textbf{Sécurité :} protection des données financières et clients, authentification robuste, gestion fine des permissions par rôle, chiffrement des données en transit et au repos.
+\item \textbf{Sécurité :} protection des données financières et clients, authentification robuste, gestion fine des permissions par rôle.
 
-\item \textbf{Performance :} traitement de volumes importants de données issues de l'ERP al-mizan et des fichiers Excel, avec des temps de réponse acceptables.
+\item \textbf{Performance :} traitement de volumes importants de données issues de l'ERP Al Mizan et des fichiers Excel, avec des temps de réponse acceptables.
 
 \item \textbf{Fiabilité :} cohérence des données suite aux imports, des calculs statistiques et de la génération des alertes IA.
 
@@ -1813,7 +1956,7 @@ En plus des prérogatives de l'agent, le Manager peut :
 La figure ci-après présente le diagramme des cas d'utilisation générale :
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.8\linewidth]{images/global usecase.png}
+    \includegraphics[width=0.7\linewidth]{images/global usecase.png}
     \caption{Diagramme des cas d'utilisation générale de l'application}
     \label{fig:usecase}
 \end{figure}
@@ -1825,7 +1968,7 @@ La figure ci-après présente le diagramme des cas d'utilisation générale :
 
 L'application proposée est divisée en trois parties principales : un backend, une partie web et une partie mobile. Chacune de ces parties repose sur une architecture spécifique, choisie pour répondre à ses propres besoins tout en interagissant de manière cohérente avec le backend commun.
 
-L’image ci-dessous illustre l’architecture globale de l’application, incluant la partie web(Django MVT) et la partie mobile (React Native avec APIs REST Django) :
+L’image ci-dessous illustre l’architecture globale de l’application, incluant la partie web(Django MTV) et la partie mobile (React Native avec APIs REST Django) :
 
 \begin{figure}[H]
     \centering
@@ -1838,11 +1981,11 @@ L’image ci-dessous illustre l’architecture globale de l’application, inclu
 
 Le backend de l'application repose sur une architecture MTV (Modèle-Template-Vue) enrichie d'une couche de services (Service Layer). Cette approche constitue une bonne pratique Django pour un projet de cette envergure. Elle a été choisie pour sa clarté, sa modularité et sa capacité à séparer rigoureusement les responsabilités.
 
-La figure ci-dessous illustre l'architecture backend MVT + Service Layer Django :
+La figure ci-dessous illustre l'architecture backend MTV + Service Layer Django :
 \begin{figure}[H]
     \centering
     \includegraphics[width=1\linewidth]{images/scrum/Gemini_Generated_Image_1dr4d41dr4d41dr4.png}
-    \caption{Architecture backend MVT + Service Layer Django}
+    \caption{Architecture backend MTV + Service Layer Django}
     \label{fig:placeholder2}
 \end{figure}
 
@@ -1864,7 +2007,7 @@ Constitue le cœur de cette architecture. Elle encapsule la logique métier comp
 
 \subsection{Partie Web : Architecture MVVM avec React}
 
-La partie web repose sur une architecture MVVM (Modèle–Vue–ViewModel) adaptée à React. Malgré que React ne soit pas un framework MVVM explicite, cette organisation respecte la séparation des responsabilités. En effet, les hooks jouent le rôle du ViewModel.
+La partie web repose sur une architecture MVVM (Modèle–Vue–ViewModel) adaptée à React. Bien que React ne soit pas un framework MVVM au sens strict, cette organisation respecte la séparation des responsabilités. En effet, les hooks jouent le rôle du ViewModel.
 
 La figure ci-dessous illustre l'architecture frontend MVVM (Modèle–Vue–ViewModel) adaptée à React :
 \begin{figure}[H]
@@ -1959,120 +2102,134 @@ L'équipe Scrum est composée des membres suivants :
 Les User Stories sont des descriptions courtes des fonctionnalités du système, rédigées du point de vue de l'utilisateur final selon le modèle :
 
 \begin{quote}
-« En tant que [qui], je veux [quoi], afin de [pourquoi] »
-\end{quote}
+« En tant que [qui], je peux [quoi] »
+\end{quote} 
 
 Chaque User Story est associée à un identifiant Jira (SCRUM-XX), une priorité et une complexité estimée.
 
-\begin{longtable}{|>{\RaggedRight\hyphenpenalty=10000\exhyphenpenalty=10000\arraybackslash}p{7.5cm}|>{\RaggedRight\hyphenpenalty=10000\exhyphenpenalty=10000\arraybackslash}p{7.5cm}|}
+\begin{longtable}{|L{2.3cm}|L{13cm}|}
 \hline
 \multicolumn{2}{|c|}{\textbf{User Stories de l'Agent}} \\
 \hline
-En tant qu'agent, je veux me connecter au système, afin d'accéder à mes fonctionnalités. &
-En tant qu'agent, je veux me déconnecter du système, afin de sécuriser ma session. \\
+\textbf{SCRUM-49} & En tant qu'agent, je peux me connecter au système. \\
 \hline
-
-En tant qu'agent, je veux changer mon mot de passe, afin de maintenir la sécurité de mon compte. &
-En tant qu'agent, je veux consulter mon profil, afin de vérifier mes informations personnelles. \\
+\textbf{SCRUM-2} & En tant qu'agent, je peux me déconnecter du système. \\
 \hline
-
-En tant qu'agent, je veux importer des fichiers Excel dans la base de données, afin d'alimenter le système avec les données de vente et de stock. &
-En tant qu'agent, je veux consulter les rapports et les KPIs, afin de suivre les performances de FASI. \\
+\textbf{SCRUM-3} & En tant qu'agent, je peux changer mon mot de passe. \\
 \hline
-
-En tant qu'agent, je veux filtrer les tableaux de bord, afin d'affiner mon analyse selon mes besoins. &
-En tant qu'agent, je veux générer des rapports, afin de disposer d'une synthèse exploitable. \\
+\textbf{SCRUM-4} & En tant qu'agent, je peux consulter mon profil. \\
 \hline
-
-En tant qu'agent, je veux consulter l'historique des paiements clients, afin d'évaluer les risques de crédit. &
-En tant qu'agent, je veux vérifier la disponibilité des produits, afin d'éviter les ruptures de stock. \\
+\textbf{SCRUM-7} & En tant qu'agent, je peux importer des fichiers Excel dans la base de données. \\
 \hline
-
-En tant qu'agent, je veux recevoir des notifications, afin d'être alerté des situations critiques. &
-En tant qu'agent, je veux consulter l'historique des alertes, afin de suivre les événements passés. \\
+\textbf{SCRUM-41} & En tant qu'agent, je souhaite télécharger des modèles de données. \\
 \hline
-
-En tant qu'agent, je veux marquer des alertes comme résolues, afin de gérer et clôturer les incidents. &
-En tant qu'agent, je veux télécharger des données sous forme de rapport, afin de partager les résultats en dehors du système. \\
+\textbf{SCRUM-15} & En tant qu'agent, je peux filtrer les données. \\
 \hline
-
+\textbf{SCRUM-8} & En tant qu'agent, je peux consulter les rapports et les KPI. \\
+\hline
+\textbf{SCRUM-6} & En tant qu'agent, je peux consulter l'historique des paiements des clients. \\
+\hline
+\textbf{SCRUM-10} & En tant qu'agent, je peux vérifier la disponibilité des produits. \\
+\hline
+\textbf{SCRUM-16} & En tant qu'agent, je peux générer des rapports. \\
+\hline
+\textbf{SCRUM-19} & En tant qu'agent, je peux exporter les rapports. \\
+\hline
+\textbf{SCRUM-13} & En tant qu'agent, je peux marquer les alertes comme résolues. \\
+\hline
+\textbf{SCRUM-11} & En tant qu'agent, je peux recevoir des notifications. \\
+\hline
+\textbf{SCRUM-12} & En tant qu'agent, je peux consulter l'historique des alertes. \\
+\hline
+\textbf{SCRUM-52} & En tant qu'agent, je souhaite consulter les KPI depuis l'application mobile. \\
+\hline
 \caption{User Stories de l'Agent}
 \end{longtable}
 
-\begin{longtable}{|>{\RaggedRight\hyphenpenalty=10000\exhyphenpenalty=10000\arraybackslash}p{7.5cm}|>{\RaggedRight\hyphenpenalty=10000\exhyphenpenalty=10000\arraybackslash}p{7.5cm}|}
+\begin{longtable}{|L{2.3cm}|L{13cm}|}
 \hline
-\multicolumn{2}{|c|}{\textbf{User Stories du manager}} \\
+\multicolumn{2}{|c|}{\textbf{User Stories du Manager}} \\
 \hline
-
-En tant que manager, je veux m'inscrire via un formulaire pour demander l'accès, afin d'obtenir un compte sur le système. &
-En tant que manager, je veux créer un compte agent, afin de permettre à mon équipe d'accéder au système. \\
+\textbf{SCRUM-21} & En tant que manager, je peux créer un compte utilisateur. \\
 \hline
-
-En tant que manager, je veux ajouter des permissions aux comptes agents, afin de contrôler les accès selon les rôles. &
-En tant que manager, je veux supprimer des comptes agents, afin de gérer les départs de l'équipe. \\
+\textbf{SCRUM-20} & En tant que manager, je souhaite attribuer des permissions aux comptes utilisateurs. \\
 \hline
-
-En tant que manager, je veux mettre à jour un profil agent, afin de maintenir les informations à jour. &
-En tant que manager, je veux réinitialiser le mot de passe d'un agent, afin d'aider mon équipe en cas de blocage. \\
+\textbf{SCRUM-43} & En tant que manager, je souhaite supprimer des comptes utilisateurs. \\
 \hline
-
-En tant que manager, je veux comparer les performances sur différentes périodes, afin d'identifier les tendances et les écarts. &
-En tant que manager, je veux exporter des rapports (PDF/Excel), afin de partager les analyses avec la direction. \\
+\textbf{SCRUM-22} & En tant que manager, je peux mettre à jour le profil d'un utilisateur. \\
 \hline
-
-En tant que manager, je veux configurer les paramètres système, afin d'adapter le système aux besoins métier. &
-En tant que manager, je veux interagir avec le chatbot conseilller décisionnel, afin d'obtenir des analyses personnalisées et des recommandations. \\
+\textbf{SCRUM-23} & En tant que manager, je peux réinitialiser le mot de passe d'un utilisateur. \\
 \hline
-
+\textbf{SCRUM-37} & En tant que manager, je souhaite m'inscrire via un formulaire afin de demander l'accès au système. \\
+\hline
+\textbf{SCRUM-48} & En tant que manager, je souhaite configurer les paramètres du système. \\
+\hline
+\textbf{SCRUM-17} & En tant que manager, je peux comparer les performances sur différentes périodes. \\
+\hline
+\textbf{SCRUM-51} & En tant que manager, je souhaite me connecter depuis l'application mobile. \\
+\hline
+\textbf{SCRUM-53} & En tant que manager, je souhaite consulter et gérer les alertes depuis l'application mobile. \\
+\hline
 \caption{User Stories du Manager}
 \end{longtable}
 
-\begin{longtable}{|>{\RaggedRight\hyphenpenalty=10000\exhyphenpenalty=10000\arraybackslash}p{7.5cm}|>{\RaggedRight\hyphenpenalty=10000\exhyphenpenalty=10000\arraybackslash}p{7.5cm}|}
+\begin{longtable}{|L{2.3cm}|L{13cm}|}
 \hline
 \multicolumn{2}{|c|}{\textbf{User Stories de l'Administrateur}} \\
 \hline
-
-En tant qu'administrateur, je veux vérifier l'email d'un manager inscrit, afin de valider son identité avant approbation. &
-En tant qu'administrateur, je veux approuver un compte manager, afin d'autoriser l'accès au système. \\
+\textbf{SCRUM-38} & En tant qu'administrateur, je souhaite vérifier l'adresse e-mail d'un manager inscrit afin de valider son identité. \\
 \hline
-
-En tant qu'administrateur, je veux rejeter une demande d'inscription manager, afin de refuser les accès non conformes. &
-En tant qu'administrateur, je veux suspendre un compte manager, afin de bloquer temporairement un accès suspect. \\
+\textbf{SCRUM-45} & En tant qu'administrateur, je souhaite suspendre le compte d'un manager. \\
 \hline
-
-En tant qu'administrateur, je veux réactiver un compte manager suspendu, afin de rétablir l'accès après résolution du problème. &
-En tant qu'administrateur, je veux consulter la liste de tous les managers et agents, afin d'avoir une vue globale des utilisateurs. \\
+\textbf{SCRUM-47} & En tant qu'administrateur, je souhaite réactiver un compte manager suspendu. \\
 \hline
-
 \caption{User Stories de l'Administrateur}
 \end{longtable}
 
-\begin{longtable}{|>{\RaggedRight\hyphenpenalty=10000\exhyphenpenalty=10000\arraybackslash}p{7.5cm}|>{\RaggedRight\hyphenpenalty=10000\exhyphenpenalty=10000\arraybackslash}p{7.5cm}|}
+\begin{longtable}{|L{2.3cm}|L{13cm}|}
 \hline
-\multicolumn{2}{|c|}{\textbf{User Stories du système IA}} \\
+\multicolumn{2}{|c|}{\textbf{User Stories du Système}} \\
 \hline
+\textbf{SCRUM-31} & En tant que système, je peux calculer les KPI. \\
+\hline
+\textbf{SCRUM-33} & En tant que système, je peux transformer les données brutes en graphiques. \\
+\hline
+\textbf{SCRUM-32} & En tant que système, je peux générer des graphiques. \\
+\hline
+\textbf{SCRUM-24} & En tant que système, je peux analyser les KPI en fonction du volume de données. \\
+\hline
+\textbf{SCRUM-25} & En tant que système, je peux détecter des anomalies. \\
+\hline
+\textbf{SCRUM-26} & En tant que système, je peux identifier les tendances saisonnières. \\
+\hline
+\textbf{SCRUM-28} & En tant que système, je peux suggérer des optimisations de stock. \\
+\hline
+\textbf{SCRUM-30} & En tant que système, je peux générer des prédictions et des recommandations. \\
+\hline
+\textbf{SCRUM-35} & En tant que système, je peux détecter les informations critiques. \\
+\hline
+\textbf{SCRUM-27} & En tant que système, je peux prédire l'attrition (churn) des clients. \\
+\hline
+\textbf{SCRUM-50} & En tant que système, je peux prédire l'attrition (churn) des clients. \\
+\hline
+\textbf{SCRUM-29} & En tant que système, je peux générer des alertes de risque. \\
+\hline
+\caption{User Stories du Système}
+\end{longtable}
 
-En tant que système, je veux calculer les KPIs, afin de fournir des indicateurs fiables aux utilisateurs. &
-En tant que système, je veux transformer les données brutes en graphiques, afin de faciliter la lecture visuelle des performances. \\
+\begin{longtable}{|L{2.3cm}|L{13cm}|}
 \hline
-
-En tant que système, je veux analyser les KPIs basés sur le volume de données, afin de détecter automatiquement les variations significatives. &
-En tant que système, je veux détecter les anomalies, afin d'alerter sur les données inhabituelles. \\
+\multicolumn{2}{|c|}{\textbf{User Stories des équipes DevOps et Mobile}} \\
 \hline
-
-En tant que système, je veux identifier les tendances saisonnières, afin d'anticiper les variations de la demande. &
-En tant que système, je veux suggérer une optimisation du stock, afin de réduire les surstocks et les ruptures. \\
+\textbf{SCRUM-54} & En tant qu'équipe DevOps, nous souhaitons héberger le backend sur Render. \\
 \hline
-
-En tant que système, je veux générer des alertes de risque, afin de prévenir les situations critiques. &
-En tant que système, je veux générer des prédictions et recommandations, afin d'aider à la prise de décision stratégique. \\
+\textbf{SCRUM-55} & En tant qu'équipe DevOps, nous souhaitons héberger le frontend web sur Vercel. \\
 \hline
-
-En tant que système, je veux détecter les informations critiques, afin de prioriser les actions à prendre. &
-En tant que système, je veux prédire le risque de churn client, afin d'identifier les clients à risque d'impayé. \\
+\textbf{SCRUM-56} & En tant qu'équipe DevOps, nous souhaitons migrer la base de données vers Supabase. \\
 \hline
-
-\caption{User Stories du Système IA}
+\textbf{SCRUM-57} & En tant qu'équipe mobile, nous souhaitons publier l'application mobile sur Expo. \\
+\hline
+\caption{User Stories des équipes DevOps et Mobile}
 \end{longtable}
 
 \section{Product Backlog}
@@ -2083,15 +2240,15 @@ Le product backlog est défini par le guide scrum comme étant “une liste ordo
 Le tableau ci-dessous représente le product backlog de notre système.
 
 \begin{longtable}{|C{0.8cm}|L{2.8cm}|L{6.1cm}|C{2cm}|C{2.8cm}|}
-\caption{Product Backlog}
+\caption{Backlog produit}
 \label{tab:product-backlog} \\
 
 \hline
 \textcolor{white}{\textbf{ID}} &
 \textcolor{white}{\textbf{Theme}} &
 \textcolor{white}{\textbf{User Story}} &
-\textcolor{white}{\textbf{Priority}} &
-\textcolor{white}{\textbf{Complexity}} \\
+\textcolor{white}{\textbf{Priorite}} &
+\textcolor{white}{\textbf{Complexite}} \\
 \hline
 \endfirsthead
 
@@ -2099,12 +2256,12 @@ Le tableau ci-dessous représente le product backlog de notre système.
 \textcolor{white}{\textbf{ID}} &
 \textcolor{white}{\textbf{Theme}} &
 \textcolor{white}{\textbf{User Story}} &
-\textcolor{white}{\textbf{Priority}} &
-\textcolor{white}{\textbf{Complexity}} \\
+\textcolor{white}{\textbf{Priorite}} &
+\textcolor{white}{\textbf{Complexite}} \\
 \hline
 \endhead
 
-\hline \multicolumn{5}{r}{\textit{Continued on next page}} \\
+\hline \multicolumn{5}{r}{\textit{Suite page suivante}} \\
 \endfoot
 \hline
 \endlastfoot
@@ -2113,46 +2270,45 @@ Le tableau ci-dessous représente le product backlog de notre système.
 % SPRINT 1 — System Foundations & Security
 % ─────────────────────────────────────────────
 \multicolumn{5}{|c|}{%
-    \textbf{Sprint 1 — System Foundations \& Security}
+    \textbf{Sprint 1 — Fondations du systeme et securite}
 } \\
 \hline
 
-49 & Authentication         & As an agent, I can log in to the system                                                              & \textcolor{moyenne}{\textbf{Medium}}  & Low        \\
-2  & Authentication         & As an agent, I can log out of the system                                                            & \textcolor{moyenne}{\textbf{Medium}}      & Low        \\
-3  & Authentication         & As an agent, I can change my password                                                               & \textcolor{haute}{\textbf{High}}      & Medium     \\
-4  & Authentication         & As an agent, I can view my profile                                                                  & \textcolor{moyenne}{\textbf{Medium}}  & Low        \\
-21 & User Management        & As a manager, I can create a user account                                                           & \textcolor{haute}{\textbf{High}}      & Medium     \\
-20 & User Management        & As a manager, I want to add permissions to user accounts                                            & \textcolor{haute}{\textbf{High}}      & High       \\
-43 & User Management        & As a manager, I want to delete user accounts                                                        & \textcolor{moyenne}{\textbf{Medium}}  & Low        \\
-22 & User Management        & As a manager, I can update a user profile                                                           & \textcolor{moyenne}{\textbf{Medium}}  & Medium     \\
-23 & User Management        & As a manager, I can reset a user's password                                                         & \textcolor{haute}{\textbf{High}}      & Medium        \\
-7  & Data Import            & As an agent, I can import Excel files into the database                                             & \textcolor{haute}{\textbf{High}}      & Highest     \\
-41 & Data Import            & As an agent, I want to download data templates                                                      & \textcolor{moyenne}{\textbf{Medium}}  & Low        \\
-37 & System Access          & As a manager, I want to sign up through a form in order to request access to the system             & \textcolor{haute}{\textbf{High}}      & Low        \\
-38 & System Access          & As an admin, I want to verify the email of a registered manager in order to validate their identity & \textcolor{haute}{\textbf{High}}      & Low        \\
-45 & Account Management     & As an admin, I want to be able to suspend a manager account                                         & \textcolor{moyenne}{\textbf{Medium}}  & Low        \\
-47 & Account Management     & As an admin, I want to be able to reactivate a suspended manager account                            & \textcolor{moyenne}{\textbf{Medium}}  & Low        \\
-48 & System Configuration   & As a manager, I want to configure system settings                                                   & \textcolor{moyenne}{\textbf{Medium}}  & Medium        \\
+49 & Authentification       & En tant qu'agent, je peux me connecter au système                                                   & \textcolor{moyenne}{\textbf{Moyenne}} & Faible     \\
+2  & Authentification       & En tant qu'agent, je peux me déconnecter du système                                                 & \textcolor{moyenne}{\textbf{Moyenne}} & Faible     \\
+3  & Authentification       & En tant qu'agent, je peux changer mon mot de passe                                                  & \textcolor{haute}{\textbf{Haute}}     & Moyenne    \\
+4  & Authentification       & En tant qu'agent, je peux consulter mon profil                                                      & \textcolor{moyenne}{\textbf{Moyenne}} & Faible     \\
+21 & Gestion des utilisateurs & En tant que manager, je peux créer un compte utilisateur                                          & \textcolor{haute}{\textbf{Haute}}     & Moyenne    \\
+20 & Gestion des utilisateurs & En tant que manager, je souhaite attribuer des permissions aux comptes utilisateurs                & \textcolor{haute}{\textbf{Haute}}     & Elevee     \\
+43 & Gestion des utilisateurs & En tant que manager, je souhaite supprimer des comptes utilisateurs                                & \textcolor{moyenne}{\textbf{Moyenne}} & Faible     \\
+22 & Gestion des utilisateurs & En tant que manager, je peux mettre a jour le profil d'un utilisateur                              & \textcolor{moyenne}{\textbf{Moyenne}} & Moyenne    \\
+23 & Gestion des utilisateurs & En tant que manager, je peux reinitialiser le mot de passe d'un utilisateur                        & \textcolor{haute}{\textbf{Haute}}     & Moyenne    \\
+7  & Import de donnees      & En tant qu'agent, je peux importer des fichiers Excel dans la base de donnees                       & \textcolor{haute}{\textbf{Haute}}     & Tres elevee\\
+41 & Import de donnees      & En tant qu'agent, je souhaite telecharger des modeles de donnees                                    & \textcolor{moyenne}{\textbf{Moyenne}} & Moyenne    \\
+37 & Acces au systeme       & En tant que manager, je souhaite m'inscrire via un formulaire afin de demander l'acces au systeme   & \textcolor{haute}{\textbf{Haute}}     & Moyenne    \\
+38 & Acces au systeme       & En tant qu'administrateur, je souhaite verifier l'adresse e-mail d'un manager inscrit afin de valider son identite & \textcolor{haute}{\textbf{Haute}} & Moyenne \\
+45 & Gestion des comptes    & En tant qu'administrateur, je souhaite suspendre le compte d'un manager                             & \textcolor{moyenne}{\textbf{Moyenne}} & Faible     \\
+47 & Gestion des comptes    & En tant qu'administrateur, je souhaite reactiver un compte manager suspendu                         & \textcolor{moyenne}{\textbf{Moyenne}} & Faible     \\
 \hline
 
 % ─────────────────────────────────────────────
 % SPRINT 2 — Agent & Manager Functionalities
 % ─────────────────────────────────────────────
 \multicolumn{5}{|c|}{%
-    \textbf{Sprint 2 — Agent \& Manager Functionalities}
+    \textbf{Sprint 2 — Fonctionnalites Agent et Manager}
 } \\
 \hline
 
-31 & Dashboards             & As the system, I can calculate KPIs                                                                 & \textcolor{haute}{\textbf{High}}      & High       \\
-33 & Dashboards             & As the system, I can transform raw data into graphs                                                 & \textcolor{moyenne}{\textbf{Medium}}  & High       \\
-32 & Dashboards             & As the system, I can generate charts                                                                & \textcolor{moyenne}{\textbf{Medium}}  & Medium     \\
-15 & Reports \& Analysis    & As an agent, I can filter data                                                                      & \textcolor{moyenne}{\textbf{Medium}}  & Medium     \\
-8  & Reports \& Analysis    & As an agent, I can view reports and KPIs                                                            & \textcolor{haute}{\textbf{High}}      & Low        \\
-6  & Customer Credit Tracking & As an agent, I can view customers' payment history                                                  & \textcolor{haute}{\textbf{High}}      & Medium     \\
-10 & Stock Tracking         & As an agent, I can check product availability                                                       & \textcolor{moyenne}{\textbf{Medium}}  & Low        \\
-16 & Reports    & As an agent, I can generate reports                                                                 & \textcolor{haute}{\textbf{High}}      & High       \\
-19 & Reports      & As a manager, I can export reports                                                      & \textcolor{moyenne}{\textbf{Medium}}  & Medium       \\
-17 & Tracking performance    & As a manager, I can compare performance across different periods                                    & \textcolor{haute}{\textbf{High}}      & Medium     \\
+31 & Tableaux de bord       & En tant que systeme, je peux calculer les KPI                                                       & \textcolor{haute}{\textbf{Haute}}     & Elevee     \\
+33 & Tableaux de bord       & En tant que systeme, je peux transformer les donnees brutes en graphiques                           & \textcolor{moyenne}{\textbf{Moyenne}} & Elevee     \\
+32 & Tableaux de bord       & En tant que systeme, je peux generer des graphiques                                                 & \textcolor{moyenne}{\textbf{Moyenne}} & Elevee     \\
+15 & Analyse et rapports    & En tant qu'agent, je peux filtrer les donnees                                                       & \textcolor{moyenne}{\textbf{Moyenne}} & Moyenne    \\
+8  & Analyse et rapports    & En tant qu'agent, je peux consulter les rapports et les KPI                                         & \textcolor{haute}{\textbf{Haute}}     & Moyenne    \\
+6  & Suivi des paiements    & En tant qu'agent, je peux consulter l'historique des paiements des clients                          & \textcolor{haute}{\textbf{Haute}}     & Moyenne    \\
+10 & Suivi de stock         & En tant qu'agent, je peux verifier la disponibilite des produits                                    & \textcolor{moyenne}{\textbf{Moyenne}} & Moyenne    \\
+16 & Analyse et rapports    & En tant qu'agent, je peux generer des rapports                                                      & \textcolor{haute}{\textbf{Haute}}     & Elevee     \\
+19 & Analyse et rapports    & En tant qu'agent, je peux exporter les rapports                                                     & \textcolor{moyenne}{\textbf{Moyenne}} & Elevee     \\
+17 & Analyse managériale    & En tant que manager, je peux comparer les performances sur differentes periodes                     & \textcolor{haute}{\textbf{Haute}}     & Elevee     \\
 
 \hline
 
@@ -2160,39 +2316,39 @@ Le tableau ci-dessous représente le product backlog de notre système.
 % SPRINT 3 — Intelligent Analysis
 % ─────────────────────────────────────────────
 \multicolumn{5}{|c|}{%
-    \textbf{Sprint 3 — Intelligent Analysis}
+    \textbf{Sprint 3 — Analyse intelligente}
 } \\
 \hline
 
-24 & Intelligent Analysis   & As the system, I can analyze KPIs based on data volume                                              & \textcolor{haute}{\textbf{High}}      & High       \\
-25 & Intelligent Analysis   & As the system, I can detect anomalies                                                               & \textcolor{haute}{\textbf{High}}      & High       \\
-26 & Intelligent Analysis   & As the system, I can identify seasonal trends                                                       & \textcolor{moyenne}{\textbf{Medium}}  & High       \\
-28 & Stock Optimization     & As the system, I can suggest stock optimization                                                     & \textcolor{moyenne}{\textbf{Medium}}  & Very High  \\
-30 & Prediction \& AI       & As the system, I can generate predictions and recommendations                                       & \textcolor{haute}{\textbf{High}}      & Very High  \\
-35 & Prediction \& AI       & As the system, I can detect critical information                                                    & \textcolor{haute}{\textbf{High}}      & High       \\
-27 & Prediction \& AI       & As the system, I can predict customer churn                                                         & \textcolor{haute}{\textbf{High}}      & Very High  \\
-50 & Decision Support       & As a manager, I can interact with the decision advisor chatbot                                       & \textcolor{haute}{\textbf{High}}      & High       \\
+24 & Analyse intelligente   & En tant que systeme, je peux analyser les KPI en fonction du volume de donnees                      & \textcolor{haute}{\textbf{Haute}}     & Elevee     \\
+25 & Analyse intelligente   & En tant que systeme, je peux detecter des anomalies                                                 & \textcolor{haute}{\textbf{Haute}}     & Elevee     \\
+26 & Analyse intelligente   & En tant que systeme, je peux identifier les tendances saisonnieres                                  & \textcolor{moyenne}{\textbf{Moyenne}} & Tres elevee\\
+28 & Optimisation du stock  & En tant que systeme, je peux suggerer des optimisations de stock                                    & \textcolor{moyenne}{\textbf{Moyenne}} & Elevee     \\
+30 & Prediction et IA       & En tant que systeme, je peux generer des predictions et des recommandations                          & \textcolor{haute}{\textbf{Haute}}     & Elevee     \\
+35 & Prediction et IA       & En tant que systeme, je peux detecter les informations critiques                                    & \textcolor{haute}{\textbf{Haute}}     & Elevee     \\
+27 & Prediction et IA       & En tant que systeme, je peux predire l'attrition (churn) des clients                                & \textcolor{haute}{\textbf{Haute}}     & Elevee     \\
+50 & Prediction et IA       & En tant que systeme, je peux predire l'attrition (churn) des clients                                & \textcolor{moyenne}{\textbf{Moyenne}} & Elevee     \\
 \hline
 
 % ─────────────────────────────────────────────
 % SPRINT 4 — Alerts, Mobile Migration & Deploy
 % ─────────────────────────────────────────────
 \multicolumn{5}{|c|}{%
-  \textbf{Sprint 4 — Alerts, Mobile Migration \& Deploy}
+    \textbf{Sprint 4 — Alertes, mobile et deploiement}
 } \\
 \hline
 
-29 & Alerts \& Notifications & As an agent, I can generate risk alerts                                                             & \textcolor{haute}{\textbf{High}}      & Medium     \\
-13 & Alerts \& Notifications & As an agent, I can mark alerts as resolved                                                          & \textcolor{moyenne}{\textbf{Medium}}  & Low        \\
-11 & Alerts \& Notifications & As an agent, I can receive notifications                                                            & \textcolor{moyenne}{\textbf{Medium}}  & Low        \\
-12 & Alerts \& Notifications & As an agent, I can view the alert history                                                           & \textcolor{moyenne}{\textbf{Medium}}  & Low        \\
-51 & Mobile Application     & As a manager, I want to log in from the mobile application                                           & \textcolor{haute}{\textbf{High}}      & Medium     \\
-52 & Mobile Application     & As an agent, I want to view KPIs from the mobile application                                         & \textcolor{haute}{\textbf{High}}      & High       \\
-53 & Mobile Application     & As a manager, I want to view and manage alerts from the mobile app                                   & \textcolor{haute}{\textbf{High}}      & High       \\
-54 & DevOps                 & As the DevOps team, I want to host the backend on Render                                             & \textcolor{moyenne}{\textbf{Medium}}  & Medium     \\
-55 & DevOps                 & As the DevOps team, I want to host the web frontend on Vercel                                        & \textcolor{moyenne}{\textbf{Medium}}  & Low        \\
-56 & DevOps                 & As the DevOps team, I want to migrate the database to Supabase                                       & \textcolor{moyenne}{\textbf{Medium}}  & Medium     \\
-57 & DevOps                 & As the DevOps team, I want to publish the mobile app on Expo                                         & \textcolor{moyenne}{\textbf{Medium}}  & Medium     \\
+29 & Alertes et notifications & En tant que systeme, je peux generer des alertes de risque                                         & \textcolor{haute}{\textbf{Haute}}     & Elevee     \\
+13 & Alertes et notifications & En tant qu'agent, je peux marquer les alertes comme resolues                                       & \textcolor{moyenne}{\textbf{Moyenne}} & Moyenne    \\
+11 & Alertes et notifications & En tant qu'agent, je peux recevoir des notifications                                                & \textcolor{haute}{\textbf{Haute}}     & Moyenne    \\
+12 & Alertes et notifications & En tant qu'agent, je peux consulter l'historique des alertes                                       & \textcolor{moyenne}{\textbf{Moyenne}} & Moyenne    \\
+51 & Application mobile     & En tant que manager, je souhaite me connecter depuis l'application mobile                            & \textcolor{haute}{\textbf{Haute}}     & Elevee     \\
+52 & Application mobile     & En tant qu'agent, je souhaite consulter les KPI depuis l'application mobile                          & \textcolor{moyenne}{\textbf{Moyenne}} & Elevee     \\
+53 & Application mobile     & En tant que manager, je souhaite consulter et gerer les alertes depuis l'application mobile          & \textcolor{moyenne}{\textbf{Moyenne}} & Elevee     \\
+54 & DevOps                 & En tant qu'equipe DevOps, nous souhaitons heberger le backend sur Render                             & \textcolor{haute}{\textbf{Haute}}     & Tres elevee\\
+55 & DevOps                 & En tant qu'equipe DevOps, nous souhaitons heberger le frontend web sur Vercel                        & \textcolor{moyenne}{\textbf{Moyenne}} & Elevee     \\
+56 & DevOps                 & En tant qu'equipe DevOps, nous souhaitons migrer la base de donnees vers Supabase                    & \textcolor{moyenne}{\textbf{Moyenne}} & Elevee     \\
+57 & Equipe mobile          & En tant qu'equipe mobile, nous souhaitons publier l'application mobile sur Expo                       & \textcolor{moyenne}{\textbf{Moyenne}} & Elevee     
 \end{longtable}
 
 \section{Planification des sprints}
@@ -2206,7 +2362,7 @@ Notre projet est découpé en 4 sprints regroupés en 2 releases.
     \label{fig:Planification des sprints}
 \end{figure}
 
-Cette planification garantit une livraison progressive de valeur à FASI : le premier release fournit un système fonctionnel et sécurisé avec les tableaux de bord essentiels, tandis que le second release apporte la couche d'intelligence artificielle et les alertes automatisées qui constituent la valeur ajoutée principale du projet.
+Cette planification garantit une livraison progressive de valeur à FASI : la première release fournit un système fonctionnel et sécurisé avec les tableaux de bord essentiels, tandis que la deuxième release apporte la couche d'intelligence artificielle et les alertes automatisées qui constituent la valeur ajoutée principale du projet.
 
 \section{Conclusion}
 
@@ -2230,9 +2386,14 @@ Le Sprint 2 s'appuie sur ces fondations pour introduire les fonctionnalités ana
 
 \section{Organisation des sprints}
 
-Le projet WEEG est découpé en plusieurs sprints de durée fixe, chaque sprint visant à livrer un ensemble de fonctionnalités testables et potentiellement déployables. L'organisation générale des sprints repose sur les principes suivants :
+La Release 1 est composée de deux sprints de durée fixe, chacun visant à livrer un ensemble cohérent de fonctionnalités testables et déployables. L'organisation générale des sprints repose sur les principes suivants :
 
 \begin{itemize}
+    \item \textbf{Sprints couverts dans cette Release :}
+    \begin{itemize}
+        \item \textbf{Sprint 1} : System Foundations \& Security — fondations du système et sécurité
+        \item \textbf{Sprint 2} : Analytics \& KPI Calculation — fonctionnalités analytiques et calcul des indicateurs
+    \end{itemize}
     \item \textbf{Durée des sprints :} Chaque sprint a une durée fixe de trois semaines, permettant un rythme de livraison régulier tout en laissant suffisamment de temps pour traiter des fonctionnalités complexes.
     \item \textbf{Cérémonies Scrum pratiquées :}
     
@@ -2258,7 +2419,7 @@ Le projet WEEG est découpé en plusieurs sprints de durée fixe, chaque sprint 
 %  SPRINT 1 — System Foundations & Security
 % ═══════════════════════════════════════════════════════════════════
  
-\section{Sprint 1 : System Foundations \& Security}
+\section{Sprint 1 : Fondations du systeme et securite}
  
 \subsection{Sprint Goal}
  
@@ -2338,7 +2499,7 @@ US-21 & En tant que manager, je peux créer un compte utilisateur & Implémentat
 US-20 & En tant que manager, je veux attribuer des permissions aux comptes utilisateurs & Implémentation du système de permissions & 2 \\
 \hline
  
-US-43 & En tant que manager, je veux supprimer des comptes utilisateurs & Implémentation de la suppression & 0.5 \\
+US-43 & En tant que manager, je veux supprimer des comptes utilisateurs & Implémentation de la suppression & 1.5 \\
 \hline
  
 US-22 & En tant que manager, je peux mettre à jour un profil utilisateur & Implémentation de la mise à jour de profil & 1 \\
@@ -2365,9 +2526,6 @@ US-45 & En tant qu'admin, je veux pouvoir suspendre un compte Manager & Impléme
 US-47 & En tant qu'admin, je veux pouvoir réactiver un compte Manager suspendu & Implémentation de la réactivation de compte & 0.5 \\
 \hline
  
-US-48 & En tant que manager, je veux configurer les paramètres du système & Implémentation de la configuration système & 1 \\
-\hline
- 
 \multicolumn{3}{|r|}{\textbf{Total story points}} &
 \textbf{18} 
 \end{longtable}
@@ -2378,8 +2536,7 @@ US-48 & En tant que manager, je veux configurer les paramètres du système & Im
 % ───────────────────────────────────────────────────────────────────
  
 Cette section présente l'analyse fonctionnelle du sprint à travers les
-diagrammes de cas d'utilisation, les descriptions textuelles, les
-diagrammes de séquence système et les diagrammes d'activité.
+diagrammes de cas d'utilisation, les descriptions textuelles.
  
 \subsubsection{Diagramme de cas d'utilisation}
  
@@ -2393,6 +2550,8 @@ interactions de ces acteurs avec le système dans le cadre de ce sprint.
     \caption{Diagramme des cas d'utilisation --- Sprint 1}
     \label{fig:usecase-s1}
 \end{figure}
+
+\newpage
  
 \subsubsection{Description textuelle des cas d'utilisation}
  
@@ -2469,9 +2628,8 @@ envoyé au Manager pour l'informer de la décision. \\
 \end{itemize}
 \textbf{2a. Aucune demande n'est en attente.}
 \begin{itemize}
-    \item[2.1] Le système affiche un message indiquant l'absence de
-    demandes en attente.
-\end{itemize} \\
+    \item[2.1] Le système affiche un message indiquant l'absence de demandes en attente.
+\end{itemize} 
 \end{longtable}
  
 % ── UC2 ──────────────────────────────────────────────────────────
@@ -2642,29 +2800,28 @@ d'importation est créé avec le bilan des lignes traitées. \\
 \end{itemize} 
 \end{longtable}
 
-\subsubsection{Diagrammes d'activité}
- 
-Les diagrammes d'activité ci-après décrivent les flux métier des
-principaux cas d'utilisation du sprint.
- 
-La figure représente le flux de gestion des
-permissions utilisateurs.
- 
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.5\linewidth]{images/sprint1/user permissions.png}
-    \caption{Diagramme d'activité --- Gestion des permissions utilisateur}
-    \label{fig:act-perms-s1}
-\end{figure}
-
 % ───────────────────────────────────────────────────────────────────
 \subsection{Conception du sprint}
 % ───────────────────────────────────────────────────────────────────
  
 Cette section présente les choix de conception retenus pour
-l'implémentation des fonctionnalités du sprint, à travers les
-diagrammes de séquence de conception, le diagramme de classes et les
+l'implémentation des fonctionnalités du sprint, à travers le diagramme de classes, les
+diagrammes de séquence de conception, les diagrammes d'activité et les
 diagrammes d'état de transition.
+
+\subsubsection{Diagramme de classes}
+ 
+Le diagramme de classes ci-dessous illustre les principales entités du
+système, leurs attributs, méthodes et relations pour le Sprint 1. Il
+met en évidence la structure de l'application et la répartition des
+responsabilités entre les composants.
+ 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\linewidth]{images/sprint1/diagramme de classe sprint1.png}
+    \caption{Diagramme de classes --- Sprint 1}
+    \label{fig:class-s1}
+\end{figure}
  
 \subsubsection{Diagrammes de séquence de conception}
 
@@ -2676,7 +2833,7 @@ clés.
     Le diagramme ci-dessous représente les interactions internes entre les composants du système lors du processus de connexion.
     \begin{figure}[H]
         \centering
-        \includegraphics[width=0.9\linewidth]{images/sprint1/séquence de conception login.png}
+        \includegraphics[width=0.8\linewidth]{images/sprint1/séquence de conception login.png}
         \label{fig:seq-conc-login-s1}
     \end{figure}
 
@@ -2697,29 +2854,37 @@ Le diagramme ci-dessous détaille les interactions internes lors du processus de
     \label{fig:seq-conc-pwd-s1}
 \end{figure}
 
-cette figure représente les interactions internes lors du processus d'importation de données Excel.
+Cette figure représente les interactions internes lors du processus d'importation de données Excel.
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.85\linewidth]{images/sprint1/séquence de conception import data.jpeg}
-    \caption{Diagramme de séquence de conception --- Importation de données Excel}
+    \includegraphics[width=1.1\linewidth]{images/sprint1/séquence de conception import data.jpeg}
     \label{fig:seq-conc-import-s1}
 \end{figure}
+{\textit{Suite page suivante}}
 
-\subsubsection{Diagramme de classes}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\linewidth]{images/sprint1/séquence de conception import data1.png}
+    \caption{Diagramme de séquence de conception --- Importation de données Excel}
+    \label{fig:seq-conc-import-s12}
+\end{figure}
+
+\subsubsection{Diagrammes d'activité}
  
-Le diagramme de classes ci-dessous illustre les principales entités du
-système, leurs attributs, méthodes et relations pour le Sprint 1. Il
-met en évidence la structure de l'application et la répartition des
-responsabilités entre les composants.
+Les diagrammes d'activité ci-après décrivent les flux métier des
+principaux cas d'utilisation du sprint.
+ 
+La figure représente le flux de gestion des
+permissions utilisateurs.
  
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.8\linewidth]{images/sprint1/diagramme de classe sprint1.png}
-    \caption{Diagramme de classes --- Sprint 1}
-    \label{fig:class-s1}
+    \includegraphics[width=0.5\linewidth]{images/sprint1/user permissions.png}
+    \caption{Diagramme d'activité --- Gestion des permissions utilisateur}
+    \label{fig:act-perms-s1}
 \end{figure}
- 
+
 \subsubsection{Diagrammes d'état de transition}
  
 Les diagrammes d'état de transition ci-dessous modélisent les cycles de
@@ -2730,7 +2895,7 @@ La figure décrit les états successifs pour le processus de réinitialisation d
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.4\linewidth]{images/sprint1/forgetpassword_transition.jpeg}
+    \includegraphics[width=0.6\linewidth]{images/sprint1/forgetpassword_transition.png}
     \caption{Diagramme d'état de transition --- Oublier mot de passe}
     \label{fig:etat-account-s1}
 \end{figure}
@@ -2792,7 +2957,7 @@ Cette sous-section présente les principales interfaces développées durant le 
 Les captures d'écran suivantes montrent les écrans d'authentification, de gestion des utilisateurs et d'importation des données.
 
 \begin{landscape}
-L'interface ci-dessous présente l'écran de connexion au système, utilisé par l'agent pour s'authentifier de manière sécurisée.
+L'interface ci-dessous présente l'écran de connexion au système, utilisé par les utilisateurs pour s'authentifier de manière sécurisée.
     \begin{figure}[H]
     \centering
     \includegraphics[width=1\linewidth]{images/captures sprint1/login page.jpeg}
@@ -2849,7 +3014,7 @@ Suite à la revue de sprint, nous avons tenu une réunion de rétrospective pour
 %  SPRINT 2 — Agent & Manager Functionalities
 % ═══════════════════════════════════════════════════════════════════
  
-\section{Sprint 2 : Agent \& Manager Functionalities}
+\section{Sprint 2 : Fonctionnalites Agent et Manager}
  
 \subsection{Sprint Goal}
  
@@ -2922,10 +3087,10 @@ US-33 & En tant que système, je peux transformer les données brutes en graphiq
 US-32 & En tant que système, je peux générer des graphiques & Génération des graphiques KPI & 2 \\
 \hline
  
-US-15 & En tant qu'agent, je peux filtrer les données & Implémentation des filtres & 1.5 \\
+US-15 & En tant qu'agent, je peux filtrer les données & Implémentation des filtres & 1 \\
 \hline
  
-US-8 & En tant qu'agent, je peux consulter les rapports et les KPIs & Consultation des rapports et KPIs & 1 \\
+US-8 & En tant qu'agent, je peux consulter les rapports et les KPIs & Consultation des rapports et KPIs & 1.5 \\
 \hline
  
 US-6 & En tant qu'agent, je peux consulter l'historique des paiements clients & Consultation de l'historique des paiements & 1.5 \\
@@ -2934,10 +3099,10 @@ US-6 & En tant qu'agent, je peux consulter l'historique des paiements clients & 
 US-10 & En tant qu'agent, je peux vérifier la disponibilité des produits & Vérification de la disponibilité des produits & 1 \\
 \hline
  
-US-16 & En tant qu'agent, je peux générer des rapports & Génération et impression de rapports & 2.5 \\
+US-16 & En tant qu'agent, je peux générer des rapports & Génération et impression de rapports & 3.5 \\
 \hline
  
-US-19 & En tant qu'agent, je peux exporter des rapports & Export des rapports & 2.5 \\
+US-19 & En tant qu'agent, je peux exporter des rapports & Export des rapports & 2 \\
 \hline
  
 US-17 & En tant que manager, je peux comparer les performances sur différentes périodes & Comparaison des performances & 2 \\
@@ -2953,11 +3118,11 @@ US-17 & En tant que manager, je peux comparer les performances sur différentes 
  
 \subsubsection{Diagramme de cas d'utilisation}
  
-Le Sprint 2 implique deux acteurs principaux --- l'Agent et le Manager
---- ainsi qu'un acteur secondaire, le Système, qui assure les calculs
+Le Sprint 2 implique deux acteurs principaux : l'Agent et le Manager
+ainsi qu'un acteur secondaire, le Système, qui assure les calculs
 automatiques en arrière-plan. Le diagramme ci-dessous illustre
 l'ensemble des interactions couvertes par ce sprint.
- 
+
 \begin{figure}[H]
     \centering
     \includegraphics[width=1\linewidth]{images/sprint2/usecase_sprint2.png}
@@ -3025,7 +3190,7 @@ Les KPIs sont calculés et affichés dans le tableau de bord. \\
 \begin{itemize}
     \item[5.1] Le système affiche un message d'erreur.
     \item[5.2] L'utilisateur clique sur Réessayer — retour à l'étape 5.
-\end{itemize} \\
+\end{itemize} 
 \end{longtable}
  
 % ── UC2 ──────────────────────────────────────────────────────────
@@ -3091,7 +3256,7 @@ aires, courbes et camemberts. \\
     \item[3.1] Le système affiche un indicateur de chargement puis un
     message d'erreur.
     \item[3.2] L'utilisateur recharge la page — retour à l'étape 1.
-\end{itemize} \\
+\end{itemize}
 \end{longtable}
  
 % ── UC3 ──────────────────────────────────────────────────────────
@@ -3162,25 +3327,27 @@ sélectionnée.}
 \textbf{9a. Le Manager annule l'impression.}
 \begin{itemize}
     \item[9.1] La fenêtre d'impression se ferme.
-    \item[9.2] Le rapport reste visible ; l'utilisateur peut relancer
-    l'impression depuis l'étape 7.
-\end{itemize} \\
+    \item[9.2] Le rapport reste visible ; l'utilisateur peut relancer l'impression depuis l'étape 7.
+\end{itemize} 
 \end{longtable}
 
-\subsubsection{Diagramme d'activité}
- 
-Le diagramme d'activité ci-dessous décrit le flux du processus de génération d'un rapport analytique. 
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.65\linewidth]{images/sprint2/activite_generer_rapport.png}
-    \caption{Diagramme d'activité --- Générer un rapport}
-    \label{fig:act-rapport-s2}
-\end{figure}
- 
 % ───────────────────────────────────────────────────────────────────
 \subsection{Conception du sprint}
 % ───────────────────────────────────────────────────────────────────
+
+\subsubsection{Diagramme de classes}
  
+Le diagramme de classes ci-dessous présente les entités métier, leurs
+attributs et leurs relations pour les fonctionnalités analytiques du
+Sprint 2.
+ 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1.1\linewidth]{images/sprint2/diagramme de classe sprint2.png}
+    \caption{Diagramme de classes --- Sprint 2}
+    \label{fig:class-s2}
+\end{figure}
+
 \subsubsection{Diagrammes de séquence de conception}
  
 Le diagramme ci-dessous illustre les interactions internes entre les composants lors du calcul des KPIs.
@@ -3200,18 +3367,15 @@ Le diagramme ci-dessous détaille les interactions internes lors de la transform
     \caption{Diagramme de séquence de conception --- Transformer les données en graphiques}
     \label{fig:seq-conc-graph-s2}
 \end{figure}
- 
-\subsubsection{Diagramme de classes}
- 
-Le diagramme de classes ci-dessous présente les entités métier, leurs
-attributs et leurs relations pour les fonctionnalités analytiques du
-Sprint 2.
- 
+
+\subsubsection{Diagramme d'activité}
+
+Le diagramme d'activité ci-dessous décrit le flux du processus de génération d'un rapport analytique. 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=1.1\linewidth]{images/sprint2/diagramme de classe sprint2.png}
-    \caption{Diagramme de classes --- Sprint 2}
-    \label{fig:class-s2}
+    \includegraphics[width=0.65\linewidth]{images/sprint2/activite_generer_rapport.png}
+    \caption{Diagramme d'activité --- Générer un rapport}
+    \label{fig:act-rapport-s2}
 \end{figure}
 
 \subsection{Sprint Review}
@@ -3335,8 +3499,11 @@ Le Sprint 4 vient compléter et renforcer ces fonctionnalités en intégrant le 
 La Release 2 est composée de deux sprints de durée fixe, chacun visant à livrer un ensemble cohérent de fonctionnalités testables et déployables.
 
 \begin{itemize}
-    \item \textbf{Sprint 3} : consacré au développement du moteur d'intelligence artificielle et des fonctionnalités d'analyse avancée.
-    \item \textbf{Sprint 4} : dédié à la mise en place du système d'alertes et de notifications, au développement de l'application mobile et au déploiement intégral de la plateforme en production.
+    \item \textbf{Sprints couverts dans cette Release :}
+    \begin{itemize}
+        \item \textbf{Sprint 3} : Analyse intelligente — développement du moteur d'intelligence artificielle et des fonctionnalités d'analyse avancée
+        \item \textbf{Sprint 4} : Alertes, mobile et deploiement — système d'alertes, application mobile et déploiement en production
+    \end{itemize}
 \end{itemize}
 
 \subsubsection{Cérémonies Agile}
@@ -3368,11 +3535,11 @@ L'équipe utilise les \textbf{story points} pour estimer l'effort de chaque user
 %  SPRINT 3 — Intelligent Analysis
 % ═══════════════════════════════════════════════════════════════════
  
-\section{Sprint 3 : Intelligent Analysis}
+\section{Sprint 3 : Analyse intelligente}
  
 \subsection{Sprint Goal}
  
-\textbf{Nom du sprint :} Intelligent Analysis \\
+\textbf{Nom du sprint :} Analyse intelligente \\
 \textbf{Période :} 2 avril -- 23 avril 2026 \\[4pt]
 \textbf{Objectif principal :}
 Développer et intégrer l'intégralité des modules d'analyse intelligente
@@ -3400,9 +3567,8 @@ recommandations actionnables. \\[4pt]
     un modèle Holt-Winters avec intervalles de confiance Monte Carlo ;
     \item détecter les informations critiques multi-sources et produire
     un briefing exécutif de risque agrégé ;
-    \item mettre à disposition un chatbot conseiller permettant aux
-    managers de dialoguer naturellement avec le système IA pour obtenir
-    des analyses contextualisées et actionnables.
+    \item renforcer la capacité de prédiction de l'attrition (churn)
+    client à travers un second scénario de modélisation complémentaire.
 \end{itemize}
  
 \subsection{Sprint Backlog}
@@ -3412,7 +3578,7 @@ tableau présente l'ensemble des user stories
 planifiées pour cette itération.
  
 \begin{longtable}{|C{1.2cm}|L{5cm}|L{5.5cm}|C{2cm}|}
-\caption{Sprint Backlog --- Sprint 3 : Intelligent Analysis}
+\caption{Sprint Backlog --- Sprint 3 : Analyse intelligente}
 \label{tab:sprint3-backlog} \\
 \hline
 \textcolor{white}{\textbf{US ID}} &
@@ -3454,8 +3620,8 @@ US-35 & En tant que système, je peux détecter les informations critiques
 US-27 & En tant que système, je peux prédire le churn client
 & Implémentation complète du scoring churn client & 3 \\
 \hline
-US-50 & En tant que manager, je peux interagir avec le chatbot conseiller décisionnel
-& Implémentation du chatbot IA pour l'aide à la décision & 2 \\
+US-50 & En tant que système, je peux prédire l'attrition (churn) des clients
+& Implémentation complète de la prédiction d'attrition client & 2 \\
 \hline
  
 \multicolumn{3}{|r|}{\textbf{Total story points}} &
@@ -3486,12 +3652,12 @@ Les tableaux suivants détaillent les principaux cas d'utilisation du Sprint 3, 
 \label{tab:uc-kpi-volume-s3} \\
 \hline
 \multicolumn{2}{|c|}{%
-  \textcolor{white}{\textbf{Cas d'utilisation : Analyser les KPIs basés sur le volume de données}}} \\
+  \textcolor{white}{\textbf{Cas d'utilisation : Analyser les KPIs}}} \\
 \hline
 \endfirsthead
 \hline
 \multicolumn{2}{|c|}{%
-  \textcolor{white}{\textbf{Cas d'utilisation : Analyser les KPIs basés sur le volume de données (suite)}}} \\
+  \textcolor{white}{\textbf{Cas d'utilisation : Analyser les KPIs (suite)}}} \\
 \hline
 \endhead
 \hline \multicolumn{2}{r}{\textit{Suite page suivante}} \\
@@ -3533,7 +3699,7 @@ Les tableaux suivants détaillent les principaux cas d'utilisation du Sprint 3, 
 \begin{itemize}
     \item[7.1] L'utilisateur clique sur Actualiser.
     \item[7.2] Le système recharge les KPIs en ignorant le cache --- retour à l'étape 2.
-\end{itemize} \\
+\end{itemize} 
 \end{longtable}
 
 \begin{longtable}{|U{3.3cm}|L{9.7cm}|}
@@ -3585,7 +3751,7 @@ Les tableaux suivants détaillent les principaux cas d'utilisation du Sprint 3, 
 \textbf{7. L'utilisateur souhaite actualiser la détection.}
 \begin{itemize}
     \item[7.1] L'utilisateur clique sur Actualiser --- retour à l'étape 2.
-\end{itemize} \\
+\end{itemize} 
 \end{longtable}
 
 \begin{longtable}{|U{3.3cm}|L{9.7cm}|}
@@ -3639,7 +3805,7 @@ Les tableaux suivants détaillent les principaux cas d'utilisation du Sprint 3, 
 \begin{itemize}
     \item[8.1] Le système affiche une alerte de pic imminent en haut de la page.
     \item[8.2] Le système propose de préparer les commandes fournisseurs avec 6 semaines d'avance.
-\end{itemize} \\
+\end{itemize} 
 \end{longtable}
 
 \begin{longtable}{|U{3.3cm}|L{9.7cm}|}
@@ -3695,7 +3861,7 @@ Les tableaux suivants détaillent les principaux cas d'utilisation du Sprint 3, 
 \textbf{8. L'utilisateur souhaite actualiser l'analyse.}
 \begin{itemize}
     \item[8.1] L'utilisateur clique sur Actualiser --- retour à l'étape 2.
-\end{itemize} \\
+\end{itemize} 
 \end{longtable}
 
 \begin{longtable}{|U{3.3cm}|L{9.7cm}|}
@@ -3748,7 +3914,7 @@ Les tableaux suivants détaillent les principaux cas d'utilisation du Sprint 3, 
 \textbf{5. L'utilisateur souhaite actualiser la prédiction.}
 \begin{itemize}
     \item[5.1] L'utilisateur clique sur Actualiser --- retour à l'étape 2.
-\end{itemize} \\
+\end{itemize} 
 \end{longtable}
 
 \begin{longtable}{|U{3.3cm}|L{9.7cm}|}
@@ -3801,7 +3967,7 @@ Les tableaux suivants détaillent les principaux cas d'utilisation du Sprint 3, 
 \textbf{6. L'utilisateur souhaite actualiser les prévisions.}
 \begin{itemize}
     \item[6.1] L'utilisateur clique sur Actualiser --- retour à l'étape 2.
-\end{itemize} \\
+\end{itemize} 
 \end{longtable}
 
 \begin{longtable}{|U{3.3cm}|L{9.7cm}|}
@@ -3854,35 +4020,43 @@ Les tableaux suivants détaillent les principaux cas d'utilisation du Sprint 3, 
 \textbf{2. L'utilisateur est un Agent de terrain.}
 \begin{itemize}
     \item[2.1] Le système filtre les sources selon le rôle : l'Agent ne voit que les signaux stock et anomalies.
-\end{itemize} \\
+\end{itemize} 
 \end{longtable}
-
-\subsubsection{Diagrammes d'activité}
- 
-Les diagrammes d'activité ci-après illustrent les flux de traitement
-pour les modules IA.
- 
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.7\linewidth]{images/sprint3/activity diagram/ActivityDiagram_AIInsights.jpeg}
-    \caption{Diagramme d'activité --- Analyse IA (AI Insights)}
-    \label{fig:act-aiinsights-s3}
-\end{figure}
 
 % ───────────────────────────────────────────────────────────────────
 \subsection{Conception du sprint}
 % ───────────────────────────────────────────────────────────────────
- 
+
+\subsubsection{Diagramme de classes}
+le diagramme de classes ci-dessous présente les entités métier, leurs attributs et leurs relations pour ce Sprint 3.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\linewidth]{images/sprint3/Class Diagram - AI Analysis.jpeg}
+    \caption{Diagramme de classes --- Sprint 3}
+    \label{fig:class-s3}
+\end{figure}
+
+\subsubsection{Modèle de domaine}
+Le modèle de domaine ci-dessous illustre les concepts clés et leurs relations pour les modules d'analyse intelligente.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\linewidth]{images/sprint3/Domain Model - AI Analysis.jpeg}
+    \caption{Modèle de domaine --- Analyse intelligente}
+    \label{fig:domain-s3}
+\end{figure}
+
+En raison de la nature orientée intelligence artificielle du sprint 3, les classes métier représentent principalement des traitements analytiques et des pipelines de données plutôt que des entités persistées classiques. Un diagramme de classes traditionnel aurait introduit une complexité structurelle injustifiée, mélangeant couches applicative, infrastructure et domaine. Nous avons donc opté pour un modèle du domaine, qui permet de représenter fidèlement les concepts métier clés  (analyses KPI, détection d'anomalies, prédiction de churn, alertes critiques et sessions conversationnelles ) ainsi que leurs relations sémantiques, sans exposer les détails d'implémentation technique.
+
 \subsubsection{Diagrammes de séquence de conception}
  
 Les diagrammes suivants détaillent les interactions internes entre
 composants pour les modules d'analyse intelligente.
 
 \begin{landscape}
-Le diagramme ci-dessous illustre les interactions entre les composants lors de l'analyse des tendances saisonnières avec le modèle Prophet.
+Le diagramme ci-dessous illustre les interactions entre les composants lors de l'analyse des tendances saisonnières.
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.7\linewidth]{images/sprint3/sequence conception diagram/Seasonal Trend Analysis.png}
+    \includegraphics[width=0.9\linewidth]{images/sprint3/sequence conception diagram/Seasonal Trend Analysis.png}
     \label{fig:seq-conc-seasonal-s3}
 \end{figure}
 
@@ -3920,31 +4094,23 @@ Le diagramme ci-dessous illustre les échanges entre les composants lors de la g
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.8\linewidth]{images/sprint3/sequence conception diagram/Generate Predictions & Recommendations2.png}
+    \includegraphics[width=0.9\linewidth]{images/sprint3/sequence conception diagram/Generate Predictions & Recommendations2.png}
     \caption{Diagramme de séquence de conception --- Génération des prédictions et recommandations}
     \label{fig:seq-conc-pred-s32}
 \end{figure}
 \end{landscape}
 
-\subsubsection{Diagramme de classes}
-le diagramme de classes ci-dessous présente les entités métier, leurs attributs et leurs relations pour ce Sprint 3.
+\subsubsection{Diagrammes d'activité}
+ 
+Les diagrammes d'activité ci-après illustrent les flux de traitement
+pour les modules IA.
+ 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=1\linewidth]{images/sprint3/Class Diagram - AI Analysis.jpeg}
-    \caption{Diagramme de classes --- Sprint 3}
-    \label{fig:class-s3}
+    \includegraphics[width=0.7\linewidth]{images/sprint3/activity diagram/ActivityDiagram_AIInsights.png}
+    \caption{Diagramme d'activité --- Analyse IA (AI Insights)}
+    \label{fig:act-aiinsights-s3}
 \end{figure}
-
-\subsubsection{Modèle de domaine}
-Le modèle de domaine ci-dessous illustre les concepts clés et leurs relations pour les modules d'analyse intelligente.
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=1\linewidth]{images/sprint3/Domain Model - AI Analysis.jpeg}
-    \caption{Modèle de domaine --- Analyse intelligente}
-    \label{fig:domain-s3}
-\end{figure}
-
-En raison de la nature orientée intelligence artificielle du sprint 3, les classes métier représentent principalement des traitements analytiques et des pipelines de données plutôt que des entités persistées classiques. Un diagramme de classes traditionnel aurait introduit une complexité structurelle injustifiée, mélangeant couches applicative, infrastructure et domaine. Nous avons donc opté pour un modèle du domaine, qui permet de représenter fidèlement les concepts métier clés  (analyses KPI, détection d'anomalies, prédiction de churn, alertes critiques et sessions conversationnelles ) ainsi que leurs relations sémantiques, sans exposer les détails d'implémentation technique.
 
 \subsubsection{Diagrammes d'état de transition}
  
@@ -3952,7 +4118,7 @@ Le diagramme ci-dessous modélise le cycle de vie d'une session de conversation 
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.8\linewidth]{images/sprint3/state transition diagram/State Transition Diagram - AI Chat.jpeg}
+    \includegraphics[width=0.8\linewidth]{images/sprint3/state transition diagram/State Transition Diagram - AI Chat.png}
     \caption{Diagramme d'état de transition --- Module AI Chat}
     \label{fig:etat-aichat-s3}
 \end{figure}
@@ -4002,11 +4168,11 @@ L'interface ci-dessous présente l'écran d'analyse des tendances saisonnières,
 \end{landscape}
 
 \begin{landscape}
-L'interface ci-dessous présente le chatbot conseiller décisionnel, permettant au manager d'interagir avec le système d'aide à la décision en langage naturel.
+L'interface ci-dessous présente le module complémentaire de prédiction de l'attrition client (US-50), utilisé pour affiner l'évaluation du risque de perte client.
 \begin{figure}[H]
     \centering
     \includegraphics[width=1\linewidth]{images/captures sprint3/decision advisor.png}
-    \caption{Interface du chatbot conseiller décisionnel}
+    \caption{Interface du module de prediction d'attrition client (US-50)}
     \label{fig:s3-interface-decision-advisor}
 \end{figure}
 \end{landscape}
@@ -4054,10 +4220,9 @@ succès :
     briefing exécutif de risque agrégé avec exposition financière et
     plan d'action par horizon temporel.
  
-    \item \textbf{Chatbot conseiller décisionnel (US-50) :} interface
-    conversationnelle permettant aux managers d'interagir naturellement
-    avec le système IA pour obtenir des analyses contextualisées et des
-    recommandations actionnables.
+    \item \textbf{Deuxieme scenario de prediction de l'attrition client (US-50) :}
+    module complementaire dedie a l'identification des clients a risque,
+    avec affinage du score churn et recommandations de retention.
 \end{itemize}
  
 \subsubsection*{Résultats et validation}
@@ -4101,13 +4266,13 @@ bloquante n'a été identifiée lors de la revue.
 %  SPRINT 4 — Alerts, Mobile Migration & Deploy
 % ═══════════════════════════════════════════════════════════════════
  
-\section{Sprint 4 : Alerts, Mobile Migration \& Deploy}
+\section{Sprint 4 : Alertes, mobile et deploiement}
 
 % ───────────────────────────────────────────────────────────────────
 \subsection{Sprint Goal}
 % ───────────────────────────────────────────────────────────────────
 
-\textbf{Nom du sprint :} Alerts, Mobile Migration \& Deploy \\
+\textbf{Nom du sprint :} Alertes, mobile et deploiement \\
 \textbf{Période :} 24 avril -- 15 mai 2026 \\[4pt]
 \textbf{Objectif principal :}
 Finaliser la couche d'automatisation des alertes et des notifications
@@ -4143,11 +4308,11 @@ cloud en production.
 % ───────────────────────────────────────────────────────────────────
 
 Le quatrième sprint couvre la période du 24 avril au 15 mai 2026. Le
-tableau~\ref{tab:sprint4-backlog} présente l'ensemble des user stories
+tableau suivant présente l'ensemble des user stories
 planifiées pour cette itération.
 
 \begin{longtable}{|C{1.2cm}|L{5cm}|L{5.5cm}|C{2cm}|}
-\caption{Sprint Backlog --- Sprint 4 : Alerts, Mobile Migration \& Deploy}
+\caption{Sprint Backlog --- Sprint 4 : Alertes, mobile et deploiement}
 \label{tab:sprint4-backlog} \\
 \hline
 \textcolor{white}{\textbf{US ID}} &
@@ -4190,10 +4355,10 @@ US-53 & En tant que manager, je veux consulter et gérer les alertes depuis le m
 & Implémentation de la gestion des alertes mobile & 2.5 \\
 \hline
 US-54 & En tant qu'équipe DevOps, je veux héberger le backend sur Render
-& Déploiement et configuration du backend Django sur Render & 2 \\
+& Déploiement et configuration du backend Django sur Render & 3.5 \\
 \hline
 US-55 & En tant qu'équipe DevOps, je veux héberger le frontend web sur Vercel
-& Déploiement et configuration du frontend React sur Vercel & 1.5 \\
+& Déploiement et configuration du frontend React sur Vercel & 2 \\
 \hline
 US-56 & En tant qu'équipe DevOps, je veux migrer la base de données vers Supabase
 & Migration PostgreSQL et configuration Supabase & 2.5 \\
@@ -4203,7 +4368,7 @@ US-57 & En tant qu'équipe mobile, je veux publier l'app mobile sur Expo
 \hline
 
 \multicolumn{3}{|r|}{\textbf{Total story points}} &
-\textbf{21} 
+\textbf{23} 
 \end{longtable}
 
 % ───────────────────────────────────────────────────────────────────
@@ -4214,19 +4379,19 @@ US-57 & En tant qu'équipe mobile, je veux publier l'app mobile sur Expo
 
 Le Sprint 4 implique le système d'alertes et de notifications comme composant
 central, avec l'Agent et le Manager comme acteurs principaux. Le
-diagramme~\ref{fig:usecase-s4} illustre l'ensemble des fonctionnalités
+diagramme suivant illustre l'ensemble des fonctionnalités
 couvertes par ce sprint.
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.90\linewidth]{images/sprint4/usecase.png}
+    \includegraphics[width=0.5\linewidth]{images/sprint4/usecase.png}
     \caption{Diagramme des cas d'utilisation --- Sprint 4}
     \label{fig:usecase-s4}
 \end{figure}
 
 \subsubsection{Description textuelle des cas d’utilisation}
 
-Le tableau~\ref{tab:uc-risk-alerts-s4} décrit le cas d'utilisation majeur
+Le tableau suivant décrit le cas d'utilisation majeur
 de génération des alertes de risque, fondamental au Sprint 4.
 
 \begin{longtable}{|U{3.3cm}|L{9.7cm}|}
@@ -4288,17 +4453,15 @@ exécutif avec plan d'action est généré. \\
 \textbf{3a. Le service IA est temporairement indisponible.}
 \begin{itemize}
     \item[3.1] Le système génère un briefing par règles métier sans appel IA.
-    \item[3.2] Le système affiche une mention indiquant que le briefing IA
-               est indisponible.
+    \item[3.2] Le système affiche une mention indiquant que le briefing IA est indisponible.
 \end{itemize}
 \textbf{6a. L'utilisateur souhaite actualiser le briefing.}
 \begin{itemize}
-    \item[6.1] L'utilisateur clique sur Actualiser (cache invalidé,
-               TTL = 30 min) --- retour à l'étape 2.
-\end{itemize} \\
+    \item[6.1] L'utilisateur clique sur Actualiser (cache invalidé, TTL = 30 min) --- retour à l'étape 2.
+\end{itemize} 
 \end{longtable}
 
-Le tableau~\ref{tab:uc-resolve-s4} décrit le cas d'utilisation
+Le tableau suivant décrit le cas d'utilisation
 de traitement d'une alerte par l'Agent.
 
 \begin{longtable}{|U{3.3cm}|L{9.7cm}|}
@@ -4354,33 +4517,33 @@ traçabilité complète horodatée. \\
 \end{itemize}
 \end{longtable}
 
-\subsubsection{Diagramme d'activité}
-
-Le diagramme~\ref{fig:act-s4} détaille le flux d'activation du centre de
-notifications, depuis la réception d'un événement critique jusqu'à l'accusé
-de lecture par l'Agent.
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.5\linewidth]{images/sprint4/notification.png}
-    \caption{Diagramme d'activité --- Centre de notifications}
-    \label{fig:act-s4}
-\end{figure}
-
 % ───────────────────────────────────────────────────────────────────
 \subsection{Conception du sprint}
 % ───────────────────────────────────────────────────────────────────
 
+\subsubsection{Diagramme de classes}
+
+Le diagramme suivant présente les principales entités du système
+d'alertes et de notifications, notamment les relations entre \texttt{Company},
+\texttt{User} et \texttt{Notification}, ainsi que leurs attributs et méthodes
+respectifs.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.95\linewidth]{images/sprint4/diagramme de classe.png}
+    \caption{Diagramme de classes --- Sprint 4}
+    \label{fig:class-s4}
+\end{figure}
 \subsubsection{Diagramme de séquence de conception}
 
 \begin{landscape}
-Le diagramme~\ref{fig:seq-conc-s4} détaille les interactions internes entre
+Le diagramme suivant détaille les interactions internes entre
 composants pour la génération des alertes enrichies d'explications par
 intelligence artificielle.
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.9\linewidth]{images/sprint4/Generate Risk Alert Explanation-seq sys.png}
+    \includegraphics[width=0.8\linewidth]{images/sprint4/Generate Risk Alert Explanation-seq sys.png}
     \label{fig:seq-conc-s4}
 \end{figure}
 
@@ -4392,29 +4555,28 @@ intelligence artificielle.
 \end{figure}
 \end{landscape}
 
-\subsubsection{Diagramme de classes}
+\subsubsection{Diagramme d'activité}
 
-Le diagramme~\ref{fig:class-s4} présente les principales entités du système
-d'alertes et de notifications, notamment les relations entre \texttt{Company},
-\texttt{User} et \texttt{Notification}, ainsi que leurs attributs et méthodes
-respectifs.
+Le diagramme suivant détaille le flux d'activation du centre de
+notifications, depuis la réception d'un événement critique jusqu'à l'accusé
+de lecture par l'Agent.
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.95\linewidth]{images/sprint4/diagramme de classe.png}
-    \caption{Diagramme de classes --- Sprint 4}
-    \label{fig:class-s4}
+    \includegraphics[width=0.5\linewidth]{images/sprint4/notification.png}
+    \caption{Diagramme d'activité --- Centre de notifications}
+    \label{fig:act-s4}
 \end{figure}
 
 \subsubsection{Diagramme d'état-transition}
 
-Le diagramme~\ref{fig:etat-s4} modélise le cycle de vie d'une alerte au sein
+Le diagramme suivant modélise le cycle de vie d'une alerte au sein
 du module Smart Alerts, depuis sa génération jusqu'à sa clôture ou sa
 réouverture automatique.
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.9\linewidth]{images/sprint4/State Transition Diagram - Smart Alerts.jpeg}
+    \includegraphics[width=0.9\linewidth]{images/sprint4/State Transition Diagram - Smart Alerts.png}
     \caption{Diagramme d'état-transition --- Cycle de vie d'une alerte
              (module Smart Alerts)}
     \label{fig:etat-s4}
@@ -4824,17 +4986,27 @@ Ce chapitre a retracé le déroulement complet de la Release 2 du projet WEEG, a
 
 \addcontentsline{toc}{chapter}{Conclusion Générale}
 
-Au terme de ce projet de fin d'études, nous avons mené une démarche complète d'analyse, de conception et de réalisation d'une solution intelligente d'aide à la décision destinée à la société FASI Tunisia. L'objectif principal consistait à répondre aux limites observées dans le mode de traitement actuel des données, en proposant une plateforme centralisée capable d'exploiter les informations issues de l'ERP Al-Mizan, des fichiers Excel et des besoins opérationnels de l'entreprise.
+Au terme de ce rapport, nous soulignons que nous avons suivi une démarche strictement scientifique pour la réalisation de notre projet de fin d'études. Ainsi, ce travail retrace l'effort d'analyse, de conception et de réalisation d'une solution intelligente d'aide à la décision pour le compte de l'entreprise d'accueil FASI Tunisia.
 
-L'étude de l'existant nous a permis de mettre en évidence plusieurs insuffisances majeures, notamment la dispersion des données, la difficulté d'exploitation des indicateurs, l'absence d'outils prédictifs et le manque d'automatisation dans le suivi des ventes, des stocks et des crédits clients. Face à ces contraintes, la solution développée a été conçue pour améliorer la lisibilité des données, renforcer la fiabilité des analyses et faciliter la prise de décision à différents niveaux de responsabilité.
+L'objectif primordial fixé fut de remédier aux limites observées et analysées dans le mode et le mécanisme de traitement actuel des données.
 
-Sur le plan méthodologique, l'adoption de la démarche Scrum a constitué un cadre de travail pertinent pour structurer le projet de manière itérative et progressive. Cette approche nous a permis de découper le travail en sprints cohérents, d'ordonner les priorités fonctionnelles et d'assurer une meilleure maîtrise de l'avancement du développement. Par ailleurs, le recours à des architectures adaptées pour le backend, le frontend web et la partie mobile a favorisé une séparation claire des responsabilités, une meilleure maintenabilité du code et une évolution plus flexible de la plateforme.
+Pour atteindre cet objectif, nous avons proposé une solution sous forme d'une plateforme centralisée capable d'exploiter les informations issues de l'ERP Al Mizan et de répondre aux besoins opérationnels de l'entreprise.
 
-Les résultats obtenus confirment la pertinence des choix réalisés. La solution proposée offre une base fonctionnelle solide pour la gestion des utilisateurs, l'importation des données, la consultation des tableaux de bord, l'analyse des indicateurs et la génération d'alertes. Elle constitue également un socle favorable à l'intégration de mécanismes plus avancés d'intelligence artificielle, capables de produire des recommandations plus fines et d'accompagner davantage les décisions stratégiques.
+L'étude de l'existant nous a permis de mettre en évidence des insuffisances importantes, telles que la dispersion des données, la difficulté d'exploitation des indicateurs, le manque d'outils prédictifs et l'absence d'automatisation du suivi des ventes, des stocks et des crédits clients.
 
-Au-delà de l'aspect technique, ce projet nous a permis de consolider des compétences essentielles en analyse des besoins, modélisation, conception logicielle, gestion de projet agile et intégration de technologies modernes. Il nous a également sensibilisés aux exigences réelles du monde professionnel, dans lequel la qualité de l'information, la fiabilité des traitements et la rapidité de décision constituent des enjeux déterminants pour la performance d'une organisation.
+Face à ces contraintes, nous avons développé une solution dont l'objectif est d'améliorer la lisibilité des données, de renforcer la fiabilité des analyses et de faciliter la prise de décision à différents niveaux de responsabilité.
 
-Enfin, ce travail ouvre des perspectives d'amélioration intéressantes. Parmi les évolutions envisageables figurent l'enrichissement des modèles prédictifs, l'automatisation plus poussée des alertes, l'optimisation des visualisations décisionnelles, ainsi que l'intégration de nouvelles sources de données pour renforcer la précision des analyses. Nous espérons que cette plateforme constituera une contribution utile au fonctionnement de FASI Tunisia et un support durable pour l'amélioration continue de ses processus décisionnels.
+Sur le plan méthodologique, l'adoption de la démarche Scrum a constitué un cadre de travail pertinent pour structurer le projet de manière itérative et progressive. Cette approche nous a permis de découper le travail en sprints cohérents, d'ordonner les priorités fonctionnelles et d'assurer une meilleure maîtrise de l'avancement des opérations de développement.
+
+Par ailleurs, le recours à des architectures adaptées pour le backend, le frontend web et la partie mobile a favorisé une séparation claire des responsabilités, une meilleure maintenabilité du code et une évolution plus flexible de la plateforme. Les résultats obtenus confirment la pertinence des choix réalisés.
+
+En effet, la solution proposée offre une base fonctionnelle solide pour la gestion des utilisateurs, l'importation des données, la consultation des tableaux de bord, l'analyse des indicateurs et la génération d'alertes. Elle constitue également un socle favorable à l'intégration de mécanismes plus avancés d'intelligence artificielle, capables de produire des recommandations plus fines et d'accompagner davantage les décisions stratégiques.
+
+Au-delà de l'aspect technique, ce projet nous a permis de consolider nos compétences essentielles en analyse des besoins, analyse des données, modélisation, conception logicielle et gestion de projet agile. Il nous a permis également la manipulation et l'intégration de technologies modernes dans un projet réel commandé par une entreprise en activité nationale et internationale. Ainsi, cette expérience nous a forgé des qualités humaines et transversales indispensables : la capacité à travailler en équipe et à coordonner nos efforts vers un objectif commun, la rigueur intellectuelle face à des problématiques complexes, la persévérance dans les moments de blocage technique, et l'écoute active dans la communication avec les parties prenantes. Elle nous a également appris à gérer la pression des délais, à prioriser nos tâches avec discernement et à accepter le questionnement de nos propres choix pour progresser. Ces aptitudes, qui ne s'acquièrent pas dans les salles de cours, constituent à nos yeux l'apport le plus durable de cette expérience de fin d'études.
+
+Enfin, ce travail réalisé dans une période de temps limitée peut faire l'objet d'améliorations intéressantes. Parmi les évolutions envisageables figurent l'enrichissement des modèles prédictifs, l'automatisation plus poussée des alertes, l'optimisation des visualisations décisionnelles, ainsi que l'intégration de nouvelles sources de données pour renforcer la précision des analyses.
+
+Nous espérons que cette plateforme constituera une contribution utile au fonctionnement de FASI Tunisia et un support durable pour l'amélioration continue de ses processus décisionnels.
 
 %====================================================
 % BIBLIOGRAPHIE
@@ -4846,5 +5018,74 @@ Enfin, ce travail ouvre des perspectives d'amélioration intéressantes. Parmi l
 
 \nocite{A7,A8,A9,A10,A11}
 \printbibliography[title={Bibliographie et Nétographie}]
+
+\cleardoublepage
+\thispagestyle{empty}
+
+\begin{الملخّص}
+تم كتابة هذا التقرير بمناسبة إنجاز مشروع ختم الدروس الخاص بنا داخل شركة
+FASI Tunisia، بالمعهد العالي للدراسات التكنولوجية ببنزرت، بهدف الحصول على
+ديبلوم الإجازة في تطوير نظم المعلومات. خلال هذا المشروع، تتمحور مهمتنا حول
+تصميم وتطوير نظام ذكي لدعم اتخاذ القرار في مجال إدارة المبيعات والمخزون
+والديون على العملاء، مدمج ضمن منصة WEEG. يتيح النظام الذي نقدمه استيراد
+ومعالجة البيانات من نظام ERP المعروف بـ Al Mizan، وحساب مؤشرات الأداء
+الرئيسية وعرضها بصريًا، إضافةً إلى التحليل الذكي بالذكاء الاصطناعي من خلال:
+كشف الشذوذات الإحصائية، والتنبؤ بالاتجاهات الموسمية، والتنبؤ بتراجع ولاء
+العملاء، وتوليد تنبيهات قرارية. للنمذجة والتصميم اعتمدنا UML، ولإدارة المشروع
+اعتمدنا إطار عمل Scrum، وللتطوير استخدمنا مجموعة تقنيات تضم Django وReact
+وReact Native وPostgreSQL، مع تكامل خدمات ومكتبات الذكاء الاصطناعي كواجهة
+برمجة OpenAI (GPT-4o-mini و Whisper و TTS) وQdrant وLangGraph.
+
+\textbf{الكلمات المفاتيح :}
+دعم اتخاذ القرار، مؤشرات الأداء، نظام ERP، الذكاء الاصطناعي، RAG،
+UML، Scrum، Django، React، React Native، PostgreSQL، OpenAI، LangGraph، Qdrant.
+\end{الملخّص} 
+
+% ───────────────────────────────────────────────────────────────────
+
+\begin{Resumé}
+Ce rapport a été rédigé à l'occasion de la réalisation de
+notre projet de fin d'études au sein de l'entreprise FASI Tunisia, effectué à
+l'Institut Supérieur des Études Technologiques de Bizerte, en vue de l'obtention
+du diplôme de Licence en Développement des Systèmes d'Information. Durant ce
+projet, notre mission s'articule autour de la conception et du développement d'un
+système intelligent d'aide à la décision pour la gestion des ventes, des stocks
+et des crédits clients, intégré au sein de la plateforme WEEG. Notre solution
+permet l'importation et le traitement des données issues de l'ERP Al Mizan, le
+calcul et la visualisation des KPI métier, ainsi que l'analyse intelligente par
+intelligence artificielle : détection d'anomalies statistiques, prédiction des
+tendances saisonnières, prédiction du churn client et génération d'alertes
+décisionnelles. Pour la modélisation et la conception, nous avons utilisé l'UML,
+pour la gestion de projet nous avons adopté le framework Scrum, et pour le
+développement nous avons opté pour une stack composée de Django, React, React
+Native et PostgreSQL, en intégrant des services et bibliothèques d'IA tels que
+l'API OpenAI (GPT-4o-mini, Whisper, TTS), Qdrant et LangGraph.
+
+\textbf{Mots clés :} Aide à la décision, KPI, ERP, Intelligence artificielle,
+RAG, UML, Scrum, Django, React, React Native, PostgreSQL, OpenAI, LangGraph,
+Qdrant.
+\end{Resumé}
+
+% ───────────────────────────────────────────────────────────────────
+
+\begin{Abstract}
+This report was written on the occasion of the realization of
+our end-of-studies project at FASI Tunisia, carried out at the Higher Institute
+of Technological Studies of Bizerte, with a view to obtaining the diploma of
+License in Information Systems Development. During this project, our mission
+revolves around the design and development of an intelligent decision-support
+system for sales, inventory and customer credit management, integrated within the
+WEEG platform. Our solution enables the import and processing of data from the
+Al Mizan ERP, the calculation and visualization of business KPIs, as well as
+intelligent AI-based analysis: statistical anomaly detection, seasonal trend
+forecasting, customer churn prediction and decision alert generation. For
+modeling and design we used UML, for project management we adopted the Scrum
+framework, and for development we used a stack composed of Django, React, React
+Native and PostgreSQL, integrating AI services and libraries such as the OpenAI
+API (GPT-4o-mini, Whisper, TTS), Qdrant and LangGraph.
+
+\textbf{Keywords:} Decision support, KPI, ERP, Artificial intelligence, RAG,
+UML, Scrum, Django, React, React Native, PostgreSQL, OpenAI, LangGraph, Qdrant.
+\end{Abstract}
 
 \end{document}
